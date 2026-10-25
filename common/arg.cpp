@@ -4154,6 +4154,84 @@ common_params_context common_params_parser_init(common_params & params, llama_ex
         }
     ).set_spec().set_examples({LLAMA_EXAMPLE_SPECULATIVE, LLAMA_EXAMPLE_LOOKUP, LLAMA_EXAMPLE_SERVER, LLAMA_EXAMPLE_CLI}).set_env("LLAMA_ARG_SPEC_DRAFT_N_MIN"));
     add_opt(common_arg(
+        {"--spec-tree-max-depth"}, "N",
+        "maximum token-tree depth (-1 = --spec-draft-n-max)",
+        [](common_params & params, int value) {
+            if (value == 0 || value < -1) {
+                throw std::invalid_argument("invalid value");
+            }
+            params.speculative.draft.tree_max_depth = value;
+        }
+    ).set_spec().set_examples({LLAMA_EXAMPLE_SPECULATIVE}));
+    add_opt(common_arg(
+        {"--spec-tree-max-nodes"}, "N",
+        "maximum drafted nodes in a token tree (-1 = --spec-draft-n-max)",
+        [](common_params & params, int value) {
+            if (value == 0 || value < -1) {
+                throw std::invalid_argument("invalid value");
+            }
+            params.speculative.draft.tree_max_nodes = value;
+        }
+    ).set_spec().set_examples({LLAMA_EXAMPLE_SPECULATIVE}));
+    add_opt(common_arg(
+        {"--spec-tree-max-leaves"}, "N",
+        "maximum token-tree leaves (-1 = --parallel)",
+        [](common_params & params, int value) {
+            if (value == 0 || value < -1) {
+                throw std::invalid_argument("invalid value");
+            }
+            params.speculative.draft.tree_max_leaves = value;
+        }
+    ).set_spec().set_examples({LLAMA_EXAMPLE_SPECULATIVE}));
+    add_opt(common_arg(
+        {"--spec-tree-pad-nodes"},
+        "pad every target tree verification batch to --spec-tree-max-nodes (experimental)",
+        [](common_params & params) {
+            params.speculative.draft.tree_pad_nodes = true;
+        }
+    ).set_spec().set_examples({LLAMA_EXAMPLE_SPECULATIVE}));
+    add_opt(common_arg(
+        {"--spec-tree-widths"}, "N0,N1,...",
+        "maximum number of children per active node at each token-tree depth",
+        [](common_params & params, const std::string & value) {
+            const auto widths = string_split<int>(value, ',');
+            if (widths.empty() || std::any_of(widths.begin(), widths.end(), [](int width) { return width <= 0; })) {
+                throw std::invalid_argument("invalid value");
+            }
+            params.speculative.draft.tree_widths.assign(widths.begin(), widths.end());
+        }
+    ).set_spec().set_examples({LLAMA_EXAMPLE_SPECULATIVE}));
+    add_opt(common_arg(
+        {"--spec-tree-p-ratio"}, "P",
+        string_format("minimum local top-k/top-1 probability ratio for token-tree branches (default: %.2f)", (double)params.speculative.draft.tree_p_ratio),
+        [](common_params & params, const std::string & value) {
+            const float ratio = std::stof(value);
+            if (ratio < 0.0f || ratio > 1.0f) {
+                throw std::invalid_argument("invalid value");
+            }
+            params.speculative.draft.tree_p_ratio = ratio;
+        }
+    ).set_spec().set_examples({LLAMA_EXAMPLE_SPECULATIVE}));
+    add_opt(common_arg(
+        {"--spec-tree-frontier"},
+        "select token-tree nodes using calibrated marginal gain per draft cost",
+        [](common_params & params) {
+            params.speculative.draft.tree_frontier = true;
+        }
+    ).set_spec().set_examples({LLAMA_EXAMPLE_SPECULATIVE}));
+    add_opt(common_arg(
+        {"--spec-tree-frontier-min-gain"}, "F",
+        string_format("minimum frontier marginal gain rate relative to the best candidate (default: %.2f)",
+            (double) params.speculative.draft.tree_frontier_min_gain),
+        [](common_params & params, const std::string & value) {
+            const float factor = std::stof(value);
+            if (!std::isfinite(factor) || factor < 0.0f || factor > 1.0f) {
+                throw std::invalid_argument("invalid value");
+            }
+            params.speculative.draft.tree_frontier_min_gain = factor;
+        }
+    ).set_spec().set_examples({LLAMA_EXAMPLE_SPECULATIVE}));
+    add_opt(common_arg(
         {"--spec-synth-len"}, "L",
         "target mean synthetic acceptance length, including the target token (benchmarking only)",
         [](common_params & params, const std::string & value) {
@@ -4188,7 +4266,7 @@ common_params_context common_params_parser_init(common_params & params, llama_ex
 
     add_opt(common_arg(
         {"--spec-draft-p-split", "--draft-p-split"}, "P",
-        string_format("speculative decoding split probability (default: %.2f)", (double)params.speculative.draft.p_split),
+        string_format("minimum cumulative probability for speculative side paths (default: %.2f)", (double)params.speculative.draft.p_split),
         [](common_params & params, const std::string & value) {
             params.speculative.draft.p_split = std::stof(value);
         }

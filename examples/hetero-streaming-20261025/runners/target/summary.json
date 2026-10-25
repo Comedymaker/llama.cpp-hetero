@@ -1,0 +1,177 @@
+{
+  "summary": {
+    "tasks": 20,
+    "eval_total_seconds": 3565.77402,
+    "mean_eval_seconds": 178.288701,
+    "eval_tokens_s": 0.7123278103865932,
+    "generation_count_tokens_s": 0.717936690783338,
+    "mean_prefill_seconds": 12.4831925,
+    "max_peak_gib": 2.219,
+    "min_peak_gib": 2.201,
+    "cached_layers": [
+      13
+    ]
+  },
+  "rows": [
+    {
+      "question": 0,
+      "eval_seconds": 163.38157999999999,
+      "runs": 127,
+      "prefill_seconds": 11.953700000000001,
+      "peak_gib": 2.216,
+      "cached_layers": 13
+    },
+    {
+      "question": 1,
+      "eval_seconds": 180.54885000000002,
+      "runs": 127,
+      "prefill_seconds": 14.09235,
+      "peak_gib": 2.216,
+      "cached_layers": 13
+    },
+    {
+      "question": 2,
+      "eval_seconds": 169.11501,
+      "runs": 127,
+      "prefill_seconds": 10.66544,
+      "peak_gib": 2.207,
+      "cached_layers": 13
+    },
+    {
+      "question": 3,
+      "eval_seconds": 171.17698000000001,
+      "runs": 127,
+      "prefill_seconds": 14.177040000000002,
+      "peak_gib": 2.215,
+      "cached_layers": 13
+    },
+    {
+      "question": 4,
+      "eval_seconds": 174.69245999999998,
+      "runs": 127,
+      "prefill_seconds": 14.29479,
+      "peak_gib": 2.215,
+      "cached_layers": 13
+    },
+    {
+      "question": 5,
+      "eval_seconds": 192.06448999999998,
+      "runs": 127,
+      "prefill_seconds": 11.51136,
+      "peak_gib": 2.201,
+      "cached_layers": 13
+    },
+    {
+      "question": 6,
+      "eval_seconds": 173.73196,
+      "runs": 127,
+      "prefill_seconds": 13.88354,
+      "peak_gib": 2.215,
+      "cached_layers": 13
+    },
+    {
+      "question": 7,
+      "eval_seconds": 174.83685999999997,
+      "runs": 127,
+      "prefill_seconds": 11.397639999999999,
+      "peak_gib": 2.21,
+      "cached_layers": 13
+    },
+    {
+      "question": 8,
+      "eval_seconds": 173.11606,
+      "runs": 127,
+      "prefill_seconds": 13.39321,
+      "peak_gib": 2.212,
+      "cached_layers": 13
+    },
+    {
+      "question": 9,
+      "eval_seconds": 173.52760999999998,
+      "runs": 127,
+      "prefill_seconds": 12.47565,
+      "peak_gib": 2.21,
+      "cached_layers": 13
+    },
+    {
+      "question": 10,
+      "eval_seconds": 176.48504,
+      "runs": 127,
+      "prefill_seconds": 18.60176,
+      "peak_gib": 2.218,
+      "cached_layers": 13
+    },
+    {
+      "question": 11,
+      "eval_seconds": 183.87064999999998,
+      "runs": 127,
+      "prefill_seconds": 9.69129,
+      "peak_gib": 2.205,
+      "cached_layers": 13
+    },
+    {
+      "question": 12,
+      "eval_seconds": 200.32152,
+      "runs": 127,
+      "prefill_seconds": 12.6619,
+      "peak_gib": 2.211,
+      "cached_layers": 13
+    },
+    {
+      "question": 13,
+      "eval_seconds": 187.08698,
+      "runs": 127,
+      "prefill_seconds": 9.32096,
+      "peak_gib": 2.205,
+      "cached_layers": 13
+    },
+    {
+      "question": 14,
+      "eval_seconds": 185.72072,
+      "runs": 127,
+      "prefill_seconds": 7.7897799999999995,
+      "peak_gib": 2.202,
+      "cached_layers": 13
+    },
+    {
+      "question": 15,
+      "eval_seconds": 171.16027,
+      "runs": 127,
+      "prefill_seconds": 8.9918,
+      "peak_gib": 2.203,
+      "cached_layers": 13
+    },
+    {
+      "question": 16,
+      "eval_seconds": 178.92263,
+      "runs": 127,
+      "prefill_seconds": 8.93218,
+      "peak_gib": 2.204,
+      "cached_layers": 13
+    },
+    {
+      "question": 17,
+      "eval_seconds": 174.87125,
+      "runs": 127,
+      "prefill_seconds": 21.54899,
+      "peak_gib": 2.219,
+      "cached_layers": 13
+    },
+    {
+      "question": 18,
+      "eval_seconds": 182.88978,
+      "runs": 127,
+      "prefill_seconds": 11.45005,
+      "peak_gib": 2.207,
+      "cached_layers": 13
+    },
+    {
+      "question": 19,
+      "eval_seconds": 178.25332,
+      "runs": 127,
+      "prefill_seconds": 12.83042,
+      "peak_gib": 2.212,
+      "cached_layers": 13
+    }
+  ]
+}

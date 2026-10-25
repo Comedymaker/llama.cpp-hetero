@@ -1,0 +1,74 @@
+[
+  {
+    "source": {
+      "path": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\staged-q23-calibration-20261024\\phone-results\\logs\\q2_staged_n16.log",
+      "sha256": "49a402b4c0e04f8cc0794482c4f0228a35948209e1825ee48e0b453b061635e9",
+      "route": "staged",
+      "bits": 2,
+      "deployment": "q23-staged-cpu4-r7-c1",
+      "observations": 96,
+      "deployment_manifest_sha256": "6a7bc61fe43558678120da44e2049f7e499900a8d9eb5e3c0cecd7b917282220"
+    },
+    "summary": {
+      "observations": 96,
+      "read_ms": 1849.733,
+      "downstream_ms": 1347.345,
+      "ratio": 1.3728725753240631,
+      "max_evict_boundary_slop_us": 51
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\staged-q23-calibration-20261024\\phone-results\\logs\\q2_staged_n128.log",
+      "sha256": "f97c107ba5e59e0d624369fe98b15dc80c7fc8bca9eebef0f48ad62b38bd5ca4",
+      "route": "staged",
+      "bits": 2,
+      "deployment": "q23-staged-cpu4-r7-c1",
+      "observations": 432,
+      "deployment_manifest_sha256": "6a7bc61fe43558678120da44e2049f7e499900a8d9eb5e3c0cecd7b917282220"
+    },
+    "summary": {
+      "observations": 432,
+      "read_ms": 8312.828,
+      "downstream_ms": 6137.916,
+      "ratio": 1.3543404634406857,
+      "max_evict_boundary_slop_us": 310
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\staged-q23-calibration-20261024\\phone-results\\logs\\q3_staged_n16.log",
+      "sha256": "0dacc8713fdc3573610345dc033bea8a2f10a3fd41f017fa963be4ee1962e890",
+      "route": "staged",
+      "bits": 3,
+      "deployment": "q23-staged-cpu4-r7-c1",
+      "observations": 120,
+      "deployment_manifest_sha256": "3f25d9570b402deb66041a9237dd5c6b5b29dbabfe58157397b3d0c10192c537"
+    },
+    "summary": {
+      "observations": 120,
+      "read_ms": 3172.985,
+      "downstream_ms": 1897.879,
+      "ratio": 1.671858427223232,
+      "max_evict_boundary_slop_us": 43
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\staged-q23-calibration-20261024\\phone-results\\logs\\q3_staged_n128.log",
+      "sha256": "43db961f086074f5b57c3b4ff97ec5bfe0aa54a42a26f0e5dd1bb801429c1fc4",
+      "route": "staged",
+      "bits": 3,
+      "deployment": "q23-staged-cpu4-r7-c1",
+      "observations": 528,
+      "deployment_manifest_sha256": "3f25d9570b402deb66041a9237dd5c6b5b29dbabfe58157397b3d0c10192c537"
+    },
+    "summary": {
+      "observations": 528,
+      "read_ms": 14089.977,
+      "downstream_ms": 9258.933,
+      "ratio": 1.5217711371277878,
+      "max_evict_boundary_slop_us": 98
+    }
+  }
+]

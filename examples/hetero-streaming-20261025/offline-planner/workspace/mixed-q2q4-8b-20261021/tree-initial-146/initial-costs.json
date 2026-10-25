@@ -1,0 +1,134 @@
+{
+  "log": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\mixed-q2q4-8b-20261021\\phone-results-planner146\\logs\\planner146_n128.log",
+  "log_sha256": "ab217debd0f52b3bda4b09dec4deb3616ec3a9035aa06d82f2b40795a0cb266d",
+  "selection_sha256": "d57764f590d411c428a51846e92e3b431d8ad217fab6416d175cf073142003ef",
+  "cpu_batch_priors_ms": [
+    42.0935,
+    52.976,
+    104.821,
+    92.57650000000001,
+    161.661,
+    137.437,
+    224.159,
+    174.55,
+    194.95050754942432,
+    215.3510150988486,
+    235.75152264827287,
+    256.1520301976972,
+    276.55253774712145,
+    296.9530452965457,
+    317.35355284597006,
+    337.75406039539433
+  ],
+  "cpu_evidence": [
+    {
+      "batch": 1,
+      "ms": 42.0935,
+      "samples": 72,
+      "source": "observed full-action median"
+    },
+    {
+      "batch": 2,
+      "ms": 52.976,
+      "samples": 64,
+      "source": "observed full-action median"
+    },
+    {
+      "batch": 3,
+      "ms": 104.821,
+      "samples": 1,
+      "source": "observed full-action median"
+    },
+    {
+      "batch": 4,
+      "ms": 92.57650000000001,
+      "samples": 8,
+      "source": "observed full-action median"
+    },
+    {
+      "batch": 5,
+      "ms": 161.661,
+      "samples": 1,
+      "source": "observed full-action median"
+    },
+    {
+      "batch": 6,
+      "ms": 137.437,
+      "samples": 1,
+      "source": "observed full-action median"
+    },
+    {
+      "batch": 7,
+      "ms": 224.159,
+      "samples": 1,
+      "source": "observed full-action median"
+    },
+    {
+      "batch": 8,
+      "ms": 174.55,
+      "samples": 1,
+      "source": "observed full-action median"
+    },
+    {
+      "batch": 9,
+      "ms": 194.95050754942432,
+      "samples": 0,
+      "source": "scaled legacy shape; unmeasured extrapolation"
+    },
+    {
+      "batch": 10,
+      "ms": 215.3510150988486,
+      "samples": 0,
+      "source": "scaled legacy shape; unmeasured extrapolation"
+    },
+    {
+      "batch": 11,
+      "ms": 235.75152264827287,
+      "samples": 0,
+      "source": "scaled legacy shape; unmeasured extrapolation"
+    },
+    {
+      "batch": 12,
+      "ms": 256.1520301976972,
+      "samples": 0,
+      "source": "scaled legacy shape; unmeasured extrapolation"
+    },
+    {
+      "batch": 13,
+      "ms": 276.55253774712145,
+      "samples": 0,
+      "source": "scaled legacy shape; unmeasured extrapolation"
+    },
+    {
+      "batch": 14,
+      "ms": 296.9530452965457,
+      "samples": 0,
+      "source": "scaled legacy shape; unmeasured extrapolation"
+    },
+    {
+      "batch": 15,
+      "ms": 317.35355284597006,
+      "samples": 0,
+      "source": "scaled legacy shape; unmeasured extrapolation"
+    },
+    {
+      "batch": 16,
+      "ms": 337.75406039539433,
+      "samples": 0,
+      "source": "scaled legacy shape; unmeasured extrapolation"
+    }
+  ],
+  "verification": {
+    "base_ms": 645.5082961400545,
+    "node_ms": 8.476174435773038,
+    "leaf_ms": 0.0,
+    "samples": 29,
+    "actual_rows_range": [
+      5,
+      20
+    ],
+    "training_mae_ms": 10.971868731316782,
+    "leave_one_round_out_mae_ms": 11.7312623895044
+  },
+  "scope": "initialization only; online observe/EMA unchanged; no NPU-draft prior recalibration"
+}

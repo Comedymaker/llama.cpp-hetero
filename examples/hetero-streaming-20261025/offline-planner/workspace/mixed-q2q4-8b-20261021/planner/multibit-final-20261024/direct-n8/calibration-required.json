@@ -1,0 +1,46 @@
+{
+  "status": "anchors_available",
+  "route": "direct",
+  "missing_bits": [],
+  "required_nodes": [
+    8
+  ],
+  "required_layers": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "threads": "use ONE matching deployment; never transplant direct costs to staged",
+  "stages": [
+    "read",
+    "copy",
+    "execute",
+    "evict",
+    "prep"
+  ],
+  "evict_policy": "postcompute",
+  "trace_contract": "STAGED_Q2/Q3 call summaries + STAGED_INTERVAL phase=read/copy with absolute us, call id, chunk bytes; matching cluster execute/token and eviction events",
+  "note": "need full pure-bit endpoints first; mixed counts are interpolation hypotheses, require same-state phone validation",
+  "unsupported": "no hard memory-budget certificate or predicted quality claim"
+}

@@ -3225,7 +3225,7 @@ int op_matmul_id(struct htp_ops_context * octx) {
     uint32_t * matrix_row_counts = (uint32_t *) mapping_buf;
     struct mmid_row_mapping * matrix_rows = NULL;
 
-    if (src1_nrows > 1) {
+    if (src1_nrows > 1 || kparams->n_hmx) {
         const size_t matrix_row_counts_size = n_as * sizeof(uint32_t);
         assert(octx->ctx->ddr_spad_size >= matrix_row_counts_size);
 

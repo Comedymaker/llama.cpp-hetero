@@ -57,6 +57,13 @@ struct llama_context {
 
     void synchronize();
 
+    void release_compute();
+
+    int64_t preload_compute_weights(const llama_batch & batch, bool direct);
+    bool prepare_compute_weights_direct(const llama_batch & batch);
+    int64_t read_prepared_compute_weights();
+    bool commit_prepared_compute_weights();
+
     const llama_model   & get_model()   const;
     const llama_cparams & get_cparams() const;
 
@@ -254,6 +261,8 @@ public:
     bool set_sampler(llama_seq_id seq_id, llama_sampler * sampler);
 
 private:
+    bool prepare_compute_graph(const llama_batch & batch);
+
     llm_graph_params graph_params(
                         llm_graph_result * res,
                       const llama_ubatch & ubatch,
@@ -342,6 +351,8 @@ private:
     std::vector<swap_info> output_swaps;
 
     ggml_backend_sched_ptr sched;
+    std::unique_ptr<ggml_backend_sched_weight_plan, decltype(&ggml_backend_sched_free_weight_plan)> weight_plan { nullptr, ggml_backend_sched_free_weight_plan };
+    bool prepared_weights_ready = false;
 
     bool sched_need_reserve = true;
 

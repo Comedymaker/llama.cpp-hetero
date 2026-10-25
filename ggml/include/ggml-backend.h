@@ -341,6 +341,23 @@ extern "C" {
 
     // Allocate and compute graph on the backend scheduler
     GGML_API bool                 ggml_backend_sched_alloc_graph(ggml_backend_sched_t sched, struct ggml_cgraph * graph); // returns success
+    GGML_API bool                 ggml_backend_sched_alloc_graph_preload(ggml_backend_sched_t sched, struct ggml_cgraph * graph);
+    GGML_API size_t               ggml_backend_sched_preload_weights(ggml_backend_sched_t sched);
+    typedef bool (*ggml_backend_sched_weight_loader_t)(const struct ggml_tensor * src, void * dst, size_t size, void * user_data);
+    GGML_API size_t               ggml_backend_sched_preload_weights_direct(
+            ggml_backend_sched_t sched, ggml_backend_sched_weight_loader_t loader, void * user_data);
+    typedef bool (*ggml_backend_sched_weight_filter_t)(const struct ggml_tensor * src, void * user_data);
+    typedef struct ggml_backend_sched_weight_plan * ggml_backend_sched_weight_plan_t;
+
+    // Prepare on the scheduler thread after graph allocation. A null filter loads all eligible tensors. Filtered tensors are copied here. Do not reset the scheduler until the plan is committed or freed.
+    GGML_API ggml_backend_sched_weight_plan_t ggml_backend_sched_prepare_weights_direct(
+            ggml_backend_sched_t sched, ggml_backend_sched_weight_filter_t filter, void * user_data);
+    // Call from a worker thread. The loader must not use backend APIs.
+    GGML_API int64_t                            ggml_backend_sched_load_weight_plan(ggml_backend_sched_weight_plan_t plan, ggml_backend_sched_weight_loader_t loader, void * user_data);
+    GGML_API int64_t                            ggml_backend_sched_load_weight_plan_parallel(ggml_backend_sched_weight_plan_t plan, ggml_backend_sched_weight_loader_t loader, void * user_data, int n_threads);
+    // Commit on the scheduler thread after the worker joins.
+    GGML_API bool                               ggml_backend_sched_commit_weight_plan(ggml_backend_sched_weight_plan_t plan);
+    GGML_API void                               ggml_backend_sched_free_weight_plan(ggml_backend_sched_weight_plan_t plan);
     GGML_API enum ggml_status     ggml_backend_sched_graph_compute(ggml_backend_sched_t sched, struct ggml_cgraph * graph);
     GGML_API enum ggml_status     ggml_backend_sched_graph_compute_async(ggml_backend_sched_t sched, struct ggml_cgraph * graph);
     GGML_API void                 ggml_backend_sched_synchronize(ggml_backend_sched_t sched);

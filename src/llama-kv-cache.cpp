@@ -791,6 +791,7 @@ llama_kv_cache::slot_info_vec_t llama_kv_cache::prepare(const std::vector<llama_
 
         // now emplace the ubatch
         apply_ubatch(sinfo_new, ubatch);
+        res.back().n_kv = get_n_kv(sinfo_new);
     }
 
     GGML_ASSERT(!states.empty() || !success);
@@ -2735,6 +2736,9 @@ llama_kv_cache_context::llama_kv_cache_context(
         llama_kv_cache * kv,
         llama_kv_cache::slot_info_vec_t sinfos,
         std::vector<llama_ubatch> ubatches) : status(LLAMA_MEMORY_STATUS_SUCCESS), kv(kv), sinfos(std::move(sinfos)), ubatches(std::move(ubatches)) {
+    if (!this->sinfos.empty()) {
+        n_kv = this->sinfos.front().n_kv;
+    }
 }
 
 llama_kv_cache_context::~llama_kv_cache_context() = default;
@@ -2746,6 +2750,7 @@ bool llama_kv_cache_context::next() {
         return false;
     }
 
+    n_kv = sinfos[i_cur].n_kv;
     return true;
 }
 
@@ -2761,6 +2766,7 @@ bool llama_kv_cache_context::apply() {
 
     kv->apply_ubatch(sinfos[i_cur], ubatches[i_cur]);
     n_kv = kv->get_n_kv(sinfos[i_cur]);
+    GGML_ASSERT(n_kv == int32_t(sinfos[i_cur].n_kv));
 
     return true;
 }

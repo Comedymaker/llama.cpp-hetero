@@ -1,0 +1,17 @@
+set(TARGET llama-layerskip)
+add_executable(${TARGET} layerskip.cpp)
+install(TARGETS ${TARGET} RUNTIME)
+target_link_libraries(${TARGET} PRIVATE llama ${CMAKE_THREAD_LIBS_INIT})
+target_compile_features(${TARGET} PRIVATE cxx_std_17)
+
+set(OLD_DIRECT_TARGET llama-layerskip-old-direct)
+add_executable(${OLD_DIRECT_TARGET} layerskip.cpp)
+target_compile_definitions(${OLD_DIRECT_TARGET} PRIVATE LLAMA_LAYERSKIP_OLD_DIRECT_BACKENDS=1)
+target_link_libraries(${OLD_DIRECT_TARGET} PRIVATE llama ${CMAKE_THREAD_LIBS_INIT})
+target_compile_features(${OLD_DIRECT_TARGET} PRIVATE cxx_std_17)
+
+set(CACHE_CLUSTER_TARGET llama-layerskip-single-cache-cluster)
+set_source_files_properties(layerskip.cpp.token-tree-v1.bak PROPERTIES LANGUAGE CXX)
+add_executable(${CACHE_CLUSTER_TARGET} layerskip.cpp.token-tree-v1.bak)
+target_link_libraries(${CACHE_CLUSTER_TARGET} PRIVATE llama ${CMAKE_THREAD_LIBS_INIT})
+target_compile_features(${CACHE_CLUSTER_TARGET} PRIVATE cxx_std_17)

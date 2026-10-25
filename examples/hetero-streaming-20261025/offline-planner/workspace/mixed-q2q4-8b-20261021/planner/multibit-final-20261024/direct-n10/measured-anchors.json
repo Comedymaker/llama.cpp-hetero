@@ -1,0 +1,36 @@
+[
+  {
+    "source": {
+      "path": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\q2-llama3-8b-20261021\\phone-results\\logs\\cpu_n128.log",
+      "sha256": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "route": "direct",
+      "bits": 2,
+      "deployment": "q23-direct-cpu4-r7",
+      "observations": 432
+    },
+    "summary": {
+      "observations": 432,
+      "read_ms": 7706.097,
+      "downstream_ms": 8393.36,
+      "ratio": 0.9181182506171545,
+      "max_evict_boundary_slop_us": 40
+    }
+  },
+  {
+    "source": {
+      "path": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\q3g32-8b-20261022\\phone-results\\llama-exp-q3g32-8b-20261022\\logs\\q3g32_gain_n128.log",
+      "sha256": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "route": "direct",
+      "bits": 3,
+      "deployment": "q23-direct-cpu4-r7",
+      "observations": 528
+    },
+    "summary": {
+      "observations": 528,
+      "read_ms": 13716.989,
+      "downstream_ms": 13265.485,
+      "ratio": 1.0340359964222943,
+      "max_evict_boundary_slop_us": 85
+    }
+  }
+]

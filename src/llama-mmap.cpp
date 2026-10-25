@@ -464,10 +464,14 @@ static llama_mmap::ranges ranges_complement(llama_mmap::ranges ranges, size_t li
 struct llama_mmap::impl {
 #ifdef _POSIX_MAPPED_FILES
     std::vector<std::pair<size_t, size_t>> mapped_fragments;
+    int fd = -1;
 
     impl(struct llama_file * file, size_t prefetch, bool numa, const llama_mmap::ranges & lazy_ranges) {
         size = file->size();
-        int fd = file->file_id();
+        fd = dup(file->file_id());
+        if (fd == -1) {
+            throw std::runtime_error(format("dup failed: %s", strerror(errno)));
+        }
         int flags = MAP_SHARED;
         if (numa) { prefetch = 0; }
 #ifdef __linux__
@@ -480,6 +484,8 @@ struct llama_mmap::impl {
 #endif
         addr = mmap(NULL, file->size(), PROT_READ, flags, fd, 0);
         if (addr == MAP_FAILED) {
+            close(fd);
+            fd = -1;
             throw std::runtime_error(format("mmap failed: %s", strerror(errno)));
         }
 
@@ -562,11 +568,67 @@ struct llama_mmap::impl {
         mapped_fragments = std::move(new_mapped_fragments);
     }
 
+    size_t advise(size_t first, size_t last, bool will_need) {
+        const size_t page_size = (size_t) sysconf(_SC_PAGESIZE);
+        align_range(&first, &last, page_size);
+        if (last <= first) {
+            return 0;
+        }
+
+        const int advice = will_need ? MADV_WILLNEED : MADV_DONTNEED;
+        if (madvise((uint8_t *) addr + first, last - first, advice)) {
+            LLAMA_LOG_WARN("warning: madvise(%s) failed: %s\n", will_need ? "WILLNEED" : "DONTNEED", strerror(errno));
+            return 0;
+        }
+#ifdef __linux__
+        const int file_advice = will_need ? POSIX_FADV_WILLNEED : POSIX_FADV_DONTNEED;
+        const int result = posix_fadvise(fd, first, last - first, file_advice);
+        if (result != 0) {
+            LLAMA_LOG_WARN("warning: posix_fadvise(%s) failed: %s\n", will_need ? "WILLNEED" : "DONTNEED", strerror(result));
+        }
+#endif
+        if (will_need) {
+            volatile const uint8_t * data = (const uint8_t *) addr + first;
+            volatile uint8_t sink = 0;
+            for (size_t offset = 0; offset < last - first; offset += page_size) {
+                sink = (uint8_t) (sink ^ data[offset]);
+            }
+            GGML_UNUSED(sink);
+        }
+        return last - first;
+    }
+
+    bool read(size_t offset, void * dst, size_t size_read, bool evict) {
+        uint8_t * out = (uint8_t *) dst;
+        size_t done = 0;
+        while (done < size_read) {
+            const ssize_t n = pread(fd, out + done, size_read - done, (off_t) (offset + done));
+            if (n < 0 && errno == EINTR) {
+                continue;
+            }
+            if (n <= 0) {
+                return false;
+            }
+            done += (size_t) n;
+        }
+#ifdef __linux__
+        if (evict) {
+            posix_fadvise(fd, offset, size_read, POSIX_FADV_DONTNEED);
+        }
+#else
+        GGML_UNUSED(evict);
+#endif
+        return true;
+    }
+
     ~impl() {
         for (const auto & frag : mapped_fragments) {
             if (munmap((char *) addr + frag.first, frag.second - frag.first)) {
                 LLAMA_LOG_WARN("warning: munmap failed: %s\n", strerror(errno));
             }
+        }
+        if (fd != -1) {
+            close(fd);
         }
     }
 #elif defined(_WIN32)
@@ -626,6 +688,22 @@ struct llama_mmap::impl {
         GGML_UNUSED(last);
     }
 
+    size_t advise(size_t first, size_t last, bool will_need) {
+        GGML_UNUSED(first);
+        GGML_UNUSED(last);
+        GGML_UNUSED(will_need);
+        return 0;
+    }
+
+    bool read(size_t offset, void * dst, size_t size_read, bool evict) {
+        if (offset > size || size_read > size - offset) {
+            return false;
+        }
+        memcpy(dst, (const uint8_t *) addr + offset, size_read);
+        GGML_UNUSED(evict);
+        return true;
+    }
+
     ~impl() {
         if (hMapping) {
             if (addr) {
@@ -656,6 +734,21 @@ struct llama_mmap::impl {
 
         throw std::runtime_error("mmap not supported");
     }
+
+    size_t advise(size_t first, size_t last, bool will_need) {
+        GGML_UNUSED(first);
+        GGML_UNUSED(last);
+        GGML_UNUSED(will_need);
+        return 0;
+    }
+
+    bool read(size_t offset, void * dst, size_t size_read, bool evict) {
+        GGML_UNUSED(offset);
+        GGML_UNUSED(dst);
+        GGML_UNUSED(size_read);
+        GGML_UNUSED(evict);
+        return false;
+    }
 #endif
 
     void * addr;
@@ -668,6 +761,9 @@ llama_mmap::~llama_mmap() = default;
 
 size_t llama_mmap::size() const { return pimpl->size; }
 void * llama_mmap::addr() const { return pimpl->addr; }
+
+size_t llama_mmap::advise(size_t first, size_t last, bool will_need) { return pimpl->advise(first, last, will_need); }
+bool llama_mmap::read(size_t offset, void * dst, size_t size_read, bool evict) { return pimpl->read(offset, dst, size_read, evict); }
 
 void llama_mmap::unmap_fragment(size_t first, size_t last) { pimpl->unmap_fragment(first, last); }
 

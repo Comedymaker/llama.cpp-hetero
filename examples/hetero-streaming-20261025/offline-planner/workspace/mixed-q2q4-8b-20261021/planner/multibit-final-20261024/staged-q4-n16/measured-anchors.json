@@ -1,0 +1,19 @@
+[
+  {
+    "source": {
+      "path": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\q4g128-staged-t8-20261023\\phone-results\\llama-exp-q4g128-staged-t8-20261023\\logs\\q4g32_n128.log",
+      "sha256": "5022bebcf9f34bae0671abaae6f0090ae7ffbaf90663ff64e628fa8ade32bdd6",
+      "route": "staged",
+      "bits": 4,
+      "deployment": "q4-staged-cpu8-r7-c1",
+      "observations": 648
+    },
+    "summary": {
+      "observations": 648,
+      "read_ms": 21386.432,
+      "downstream_ms": 11959.483,
+      "ratio": 1.7882405117344955,
+      "max_evict_boundary_slop_us": 383944
+    }
+  }
+]

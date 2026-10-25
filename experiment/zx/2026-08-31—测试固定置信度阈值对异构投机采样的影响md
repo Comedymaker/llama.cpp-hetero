@@ -1,0 +1,50 @@
+cd /data/local/tmp/layerskip-token-tree
+
+export LD_LIBRARY_PATH="$PWD"
+export ADSP_LIBRARY_PATH=/data/local/tmp/layerskip-hetero-resident/dsp-current
+export DSP_LIBRARY_PATH=/data/local/tmp/layerskip-hetero-resident/dsp-current
+unset CDSP_LIBRARY_PATH
+unset GGML_HEXAGON_NDEV
+export GGML_HEXAGON_DEVICES=1
+
+EXP=/data/local/tmp/llama-exp-single-full-side-w10-9g
+mkdir -p "$EXP/results" "$EXP/logs" "$EXP/runners"
+
+nohup sh -c '
+
+dumpsys battery | grep -E "level:|temperature:|Capacity level:"
+
+/data/local/tmp/layerskip-token-tree/llama-layerskip \
+    -m /data/local/tmp/gguf/layerskip/layerskip-llama2-7B-F16.gguf \
+    -f /data/local/tmp/llama-exp-layerskip-humaneval/prompts/human_eval_000_lf.txt \
+    -n 128 \
+    -c 2048 \
+    -b 512 \
+    -ub 128 \
+    -t 4 \
+    --exit-layer 8 \
+    --draft-max 10 \
+    --draft-tree \
+    --tree-max-nodes 20 \
+    --tree-side-depth 10 \
+    --tree-p-ratio 0.40 \
+    --tail-device HTP0 \
+    --tail-offload-layers 25 \
+    --tail-layer-stream \
+    --tail-stream-prefetch \
+    --tail-stream-cluster-layers 4 \
+    --memory-budget-mib 9216 \
+    --runtime-reserve-mib 1536 \
+    --ignore-eos \
+    > /data/local/tmp/llama-exp-single-full-side-w10-9g/results/humaneval_000_single_full_tree_w10_r040_9g_n128.txt \
+    2> /data/local/tmp/llama-exp-single-full-side-w10-9g/logs/humaneval_000_single_full_tree_w10_r040_9g_n128.log
+
+STATUS=$?
+echo "exit=$STATUS"
+
+grep -E "memory plan|layerskip generation|n_drafted|n_accept|n_verify|n_bonus|accept =|window accept|tree nodes|tree branches|tree leaves per verify|side branch entries|side branch accepted tokens|phase draft build|phase tail verify|tail stream cache|tail HTP preload" \
+    /data/local/tmp/llama-exp-single-full-side-w10-9g/logs/humaneval_000_single_full_tree_w10_r040_9g_n128.log
+' > "$EXP/runners/run.log" 2>&1 </dev/null &
+
+echo $! > "$EXP/runners/run.pid"
+echo "pid=$(cat "$EXP/runners/run.pid")"

@@ -41,6 +41,7 @@ public:
 
         std::vector<llama_seq_id> strm; // [ns]
         std::vector<idx_vec_t>    idxs; // [ns]
+        uint32_t n_kv = 0; // predicted after apply
 
         uint32_t head() const {
             GGML_ASSERT(idxs.size() == 1);
@@ -460,5 +461,5 @@ private:
 
     // a heuristic, to avoid attending the full cache if it is not yet utilized
     // as the cache gets filled, the benefit from this heuristic disappears
-    int32_t n_kv;
+    int32_t n_kv = 0;
 };

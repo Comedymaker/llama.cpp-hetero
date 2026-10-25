@@ -1,0 +1,846 @@
+{
+  "route": "direct",
+  "scope": "heldout complete rounds of pure-bit endpoints ONLY; NOT heldout deployment or mixed-count validation",
+  "policy_match": true,
+  "policy_note": "postcompute source/prediction",
+  "completed": 37,
+  "skipped_outside_node_support": [
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 1,
+      "reason": "node count13 outside observed6..12"
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 4,
+      "reason": "node count5 outside observed6..18"
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 19,
+      "reason": "node count18 outside observed5..14"
+    }
+  ],
+  "mean_errors": {
+    "read_relative_error": 0.007405200086438047,
+    "downstream_relative_error": 0.01884298647652193,
+    "ratio_abs_error": 0.014205142147517677,
+    "tail_relative_error": 0.03395455367784085
+  },
+  "details": [
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 0,
+      "bits": 2,
+      "nodes": 10,
+      "observed": {
+        "read_ms": 422.66700053215027,
+        "downstream_ms": 447.0799980163574,
+        "ratio": 0.9453945656425587,
+        "tail_span_ms": 753.345999956131
+      },
+      "predicted": {
+        "read_ms": 426.86400000000003,
+        "downstream_ms": 450.6000000000001,
+        "ratio": 0.9473235685752329,
+        "tail_span_ms": 735.952
+      },
+      "read_relative_error": 0.009929801622945655,
+      "downstream_relative_error": 0.007873315736021569,
+      "ratio_abs_error": 0.0019290029326741731,
+      "tail_relative_error": 0.023088992252091156
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 2,
+      "bits": 2,
+      "nodes": 10,
+      "observed": {
+        "read_ms": 426.2159996032715,
+        "downstream_ms": 451.47100019454956,
+        "ratio": 0.9440606360532678,
+        "tail_span_ms": 754.8389999866486
+      },
+      "predicted": {
+        "read_ms": 426.37700000000007,
+        "downstream_ms": 450.37000000000023,
+        "ratio": 0.9467260252681126,
+        "tail_span_ms": 735.4600000000002
+      },
+      "read_relative_error": 0.0003777436719374361,
+      "downstream_relative_error": 0.002438695274059377,
+      "ratio_abs_error": 0.0026653892148447156,
+      "tail_relative_error": 0.025673024296560154
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 3,
+      "bits": 2,
+      "nodes": 6,
+      "observed": {
+        "read_ms": 425.1910002231598,
+        "downstream_ms": 427.0359983444214,
+        "ratio": 0.9956795255472267,
+        "tail_span_ms": 594.6749999523163
+      },
+      "predicted": {
+        "read_ms": 425.88349999999997,
+        "downstream_ms": 429.736,
+        "ratio": 0.9910351937003183,
+        "tail_span_ms": 617.194
+      },
+      "read_relative_error": 0.0016286792911344161,
+      "downstream_relative_error": 0.0063226558558207024,
+      "ratio_abs_error": 0.004644331846908378,
+      "tail_relative_error": 0.03786774296798989
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 4,
+      "bits": 2,
+      "nodes": 6,
+      "observed": {
+        "read_ms": 425.7230010032654,
+        "downstream_ms": 428.55200028419495,
+        "ratio": 0.993398702423385,
+        "tail_span_ms": 623.1160001754761
+      },
+      "predicted": {
+        "read_ms": 425.6175,
+        "downstream_ms": 429.6540000000001,
+        "ratio": 0.9906052311860238,
+        "tail_span_ms": 602.9360000000001
+      },
+      "read_relative_error": 0.0002478160752807934,
+      "downstream_relative_error": 0.002571449240872381,
+      "ratio_abs_error": 0.002793471237361178,
+      "tail_relative_error": 0.03238562349513252
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 5,
+      "bits": 2,
+      "nodes": 10,
+      "observed": {
+        "read_ms": 430.242999792099,
+        "downstream_ms": 453.29599833488464,
+        "ratio": 0.9491436089719137,
+        "tail_span_ms": 740.2239999771118
+      },
+      "predicted": {
+        "read_ms": 425.24100000000004,
+        "downstream_ms": 449.3970000000003,
+        "ratio": 0.9462479722828585,
+        "tail_span_ms": 753.0850000000002
+      },
+      "read_relative_error": 0.011625987626797007,
+      "downstream_relative_error": 0.008601440006544836,
+      "ratio_abs_error": 0.0028956366890552365,
+      "tail_relative_error": 0.017374470462030445
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 6,
+      "bits": 2,
+      "nodes": 10,
+      "observed": {
+        "read_ms": 426.63800072669983,
+        "downstream_ms": 449.9480001926422,
+        "ratio": 0.9481940147395647,
+        "tail_span_ms": 726.6780002117157
+      },
+      "predicted": {
+        "read_ms": 425.558,
+        "downstream_ms": 449.9750000000002,
+        "ratio": 0.9457369853880767,
+        "tail_span_ms": 753.423
+      },
+      "read_relative_error": 0.0025314217787919535,
+      "downstream_relative_error": 6.0006505966159196e-05,
+      "ratio_abs_error": 0.0024570293514879493,
+      "tail_relative_error": 0.03680447155479083
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 7,
+      "bits": 2,
+      "nodes": 7,
+      "observed": {
+        "read_ms": 424.69600009918213,
+        "downstream_ms": 449.9200003147125,
+        "ratio": 0.9439366994179264,
+        "tail_span_ms": 633.5380001068115
+      },
+      "predicted": {
+        "read_ms": 427.9910000000001,
+        "downstream_ms": 451.5100000000001,
+        "ratio": 0.9479103452858187,
+        "tail_span_ms": 687.5830000000002
+      },
+      "read_relative_error": 0.007758490543938512,
+      "downstream_relative_error": 0.003533960891214827,
+      "ratio_abs_error": 0.003973645867892395,
+      "tail_relative_error": 0.0853066428281759
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 8,
+      "bits": 2,
+      "nodes": 6,
+      "observed": {
+        "read_ms": 426.04399967193604,
+        "downstream_ms": 428.2549982070923,
+        "ratio": 0.994837191522778,
+        "tail_span_ms": 612.7039999961853
+      },
+      "predicted": {
+        "read_ms": 425.4570000000001,
+        "downstream_ms": 428.958,
+        "ratio": 0.9918383617976587,
+        "tail_span_ms": 608.199
+      },
+      "read_relative_error": 0.0013777911961861955,
+      "downstream_relative_error": 0.001641549534391551,
+      "ratio_abs_error": 0.002998829725119334,
+      "tail_relative_error": 0.0073526531509724435
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 9,
+      "bits": 2,
+      "nodes": 8,
+      "observed": {
+        "read_ms": 427.37500047683716,
+        "downstream_ms": 448.13500142097473,
+        "ratio": 0.9536746719664599,
+        "tail_span_ms": 720.3359999656677
+      },
+      "predicted": {
+        "read_ms": 429.63424999999995,
+        "downstream_ms": 466.87350000000004,
+        "ratio": 0.9202369592619841,
+        "tail_span_ms": 724.5345
+      },
+      "read_relative_error": 0.005286339913757487,
+      "downstream_relative_error": 0.041814405301099145,
+      "ratio_abs_error": 0.03343771270447582,
+      "tail_relative_error": 0.005828530067263582
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 10,
+      "bits": 2,
+      "nodes": 7,
+      "observed": {
+        "read_ms": 427.9909996986389,
+        "downstream_ms": 451.4009985923767,
+        "ratio": 0.9481392399070047,
+        "tail_span_ms": 688.4519999027252
+      },
+      "predicted": {
+        "read_ms": 424.6959999999999,
+        "downstream_ms": 452.4539999999999,
+        "ratio": 0.938650116917963,
+        "tail_span_ms": 632.8409999999999
+      },
+      "read_relative_error": 0.007698759321946302,
+      "downstream_relative_error": 0.0023327405364781395,
+      "ratio_abs_error": 0.009489122989041698,
+      "tail_relative_error": 0.08077687320333571
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 11,
+      "bits": 2,
+      "nodes": 9,
+      "observed": {
+        "read_ms": 425.3079991340637,
+        "downstream_ms": 466.4399971961975,
+        "ratio": 0.9118171719634229,
+        "tail_span_ms": 774.2469999790192
+      },
+      "predicted": {
+        "read_ms": 440.542,
+        "downstream_ms": 495.73100000000005,
+        "ratio": 0.8886714770712341,
+        "tail_span_ms": 804.2450000000001
+      },
+      "read_relative_error": 0.03581874993405476,
+      "downstream_relative_error": 0.06279693632594285,
+      "ratio_abs_error": 0.023145694892188873,
+      "tail_relative_error": 0.03874474169327602
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 12,
+      "bits": 2,
+      "nodes": 11,
+      "observed": {
+        "read_ms": 433.4750003814697,
+        "downstream_ms": 486.5429983139038,
+        "ratio": 0.8909284521278916,
+        "tail_span_ms": 874.7690000534058
+      },
+      "predicted": {
+        "read_ms": 427.9624999999999,
+        "downstream_ms": 455.76774999999975,
+        "ratio": 0.9389925022119273,
+        "tail_span_ms": 802.5612499999997
+      },
+      "read_relative_error": 0.012716997235408423,
+      "downstream_relative_error": 0.06325288498766712,
+      "ratio_abs_error": 0.04806405008403569,
+      "tail_relative_error": 0.08254493477592095
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 13,
+      "bits": 2,
+      "nodes": 12,
+      "observed": {
+        "read_ms": 430.16200017929077,
+        "downstream_ms": 460.97400093078613,
+        "ratio": 0.9331589185305883,
+        "tail_span_ms": 856.2369999885559
+      },
+      "predicted": {
+        "read_ms": 429.63300000000015,
+        "downstream_ms": 461.14300000000014,
+        "ratio": 0.9316697857280714,
+        "tail_span_ms": 860.2680000000003
+      },
+      "read_relative_error": 0.00122976966600985,
+      "downstream_relative_error": 0.00036661301694396187,
+      "ratio_abs_error": 0.001489132802516946,
+      "tail_relative_error": 0.004707808715925799
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 14,
+      "bits": 2,
+      "nodes": 12,
+      "observed": {
+        "read_ms": 428.58199977874756,
+        "downstream_ms": 460.989999294281,
+        "ratio": 0.9296991267377902,
+        "tail_span_ms": 858.5049998760223
+      },
+      "predicted": {
+        "read_ms": 430.08500000000026,
+        "downstream_ms": 460.7470000000004,
+        "ratio": 0.9334515471614571,
+        "tail_span_ms": 861.1560000000004
+      },
+      "read_relative_error": 0.0035069140141876787,
+      "downstream_relative_error": 0.0005271248718032862,
+      "ratio_abs_error": 0.003752420423666858,
+      "tail_relative_error": 0.0030879262489571513
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 15,
+      "bits": 2,
+      "nodes": 12,
+      "observed": {
+        "read_ms": 428.40999960899353,
+        "downstream_ms": 459.3369987010956,
+        "ratio": 0.932670350571461,
+        "tail_span_ms": 865.0239999294281
+      },
+      "predicted": {
+        "read_ms": 431.0010000000001,
+        "downstream_ms": 462.84799999999996,
+        "ratio": 0.9311933939435844,
+        "tail_span_ms": 861.815
+      },
+      "read_relative_error": 0.006047945644058972,
+      "downstream_relative_error": 0.007643628335693986,
+      "ratio_abs_error": 0.0014769566278766133,
+      "tail_relative_error": 0.0037097235795652272
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 16,
+      "bits": 2,
+      "nodes": 12,
+      "observed": {
+        "read_ms": 432.2130000591278,
+        "downstream_ms": 471.4590005874634,
+        "ratio": 0.916756281077606,
+        "tail_span_ms": 872.6870000362396
+      },
+      "predicted": {
+        "read_ms": 428.94100000000014,
+        "downstream_ms": 461.0620000000002,
+        "ratio": 0.9303325800000867,
+        "tail_span_ms": 859.3310000000004
+      },
+      "read_relative_error": 0.0075703416109187405,
+      "downstream_relative_error": 0.022052820233589676,
+      "ratio_abs_error": 0.01357629892248069,
+      "tail_relative_error": 0.015304456277777323
+    },
+    {
+      "case": "531e3a10cfdccdd415cb217520addb24568f6f6345a2b56c9ba449a0b3f7eef1",
+      "round": 17,
+      "bits": 2,
+      "nodes": 9,
+      "observed": {
+        "read_ms": 440.5420000553131,
+        "downstream_ms": 495.43000078201294,
+        "ratio": 0.8892113908320818,
+        "tail_span_ms": 805.1849999427795
+      },
+      "predicted": {
+        "read_ms": 425.3080000000001,
+        "downstream_ms": 466.6260000000004,
+        "ratio": 0.9114537123949368,
+        "tail_span_ms": 773.4690000000004
+      },
+      "read_relative_error": 0.03458013096004531,
+      "downstream_relative_error": 0.05813939554840608,
+      "ratio_abs_error": 0.022242321562854994,
+      "tail_relative_error": 0.039389705403147124
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 0,
+      "bits": 3,
+      "nodes": 6,
+      "observed": {
+        "read_ms": 616.8930006027222,
+        "downstream_ms": 552.1789989471436,
+        "ratio": 1.1171975062053623,
+        "tail_span_ms": 831.4570000171661
+      },
+      "predicted": {
+        "read_ms": 622.4225,
+        "downstream_ms": 562.6084999999998,
+        "ratio": 1.1063154929226988,
+        "tail_span_ms": 797.7929999999998
+      },
+      "read_relative_error": 0.00896346593635422,
+      "downstream_relative_error": 0.018887898802276926,
+      "ratio_abs_error": 0.010882013282663472,
+      "tail_relative_error": 0.040487962716618364
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 1,
+      "bits": 3,
+      "nodes": 9,
+      "observed": {
+        "read_ms": 621.4040002822876,
+        "downstream_ms": 595.9380006790161,
+        "ratio": 1.042732632546096,
+        "tail_span_ms": 892.7860000133514
+      },
+      "predicted": {
+        "read_ms": 633.8829999999998,
+        "downstream_ms": 618.4449999999997,
+        "ratio": 1.024962607830931,
+        "tail_span_ms": 1048.3379999999995
+      },
+      "read_relative_error": 0.02008194300655175,
+      "downstream_relative_error": 0.03776735045481061,
+      "ratio_abs_error": 0.017770024715164867,
+      "tail_relative_error": 0.17423212279798506
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 2,
+      "bits": 3,
+      "nodes": 8,
+      "observed": {
+        "read_ms": 622.5880000591278,
+        "downstream_ms": 583.5150005817413,
+        "ratio": 1.0669614310487858,
+        "tail_span_ms": 847.8829998970032
+      },
+      "predicted": {
+        "read_ms": 621.3310000000001,
+        "downstream_ms": 572.111,
+        "ratio": 1.0860322559782982,
+        "tail_span_ms": 863.3300000000003
+      },
+      "read_relative_error": 0.0020189917875196306,
+      "downstream_relative_error": 0.01954362881909122,
+      "ratio_abs_error": 0.019070824929512398,
+      "tail_relative_error": 0.018218315622407166
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 3,
+      "bits": 3,
+      "nodes": 7,
+      "observed": {
+        "read_ms": 622.2889995574951,
+        "downstream_ms": 577.7029988765717,
+        "ratio": 1.0771780668745488,
+        "tail_span_ms": 836.6660001277924
+      },
+      "predicted": {
+        "read_ms": 621.0452500000001,
+        "downstream_ms": 566.7737500000003,
+        "ratio": 1.0957551403889114,
+        "tail_span_ms": 827.2075000000003
+      },
+      "read_relative_error": 0.0019986687188419117,
+      "downstream_relative_error": 0.01891845619258492,
+      "ratio_abs_error": 0.018577073514362663,
+      "tail_relative_error": 0.01130498923865364
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 5,
+      "bits": 3,
+      "nodes": 8,
+      "observed": {
+        "read_ms": 620.6419997215271,
+        "downstream_ms": 569.711000919342,
+        "ratio": 1.089397955665237,
+        "tail_span_ms": 873.337000131607
+      },
+      "predicted": {
+        "read_ms": 621.733,
+        "downstream_ms": 574.5419999999998,
+        "ratio": 1.082136728037289,
+        "tail_span_ms": 862.4449999999998
+      },
+      "read_relative_error": 0.0017578576360646192,
+      "downstream_relative_error": 0.008479736345027522,
+      "ratio_abs_error": 0.007261227627947786,
+      "tail_relative_error": 0.012471703511892751
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 6,
+      "bits": 3,
+      "nodes": 10,
+      "observed": {
+        "read_ms": 620.2320001125336,
+        "downstream_ms": 586.8119995594025,
+        "ratio": 1.0569518015620403,
+        "tail_span_ms": 922.1089999675751
+      },
+      "predicted": {
+        "read_ms": 623.6065,
+        "downstream_ms": 592.1119999999999,
+        "ratio": 1.0531901059259061,
+        "tail_span_ms": 972.9199999999998
+      },
+      "read_relative_error": 0.0054407058759531335,
+      "downstream_relative_error": 0.009031854230276082,
+      "ratio_abs_error": 0.0037616956361341547,
+      "tail_relative_error": 0.055103030156100186
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 7,
+      "bits": 3,
+      "nodes": 6,
+      "observed": {
+        "read_ms": 623.0309998989105,
+        "downstream_ms": 563.604998588562,
+        "ratio": 1.1054390955707796,
+        "tail_span_ms": 800.0359997749329
+      },
+      "predicted": {
+        "read_ms": 621.172,
+        "downstream_ms": 555.8294999999998,
+        "ratio": 1.1175585318879264,
+        "tail_span_ms": 796.4894999999998
+      },
+      "read_relative_error": 0.002983800002266501,
+      "downstream_relative_error": 0.013796007146910316,
+      "ratio_abs_error": 0.012119436317146848,
+      "tail_relative_error": 0.004432925238277763
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 8,
+      "bits": 3,
+      "nodes": 14,
+      "observed": {
+        "read_ms": 620.0789997577667,
+        "downstream_ms": 601.6230001449585,
+        "ratio": 1.0306770180135423,
+        "tail_span_ms": 1032.680999994278
+      },
+      "predicted": {
+        "read_ms": 623.7349999999998,
+        "downstream_ms": 656.1737999999992,
+        "ratio": 0.95056370735924,
+        "tail_span_ms": 1120.2529999999995
+      },
+      "read_relative_error": 0.005896023319063026,
+      "downstream_relative_error": 0.09067273000183995,
+      "ratio_abs_error": 0.08011331065430227,
+      "tail_relative_error": 0.0848006305976452
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 9,
+      "bits": 3,
+      "nodes": 6,
+      "observed": {
+        "read_ms": 622.9520003795624,
+        "downstream_ms": 563.4700014591217,
+        "ratio": 1.1055637367852953,
+        "tail_span_ms": 795.199000120163
+      },
+      "predicted": {
+        "read_ms": 621.0840000000001,
+        "downstream_ms": 558.9554999999998,
+        "ratio": 1.111151066587591,
+        "tail_span_ms": 797.8290000000001
+      },
+      "read_relative_error": 0.0029986265048096428,
+      "downstream_relative_error": 0.008011964163897711,
+      "ratio_abs_error": 0.005587329802295704,
+      "tail_relative_error": 0.0033073480719161275
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 10,
+      "bits": 3,
+      "nodes": 6,
+      "observed": {
+        "read_ms": 622.2750000953674,
+        "downstream_ms": 562.6279966831207,
+        "ratio": 1.1060149935017198,
+        "tail_span_ms": 800.0820000171661
+      },
+      "predicted": {
+        "read_ms": 621.3749999999999,
+        "downstream_ms": 559.2705,
+        "ratio": 1.1110455495149483,
+        "tail_span_ms": 796.2264999999999
+      },
+      "read_relative_error": 0.0014463060467311273,
+      "downstream_relative_error": 0.005967525083917513,
+      "ratio_abs_error": 0.005030556013228438,
+      "tail_relative_error": 0.004818881086043114
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 11,
+      "bits": 3,
+      "nodes": 8,
+      "observed": {
+        "read_ms": 620.5840005874634,
+        "downstream_ms": 566.8639998435974,
+        "ratio": 1.0947670001246996,
+        "tail_span_ms": 861.9670000076294
+      },
+      "predicted": {
+        "read_ms": 621.3669999999998,
+        "downstream_ms": 574.8270000000001,
+        "ratio": 1.0809634898847822,
+        "tail_span_ms": 855.1909999999999
+      },
+      "read_relative_error": 0.0012617138240678116,
+      "downstream_relative_error": 0.01404746139920654,
+      "ratio_abs_error": 0.013803510239917438,
+      "tail_relative_error": 0.007861089818484324
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 12,
+      "bits": 3,
+      "nodes": 8,
+      "observed": {
+        "read_ms": 624.5250008106232,
+        "downstream_ms": 579.476001739502,
+        "ratio": 1.0777409227230994,
+        "tail_span_ms": 869.8120000362396
+      },
+      "predicted": {
+        "read_ms": 619.8349999999999,
+        "downstream_ms": 570.8280000000001,
+        "ratio": 1.085852480957486,
+        "tail_span_ms": 852.2339999999999
+      },
+      "read_relative_error": 0.007509708665843218,
+      "downstream_relative_error": 0.014923830691075834,
+      "ratio_abs_error": 0.008111558234386695,
+      "tail_relative_error": 0.020208964736641133
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 13,
+      "bits": 3,
+      "nodes": 6,
+      "observed": {
+        "read_ms": 623.2700002193451,
+        "downstream_ms": 564.0389988422394,
+        "ratio": 1.1050122447183346,
+        "tail_span_ms": 807.0380001068115
+      },
+      "predicted": {
+        "read_ms": 621.0149999999999,
+        "downstream_ms": 560.5474999999998,
+        "ratio": 1.1078722142191342,
+        "tail_span_ms": 796.6349999999998
+      },
+      "read_relative_error": 0.0036180150152448354,
+      "downstream_relative_error": 0.006190172752959189,
+      "ratio_abs_error": 0.0028599695007995862,
+      "tail_relative_error": 0.012890347301409477
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 14,
+      "bits": 3,
+      "nodes": 13,
+      "observed": {
+        "read_ms": 622.1279997825623,
+        "downstream_ms": 640.1350009441376,
+        "ratio": 0.9718699943995928,
+        "tail_span_ms": 1060.7509999275208
+      },
+      "predicted": {
+        "read_ms": 621.0413333333333,
+        "downstream_ms": 613.7596666666665,
+        "ratio": 1.011864035814236,
+        "tail_span_ms": 1028.8263333333337
+      },
+      "read_relative_error": 0.001746692721768972,
+      "downstream_relative_error": 0.041202768538777024,
+      "ratio_abs_error": 0.03999404141464313,
+      "tail_relative_error": 0.030096287061118443
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 15,
+      "bits": 3,
+      "nodes": 11,
+      "observed": {
+        "read_ms": 622.9659998416901,
+        "downstream_ms": 630.8379995822906,
+        "ratio": 0.9875213608790006,
+        "tail_span_ms": 1023.0060000419617
+      },
+      "predicted": {
+        "read_ms": 622.1453333333334,
+        "downstream_ms": 610.4926666666671,
+        "ratio": 1.0190873163641598,
+        "tail_span_ms": 999.0776666666667
+      },
+      "read_relative_error": 0.001317353609290417,
+      "downstream_relative_error": 0.0322512799309731,
+      "ratio_abs_error": 0.03156595548515928,
+      "tail_relative_error": 0.0233902180185781
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 16,
+      "bits": 3,
+      "nodes": 10,
+      "observed": {
+        "read_ms": 621.2039999961853,
+        "downstream_ms": 598.0580003261566,
+        "ratio": 1.0387019313468022,
+        "tail_span_ms": 980.4900000095367
+      },
+      "predicted": {
+        "read_ms": 623.6895000000002,
+        "downstream_ms": 591.5744999999998,
+        "ratio": 1.0542873298291262,
+        "tail_span_ms": 958.5245000000001
+      },
+      "read_relative_error": 0.004001101093731085,
+      "downstream_relative_error": 0.010840922322953528,
+      "ratio_abs_error": 0.015585398482323987,
+      "tail_relative_error": 0.022402574232601058
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 17,
+      "bits": 3,
+      "nodes": 10,
+      "observed": {
+        "read_ms": 629.2560000419617,
+        "downstream_ms": 596.0250022411346,
+        "ratio": 1.0557543688198885,
+        "tail_span_ms": 973.1510000228882
+      },
+      "predicted": {
+        "read_ms": 621.4995000000002,
+        "downstream_ms": 590.9749999999999,
+        "ratio": 1.051651085071281,
+        "tail_span_ms": 960.3725000000003
+      },
+      "read_relative_error": 0.012326461792091292,
+      "downstream_relative_error": 0.008472802688051728,
+      "ratio_abs_error": 0.004103283748607467,
+      "tail_relative_error": 0.013131055738099584
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 18,
+      "bits": 3,
+      "nodes": 10,
+      "observed": {
+        "read_ms": 621.3319997787476,
+        "downstream_ms": 594.3360018730164,
+        "ratio": 1.045422114461609,
+        "tail_span_ms": 974.1610000133514
+      },
+      "predicted": {
+        "read_ms": 623.7040000000003,
+        "downstream_ms": 591.3915000000002,
+        "ratio": 1.0546380866143665,
+        "tail_span_ms": 958.0805
+      },
+      "read_relative_error": 0.0038176051162621683,
+      "downstream_relative_error": 0.004954271428513124,
+      "ratio_abs_error": 0.009215972152757601,
+      "tail_relative_error": 0.016507025032957645
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 20,
+      "bits": 3,
+      "nodes": 10,
+      "observed": {
+        "read_ms": 631.2930002212524,
+        "downstream_ms": 588.7680003643036,
+        "ratio": 1.0722270908586,
+        "tail_span_ms": 958.8250000476837
+      },
+      "predicted": {
+        "read_ms": 621.7054999999999,
+        "downstream_ms": 592.1409999999998,
+        "ratio": 1.0499281421148006,
+        "tail_span_ms": 968.7764999999999
+      },
+      "read_relative_error": 0.015187084630896241,
+      "downstream_relative_error": 0.0057289112750849025,
+      "ratio_abs_error": 0.02229894874379945,
+      "tail_relative_error": 0.010378849061946971
+    },
+    {
+      "case": "c86d9543e451a355b5754cc90e5d704c61171d1cd806bbf8635eabf9c52f195c",
+      "round": 21,
+      "bits": 3,
+      "nodes": 9,
+      "observed": {
+        "read_ms": 633.8829996585846,
+        "downstream_ms": 618.1310012340546,
+        "ratio": 1.025483268745755,
+        "tail_span_ms": 1050.0390000343323
+      },
+      "predicted": {
+        "read_ms": 621.4039999999995,
+        "downstream_ms": 596.168,
+        "ratio": 1.0423303498342742,
+        "tail_span_ms": 892.1909999999993
+      },
+      "read_relative_error": 0.019686597787456628,
+      "downstream_relative_error": 0.035531305160567905,
+      "ratio_abs_error": 0.01684708108851929,
+      "tail_relative_error": 0.1503258450678231
+    }
+  ]
+}

@@ -1,0 +1,943 @@
+{
+  "schema": 1,
+  "layers": {
+    "8": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        11
+      ],
+      "observed_q4_counts": [
+        0,
+        3,
+        6,
+        8,
+        11
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 35.9218749590341,
+        "q4_32_ms": 0.0,
+        "nodes_32_ms": -3.1429795618959284,
+        "training_mae_ms": 2.284134690349504
+      },
+      "execute": {
+        "intercept_ms": 12.335003772752428,
+        "q4_32_ms": -0.3346455882216008,
+        "nodes_32_ms": 2.033943115969158,
+        "training_mae_ms": 0.4785325319115796
+      },
+      "evict": {
+        "intercept_ms": 10.414221897388106,
+        "q4_32_ms": 6.852166760038169,
+        "nodes_32_ms": 0.6696381067026345,
+        "training_mae_ms": 0.7690820298309315
+      },
+      "prep_ms": 0.0
+    },
+    "9": {
+      "samples": 126,
+      "q4_range": [
+        1,
+        8
+      ],
+      "observed_q4_counts": [
+        1,
+        4,
+        5,
+        7,
+        8
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.822199934323876,
+        "q4_32_ms": 15.865466350302293,
+        "nodes_32_ms": -0.07498093660831692,
+        "training_mae_ms": 1.0584290667241651
+      },
+      "execute": {
+        "intercept_ms": 12.55198420126932,
+        "q4_32_ms": 0.966745925119447,
+        "nodes_32_ms": 1.3744117695021547,
+        "training_mae_ms": 0.43660855918910557
+      },
+      "evict": {
+        "intercept_ms": 10.011988219968377,
+        "q4_32_ms": 6.99521047741168,
+        "nodes_32_ms": 0.3732781340205492,
+        "training_mae_ms": 0.6223958268296622
+      },
+      "prep_ms": 0.0905
+    },
+    "10": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        10
+      ],
+      "observed_q4_counts": [
+        0,
+        3,
+        4,
+        7,
+        8,
+        10
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 23.78947723012093,
+        "q4_32_ms": 17.92487591628781,
+        "nodes_32_ms": 0.7498137657456968,
+        "training_mae_ms": 0.7868520244932816
+      },
+      "execute": {
+        "intercept_ms": 12.707454795546385,
+        "q4_32_ms": 0.2036009539437329,
+        "nodes_32_ms": 1.1029208666626744,
+        "training_mae_ms": 0.4371215515874565
+      },
+      "evict": {
+        "intercept_ms": 9.892018145385581,
+        "q4_32_ms": 7.443659213097124,
+        "nodes_32_ms": 0.5346550543360277,
+        "training_mae_ms": 0.7762735709595108
+      },
+      "prep_ms": 0.087
+    },
+    "11": {
+      "samples": 126,
+      "q4_range": [
+        1,
+        7
+      ],
+      "observed_q4_counts": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 25.091789125085192,
+        "q4_32_ms": 11.293367812222641,
+        "nodes_32_ms": 0.26195060503054235,
+        "training_mae_ms": 1.2358136048142192
+      },
+      "execute": {
+        "intercept_ms": 12.60168846563301,
+        "q4_32_ms": 0.8777585272017651,
+        "nodes_32_ms": 1.8908203378045423,
+        "training_mae_ms": 0.48275094610291425
+      },
+      "evict": {
+        "intercept_ms": 10.402482661957272,
+        "q4_32_ms": 1.8654254406515918,
+        "nodes_32_ms": -0.364152065339718,
+        "training_mae_ms": 0.597113895111767
+      },
+      "prep_ms": 0.085
+    },
+    "12": {
+      "samples": 126,
+      "q4_range": [
+        2,
+        13
+      ],
+      "observed_q4_counts": [
+        2,
+        3,
+        5,
+        8,
+        10,
+        13
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 23.698288901903602,
+        "q4_32_ms": 18.513396385919872,
+        "nodes_32_ms": 1.496061006909014,
+        "training_mae_ms": 0.6720372279070752
+      },
+      "execute": {
+        "intercept_ms": 12.58696438953363,
+        "q4_32_ms": 0.2703974154522193,
+        "nodes_32_ms": 1.3121413188236628,
+        "training_mae_ms": 0.42507718784715537
+      },
+      "evict": {
+        "intercept_ms": 9.388696773562664,
+        "q4_32_ms": 7.356781325938892,
+        "nodes_32_ms": 1.4496465603465474,
+        "training_mae_ms": 0.6499234994655365
+      },
+      "prep_ms": 0.084
+    },
+    "13": {
+      "samples": 126,
+      "q4_range": [
+        1,
+        14
+      ],
+      "observed_q4_counts": [
+        1,
+        3,
+        7,
+        9,
+        14
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 25.32524353936553,
+        "q4_32_ms": 16.338866066537104,
+        "nodes_32_ms": -0.6747324998034884,
+        "training_mae_ms": 0.6437116824526015
+      },
+      "execute": {
+        "intercept_ms": 12.748899844800569,
+        "q4_32_ms": -0.47351319139786985,
+        "nodes_32_ms": 1.636253492485655,
+        "training_mae_ms": 0.5349824870862944
+      },
+      "evict": {
+        "intercept_ms": 10.024039959523456,
+        "q4_32_ms": 6.328548105958324,
+        "nodes_32_ms": 0.04475292754051242,
+        "training_mae_ms": 0.7175809256328953
+      },
+      "prep_ms": 0.0845
+    },
+    "14": {
+      "samples": 126,
+      "q4_range": [
+        1,
+        10
+      ],
+      "observed_q4_counts": [
+        1,
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 25.10815191974033,
+        "q4_32_ms": 13.83311984539997,
+        "nodes_32_ms": 0.686368181604625,
+        "training_mae_ms": 0.613042877076083
+      },
+      "execute": {
+        "intercept_ms": 13.303383853212186,
+        "q4_32_ms": -0.42529786048630724,
+        "nodes_32_ms": 1.963799846971969,
+        "training_mae_ms": 0.47402165592973156
+      },
+      "evict": {
+        "intercept_ms": 9.806190315493797,
+        "q4_32_ms": 7.587286491355922,
+        "nodes_32_ms": -0.3706449921015763,
+        "training_mae_ms": 0.5916850397858685
+      },
+      "prep_ms": 0.0905
+    },
+    "15": {
+      "samples": 126,
+      "q4_range": [
+        4,
+        17
+      ],
+      "observed_q4_counts": [
+        4,
+        7,
+        11,
+        13,
+        15,
+        17
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 26.515354475460533,
+        "q4_32_ms": 12.035935071720873,
+        "nodes_32_ms": 0.37053761351272474,
+        "training_mae_ms": 0.47146665874273824
+      },
+      "execute": {
+        "intercept_ms": 12.826137528704255,
+        "q4_32_ms": -0.16844422043702836,
+        "nodes_32_ms": 1.9114987678108792,
+        "training_mae_ms": 0.24940296459553016
+      },
+      "evict": {
+        "intercept_ms": 10.164432661205112,
+        "q4_32_ms": 7.96155271169582,
+        "nodes_32_ms": -0.03712063717319989,
+        "training_mae_ms": 0.9019082723918176
+      },
+      "prep_ms": 0.091
+    },
+    "16": {
+      "samples": 126,
+      "q4_range": [
+        2,
+        15
+      ],
+      "observed_q4_counts": [
+        2,
+        5,
+        9,
+        13,
+        15
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 25.362193705098903,
+        "q4_32_ms": 14.245865563212773,
+        "nodes_32_ms": -0.006745874529365214,
+        "training_mae_ms": 0.40639682443258895
+      },
+      "execute": {
+        "intercept_ms": 13.180396399091311,
+        "q4_32_ms": -0.7082683679051894,
+        "nodes_32_ms": 1.7577957581983887,
+        "training_mae_ms": 0.31349466671465415
+      },
+      "evict": {
+        "intercept_ms": 10.782162648352363,
+        "q4_32_ms": 9.301268487115811,
+        "nodes_32_ms": -1.7673677227235955,
+        "training_mae_ms": 1.2322849351642977
+      },
+      "prep_ms": 0.08549999999999999
+    },
+    "17": {
+      "samples": 126,
+      "q4_range": [
+        1,
+        14
+      ],
+      "observed_q4_counts": [
+        1,
+        4,
+        7,
+        8,
+        11,
+        14
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.76152940992146,
+        "q4_32_ms": 15.853514827962588,
+        "nodes_32_ms": -0.16037488878963035,
+        "training_mae_ms": 0.5716135780373807
+      },
+      "execute": {
+        "intercept_ms": 13.149062477876418,
+        "q4_32_ms": -0.8853995876142783,
+        "nodes_32_ms": 1.7378278422137892,
+        "training_mae_ms": 0.23493321139026935
+      },
+      "evict": {
+        "intercept_ms": 10.395295870676074,
+        "q4_32_ms": 5.982206100461525,
+        "nodes_32_ms": 0.7724947078717666,
+        "training_mae_ms": 0.8921237775167474
+      },
+      "prep_ms": 0.087
+    },
+    "18": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        9
+      ],
+      "observed_q4_counts": [
+        0,
+        3,
+        6,
+        7,
+        9
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.969623296768898,
+        "q4_32_ms": 17.226483181055467,
+        "nodes_32_ms": -2.220022104176489,
+        "training_mae_ms": 0.9348148687386484
+      },
+      "execute": {
+        "intercept_ms": 13.048994975952763,
+        "q4_32_ms": -0.879286213450082,
+        "nodes_32_ms": 2.3990896465507805,
+        "training_mae_ms": 0.25521045740254894
+      },
+      "evict": {
+        "intercept_ms": 11.462544737258446,
+        "q4_32_ms": 3.5472100573068874,
+        "nodes_32_ms": -1.8930822832450271,
+        "training_mae_ms": 0.9940035561512843
+      },
+      "prep_ms": 0.089
+    },
+    "19": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        8
+      ],
+      "observed_q4_counts": [
+        0,
+        3,
+        5,
+        7,
+        8
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.980380784822287,
+        "q4_32_ms": 18.553714883479145,
+        "nodes_32_ms": -0.8260508072517735,
+        "training_mae_ms": 0.981241236659894
+      },
+      "execute": {
+        "intercept_ms": 13.227355097074739,
+        "q4_32_ms": -0.3311431639130003,
+        "nodes_32_ms": 1.8971920003167595,
+        "training_mae_ms": 0.27200336263812164
+      },
+      "evict": {
+        "intercept_ms": 9.95289033505423,
+        "q4_32_ms": 6.985998549901568,
+        "nodes_32_ms": 1.7551415180897707,
+        "training_mae_ms": 0.93297113075386
+      },
+      "prep_ms": 0.0785
+    },
+    "20": {
+      "samples": 126,
+      "q4_range": [
+        1,
+        8
+      ],
+      "observed_q4_counts": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 25.05771463884282,
+        "q4_32_ms": 10.825520101383093,
+        "nodes_32_ms": -1.511167572076935,
+        "training_mae_ms": 0.9544277075016505
+      },
+      "execute": {
+        "intercept_ms": 13.027427840065783,
+        "q4_32_ms": 0.4401591094987042,
+        "nodes_32_ms": 2.2439427956475435,
+        "training_mae_ms": 0.2794649943248803
+      },
+      "evict": {
+        "intercept_ms": 10.22195055069012,
+        "q4_32_ms": 5.650038699952775,
+        "nodes_32_ms": 0.36328093114654114,
+        "training_mae_ms": 0.7350173807575233
+      },
+      "prep_ms": 0.079
+    },
+    "21": {
+      "samples": 126,
+      "q4_range": [
+        1,
+        12
+      ],
+      "observed_q4_counts": [
+        1,
+        4,
+        7,
+        9,
+        11,
+        12
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.833866549104023,
+        "q4_32_ms": 13.246441688211709,
+        "nodes_32_ms": -0.45296488750738456,
+        "training_mae_ms": 1.2485843892311803
+      },
+      "execute": {
+        "intercept_ms": 13.094049808438148,
+        "q4_32_ms": -0.7606316538313471,
+        "nodes_32_ms": 2.021407940690037,
+        "training_mae_ms": 0.24589192874581525
+      },
+      "evict": {
+        "intercept_ms": 10.382109265981667,
+        "q4_32_ms": 7.756288441188259,
+        "nodes_32_ms": 0.054867524192285265,
+        "training_mae_ms": 0.8060861776749754
+      },
+      "prep_ms": 0.079
+    },
+    "22": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        5
+      ],
+      "observed_q4_counts": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.747240994889353,
+        "q4_32_ms": 10.584499942469689,
+        "nodes_32_ms": -0.32437643633676094,
+        "training_mae_ms": 1.2101099559001876
+      },
+      "execute": {
+        "intercept_ms": 13.048098197681966,
+        "q4_32_ms": 0.36009226053738713,
+        "nodes_32_ms": 2.3850211766853042,
+        "training_mae_ms": 0.30398772009834935
+      },
+      "evict": {
+        "intercept_ms": 9.877584573316257,
+        "q4_32_ms": 6.739351152805396,
+        "nodes_32_ms": 1.2478288822161703,
+        "training_mae_ms": 0.5823727668404566
+      },
+      "prep_ms": 0.078
+    },
+    "23": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        8
+      ],
+      "observed_q4_counts": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.633164406295723,
+        "q4_32_ms": 9.30900562196058,
+        "nodes_32_ms": -0.5938136855967897,
+        "training_mae_ms": 0.8840829385369278
+      },
+      "execute": {
+        "intercept_ms": 13.127697615106424,
+        "q4_32_ms": -0.07423636911840134,
+        "nodes_32_ms": 2.161642275521465,
+        "training_mae_ms": 0.28738247760415586
+      },
+      "evict": {
+        "intercept_ms": 10.584358161994777,
+        "q4_32_ms": 8.148529825924786,
+        "nodes_32_ms": -0.7353745688205446,
+        "training_mae_ms": 0.99604625976342
+      },
+      "prep_ms": 0.08
+    },
+    "24": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        10
+      ],
+      "observed_q4_counts": [
+        0,
+        1,
+        3,
+        7,
+        8,
+        10
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.99403126673103,
+        "q4_32_ms": 8.873995466048006,
+        "nodes_32_ms": -0.18367031042770218,
+        "training_mae_ms": 1.5577304952471562
+      },
+      "execute": {
+        "intercept_ms": 13.014844454182342,
+        "q4_32_ms": -0.4488289947865371,
+        "nodes_32_ms": 2.2493304616835914,
+        "training_mae_ms": 0.2577323712134856
+      },
+      "evict": {
+        "intercept_ms": 10.610080982690587,
+        "q4_32_ms": 9.067465692585566,
+        "nodes_32_ms": -0.23932715092066165,
+        "training_mae_ms": 1.0936945499792758
+      },
+      "prep_ms": 0.08
+    },
+    "25": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        2
+      ],
+      "observed_q4_counts": [
+        0,
+        1,
+        2
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.661806440873566,
+        "q4_32_ms": 0.0,
+        "nodes_32_ms": -0.4764930410667279,
+        "training_mae_ms": 1.3322804391656409
+      },
+      "execute": {
+        "intercept_ms": 13.150041086877309,
+        "q4_32_ms": 1.7842984634385535,
+        "nodes_32_ms": 2.2029979723959032,
+        "training_mae_ms": 0.2576932277735283
+      },
+      "evict": {
+        "intercept_ms": 10.113395271942322,
+        "q4_32_ms": 6.674017212444376,
+        "nodes_32_ms": 1.4889455160131808,
+        "training_mae_ms": 0.8069635274686614
+      },
+      "prep_ms": 0.078
+    },
+    "26": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        4
+      ],
+      "observed_q4_counts": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.531616590227454,
+        "q4_32_ms": 1.8992361189766087,
+        "nodes_32_ms": -0.9971874727863924,
+        "training_mae_ms": 1.2410257223265109
+      },
+      "execute": {
+        "intercept_ms": 13.048019874633189,
+        "q4_32_ms": 0.3969065736036064,
+        "nodes_32_ms": 2.4406814770057355,
+        "training_mae_ms": 0.29319549872755896
+      },
+      "evict": {
+        "intercept_ms": 9.777884772089607,
+        "q4_32_ms": 4.351658052616371,
+        "nodes_32_ms": 2.0258960785898936,
+        "training_mae_ms": 0.7164995755181645
+      },
+      "prep_ms": 0.079
+    },
+    "27": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        5
+      ],
+      "observed_q4_counts": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.373001884760434,
+        "q4_32_ms": 10.710048196824557,
+        "nodes_32_ms": -0.4926029905885022,
+        "training_mae_ms": 1.6144100822245808
+      },
+      "execute": {
+        "intercept_ms": 12.968156232986807,
+        "q4_32_ms": 0.1575761721697955,
+        "nodes_32_ms": 2.6904275073005968,
+        "training_mae_ms": 0.29875259382888214
+      },
+      "evict": {
+        "intercept_ms": 10.587126600151427,
+        "q4_32_ms": 9.761800787580496,
+        "nodes_32_ms": 0.4447415580060566,
+        "training_mae_ms": 1.0587330649547977
+      },
+      "prep_ms": 0.08
+    },
+    "28": {
+      "samples": 126,
+      "q4_range": [
+        0,
+        4
+      ],
+      "observed_q4_counts": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.29962487984612,
+        "q4_32_ms": 0.0,
+        "nodes_32_ms": -0.2201370115904227,
+        "training_mae_ms": 1.005592190103982
+      },
+      "execute": {
+        "intercept_ms": 13.083907181071325,
+        "q4_32_ms": 2.3769261675268787,
+        "nodes_32_ms": 2.303224020257395,
+        "training_mae_ms": 0.2757542944448082
+      },
+      "evict": {
+        "intercept_ms": 10.500294759498345,
+        "q4_32_ms": 4.662775345594709,
+        "nodes_32_ms": 0.07647055534223689,
+        "training_mae_ms": 1.0243413344274062
+      },
+      "prep_ms": 0.0785
+    },
+    "29": {
+      "samples": 126,
+      "q4_range": [
+        2,
+        8
+      ],
+      "observed_q4_counts": [
+        2,
+        3,
+        5,
+        8
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 25.47471130927494,
+        "q4_32_ms": 7.479018872120119,
+        "nodes_32_ms": -1.020178340501285,
+        "training_mae_ms": 1.695813666174558
+      },
+      "execute": {
+        "intercept_ms": 13.107674416003942,
+        "q4_32_ms": -0.07986624527093018,
+        "nodes_32_ms": 2.36501078279099,
+        "training_mae_ms": 0.3284592173434988
+      },
+      "evict": {
+        "intercept_ms": 9.974743611907005,
+        "q4_32_ms": 4.262081617953428,
+        "nodes_32_ms": 2.1576709020384364,
+        "training_mae_ms": 0.6960226489499628
+      },
+      "prep_ms": 0.079
+    },
+    "30": {
+      "samples": 126,
+      "q4_range": [
+        1,
+        12
+      ],
+      "observed_q4_counts": [
+        1,
+        4,
+        6,
+        9,
+        11,
+        12
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 24.57814642958115,
+        "q4_32_ms": 10.04440876198447,
+        "nodes_32_ms": 0.3761672351954175,
+        "training_mae_ms": 1.261859597501318
+      },
+      "execute": {
+        "intercept_ms": 13.336983577998716,
+        "q4_32_ms": -1.2415114104224578,
+        "nodes_32_ms": 2.5494367812569214,
+        "training_mae_ms": 0.3807919415444096
+      },
+      "evict": {
+        "intercept_ms": 9.354107463188612,
+        "q4_32_ms": 7.191990890480927,
+        "nodes_32_ms": -0.07327375521371687,
+        "training_mae_ms": 0.46257567065282545
+      },
+      "prep_ms": 0.08
+    },
+    "31": {
+      "samples": 126,
+      "q4_range": [
+        22,
+        26
+      ],
+      "observed_q4_counts": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "nodes_range": [
+        5,
+        26
+      ],
+      "load": {
+        "intercept_ms": 44.00581116866111,
+        "q4_32_ms": 0.0,
+        "nodes_32_ms": -1.5303312067565455,
+        "training_mae_ms": 1.8649532834166505
+      },
+      "execute": {
+        "intercept_ms": 17.29136979427078,
+        "q4_32_ms": -9.68433540038664,
+        "nodes_32_ms": 230.53837758798372,
+        "training_mae_ms": 17.095586125573867
+      },
+      "evict": {
+        "intercept_ms": 11.435537081279932,
+        "q4_32_ms": 4.758758945804043,
+        "nodes_32_ms": -0.01688152008587468,
+        "training_mae_ms": 0.9658698895311038
+      },
+      "prep_ms": 0.084
+    }
+  },
+  "sources": [
+    {
+      "top": 40,
+      "log": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\mixed-q2q4-8b-20261021\\phone-results\\logs\\top40_n128.log",
+      "sha256": "d68ea7822642e0ae6b2e2e1869909c5e2ba97dfc4b38c8fcee865484309dfe91",
+      "selection_sha256": "e853eef9602b2d7ff010c7611afc8567e115c7d43d7f93183428526e7fc3f7f4",
+      "observations": 696
+    },
+    {
+      "top": 80,
+      "log": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\mixed-q2q4-8b-20261021\\phone-results\\logs\\top80_n128.log",
+      "sha256": "1a4be78bff113ea9cc49910d091ec04820a01bceed5bce79dae049754673a6b3",
+      "selection_sha256": "f9b174ff737d51954ff8e04549af77125ec84e361d09c1e770331dc61d318e68",
+      "observations": 456
+    },
+    {
+      "top": 120,
+      "log": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\mixed-q2q4-8b-20261021\\phone-results-120-160\\logs\\top120_n128.log",
+      "sha256": "f5e177c5a0baf14e3ff748a553cb1674a71f77b3129c7516721ed6de04951156",
+      "selection_sha256": "6343108e25da2612a5925c86b3eebc3701e707c4f28cbe5f1bf200f2edf53a56",
+      "observations": 456
+    },
+    {
+      "top": 160,
+      "log": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\mixed-q2q4-8b-20261021\\phone-results-120-160\\logs\\top160_n128.log",
+      "sha256": "f59e6d183caf7f2776fb138da04ca3e2a1d8ecfae04dc7f22aec30f10fbfaf6c",
+      "selection_sha256": "5fa9b90934d03a26f704384c905221d0ff1f8b053c61cb0b1f2fc692f6fbbac2",
+      "observations": 552
+    },
+    {
+      "top": 200,
+      "log": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\mixed-q2q4-8b-20261021\\phone-results-200-240\\logs\\top200_n128.log",
+      "sha256": "39951088bd500c9e5047ac9961524b8b4fbca715cd7c656ced45b54e6c16bc86",
+      "selection_sha256": "d23b06237d428ec9a2082e15efc662feea95f868f01d0f5f0adcd802f53d6240",
+      "observations": 456
+    },
+    {
+      "top": 240,
+      "log": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\mixed-q2q4-8b-20261021\\phone-results-200-240\\logs\\top240_n128.log",
+      "sha256": "012c57cc397048490e8c9eec3046f56408a9664c9814549260ecfa7ae1adb0b5",
+      "selection_sha256": "820af2f87fbcb452832e80e44105df70478a6b74e125087e85ed8219415b071b",
+      "observations": 408
+    }
+  ],
+  "units": "milliseconds; true compact file bytes, never Q4 carrier bytes",
+  "model": "ridge0.2, centered linear count/32 and nodes/32; conditional observed concurrent costs",
+  "scope": "same native mixed decoder, seven tensor readers, one layer reader, postcompute eviction"
+}

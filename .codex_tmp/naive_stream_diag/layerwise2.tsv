@@ -1,0 +1,5 @@
+# n_vocab	32000
+# position=chosen_token_position
+step	position	top1_token	top1_id	top1_logit	top2_id	top2_logit	margin
+0	2	,	29892	9.60009766	29991	8.99438477	0.605712891
+1	3	 I	306	12.7939453	590	12.2421875	0.551757812

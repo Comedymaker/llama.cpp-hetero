@@ -21,6 +21,8 @@
 #include <string.h>
 #include <algorithm>
 #include <vector>
+#include <atomic>
+#include <thread>
 
 #ifdef __APPLE__
 #include <sys/types.h>
@@ -774,6 +776,8 @@ struct ggml_backend_sched_split {
     struct ggml_cgraph graph;
 };
 
+struct ggml_backend_sched_weight_plan;
+
 struct ggml_backend_sched {
     bool is_reset; // true if the scheduler has been reset since the last graph split
     bool is_alloc;
@@ -788,6 +792,9 @@ struct ggml_backend_sched {
     struct ggml_hash_set  hash_set;
     int                 * hv_tensor_backend_ids; // [hash_set.size]
     struct ggml_tensor ** hv_tensor_copies;      // [hash_set.size][n_backends][n_copies]
+    uint8_t             * hv_tensor_preloaded;   // [hash_set.size][n_backends][n_copies]
+    struct ggml_backend_sched_weight_plan * weight_plan;
+    bool retain_weight_copies;
 
     int * node_backend_ids; // [graph_size]
     int * leaf_backend_ids; // [graph_size]
@@ -835,6 +842,25 @@ struct ggml_backend_sched {
 #define tensor_backend_id(tensor) sched->hv_tensor_backend_ids[hash_id(tensor)]
 #define tensor_id_copy(id, backend_id, copy_id) sched->hv_tensor_copies[(id) * sched->n_backends * sched->n_copies + (backend_id) * sched->n_copies + (copy_id)]
 #define tensor_copy(tensor, backend_id, copy_id) tensor_id_copy(hash_id(tensor), backend_id, copy_id)
+#define tensor_id_preloaded(id, backend_id, copy_id) sched->hv_tensor_preloaded[(id) * sched->n_backends * sched->n_copies + (backend_id) * sched->n_copies + (copy_id)]
+
+struct ggml_backend_sched_weight_task {
+    const ggml_tensor * src;
+    ggml_tensor * dst;
+    size_t size;
+    size_t id;
+    int backend_id;
+    int copy_id;
+    bool loaded;
+};
+
+struct ggml_backend_sched_weight_plan {
+    ggml_backend_sched_t sched;
+    std::vector<ggml_backend_sched_weight_task> tasks;
+    bool load_finished;
+    bool load_failed;
+    bool committed;
+};
 
 static void ggml_backend_sched_split_inputs_grow(struct ggml_backend_sched_split * split) {
     int new_cap = GGML_SCHED_MAX_SPLIT_INPUTS;
@@ -1405,7 +1431,8 @@ void ggml_backend_sched_split_graph(ggml_backend_sched_t sched, struct ggml_cgra
                         for (int c = 0; c < sched->n_copies; c++) {
                             struct ggml_tensor * tensor_copy = ggml_dup_tensor_layout(sched->ctx, src);
                             ggml_format_name(tensor_copy, "%s#%s#%d", ggml_backend_name(backend), src->name, c);
-                            if (sched->n_copies > 1) {
+                            if (sched->n_copies > 1 || (sched->retain_weight_copies && src->buffer &&
+                                    ggml_backend_buffer_get_usage(src->buffer) == GGML_BACKEND_BUFFER_USAGE_WEIGHTS)) {
                                 ggml_set_input(tensor_copy);
                                 ggml_set_output(tensor_copy); // prevent ggml-alloc from overwriting the tensor
                             }
@@ -1624,6 +1651,10 @@ static enum ggml_status ggml_backend_sched_compute_splits(ggml_backend_sched_t s
             struct ggml_tensor * input = split->inputs[input_id];
             struct ggml_tensor * input_cpy = tensor_copy(input, split_backend_id, sched->cur_copy);
 
+            if (tensor_id_preloaded(hash_id(input), split_backend_id, sched->cur_copy)) {
+                continue;
+            }
+
             if (input->flags & GGML_TENSOR_FLAG_INPUT) {
                 // inputs from the user must be copied immediately to prevent the user overwriting the data before the copy is done
                 if (sched->events[split_backend_id][sched->cur_copy] != NULL) {
@@ -1822,6 +1853,7 @@ ggml_backend_sched_t ggml_backend_sched_new(
     sched->hash_set    = ggml_hash_set_new(graph_size);
     sched->hv_tensor_backend_ids = (int *) malloc(sched->hash_set.size * sizeof(sched->hv_tensor_backend_ids[0]));
     sched->hv_tensor_copies      = (ggml_tensor **) malloc(sched->hash_set.size * sched->n_backends * sched->n_copies * sizeof(struct ggml_tensor *));
+    sched->hv_tensor_preloaded   = (uint8_t *) calloc(sched->hash_set.size * sched->n_backends * sched->n_copies, sizeof(uint8_t));
 
     const size_t ggml_sched_max_splits = graph_size; // at most there is one split for each node in the graph
     const size_t nodes_size = graph_size + ggml_sched_max_splits*GGML_SCHED_MAX_SPLIT_INPUTS*2;
@@ -1867,6 +1899,7 @@ void ggml_backend_sched_free(ggml_backend_sched_t sched) {
     if (sched == NULL) {
         return;
     }
+    GGML_ASSERT(sched->weight_plan == NULL);
     for (int b = 0; b < sched->n_backends; b++) {
         for (int c = 0; c < sched->n_copies; c++) {
             ggml_backend_event_free(sched->events[b][c]);
@@ -1882,6 +1915,7 @@ void ggml_backend_sched_free(ggml_backend_sched_t sched) {
     free(sched->graph_inputs);
     free(sched->hv_tensor_backend_ids);
     free(sched->hv_tensor_copies);
+    free(sched->hv_tensor_preloaded);
     free(sched->node_backend_ids);
     free(sched->leaf_backend_ids);
     free(sched->prev_node_backend_ids);
@@ -1894,11 +1928,13 @@ void ggml_backend_sched_free(ggml_backend_sched_t sched) {
 
 void ggml_backend_sched_reset(ggml_backend_sched_t sched) {
     GGML_ASSERT(sched);
+    GGML_ASSERT(sched->weight_plan == NULL);
     // reset state for the next run
     if (!sched->is_reset) {
         ggml_hash_set_reset(&sched->hash_set);
         memset(sched->hv_tensor_backend_ids, -1, sched->hash_set.size * sizeof(sched->hv_tensor_backend_ids[0]));
         memset(sched->hv_tensor_copies,       0, sched->hash_set.size * sched->n_backends * sched->n_copies * sizeof(struct ggml_tensor *));
+        memset(sched->hv_tensor_preloaded,    0, sched->hash_set.size * sched->n_backends * sched->n_copies * sizeof(uint8_t));
         sched->is_reset = true;
     }
     sched->is_alloc = false;
@@ -1945,6 +1981,11 @@ bool ggml_backend_sched_alloc_graph(ggml_backend_sched_t sched, struct ggml_cgra
 
     ggml_backend_sched_split_graph(sched, graph);
 
+    if (sched->retain_weight_copies && !ggml_gallocr_reserve_n(sched->galloc, &sched->graph,
+            sched->node_backend_ids, sched->leaf_backend_ids)) {
+        return false;
+    }
+
     if (!ggml_backend_sched_alloc_splits(sched)) {
         return false;
     }
@@ -1952,6 +1993,245 @@ bool ggml_backend_sched_alloc_graph(ggml_backend_sched_t sched, struct ggml_cgra
     sched->is_alloc = true;
 
     return true;
+}
+
+static size_t ggml_backend_sched_preload_weights_impl(
+        ggml_backend_sched_t sched, ggml_backend_sched_weight_loader_t loader, void * user_data) {
+    GGML_ASSERT(sched);
+    GGML_ASSERT(sched->is_alloc);
+
+    size_t bytes = 0;
+    for (int split_id = 0; split_id < sched->n_splits; ++split_id) {
+        const auto & split = sched->splits[split_id];
+        const int backend_id = split.backend_id;
+        ggml_backend_t backend = sched->backends[backend_id];
+
+        for (int input_id = 0; input_id < split.n_inputs; ++input_id) {
+            ggml_tensor * input = split.inputs[input_id];
+            if (!input->buffer || ggml_backend_buffer_get_usage(input->buffer) != GGML_BACKEND_BUFFER_USAGE_WEIGHTS) {
+                continue;
+            }
+
+            const size_t id = hash_id(input);
+            ggml_tensor * input_cpy = tensor_id_copy(id, backend_id, sched->cur_copy);
+            if (!input_cpy || tensor_id_preloaded(id, backend_id, sched->cur_copy)) {
+                continue;
+            }
+
+            ggml_backend_t input_backend = ggml_backend_sched_get_tensor_backend(sched, input);
+            if (input_backend == backend) {
+                continue;
+            }
+
+            bool loaded = false;
+            if (loader) {
+                loaded = loader(input, input_cpy->data, ggml_nbytes(input), user_data);
+                if (loaded) {
+                    ggml_backend_tensor_set(input_cpy, input_cpy->data, 0, 0);
+                }
+            }
+            if (!loaded) {
+                ggml_backend_tensor_copy(input, input_cpy);
+            }
+            tensor_id_preloaded(id, backend_id, sched->cur_copy) = 1;
+            bytes += ggml_nbytes(input);
+        }
+    }
+    return bytes;
+}
+
+size_t ggml_backend_sched_preload_weights(ggml_backend_sched_t sched) {
+    return ggml_backend_sched_preload_weights_impl(sched, nullptr, nullptr);
+}
+
+bool ggml_backend_sched_alloc_graph_preload(ggml_backend_sched_t sched, struct ggml_cgraph * graph) {
+    sched->retain_weight_copies = true;
+    const bool ok = ggml_backend_sched_alloc_graph(sched, graph);
+    sched->retain_weight_copies = false;
+    return ok;
+}
+
+size_t ggml_backend_sched_preload_weights_direct(
+        ggml_backend_sched_t sched, ggml_backend_sched_weight_loader_t loader, void * user_data) {
+    GGML_ASSERT(loader);
+    return ggml_backend_sched_preload_weights_impl(sched, loader, user_data);
+}
+
+ggml_backend_sched_weight_plan_t ggml_backend_sched_prepare_weights_direct(
+        ggml_backend_sched_t sched, ggml_backend_sched_weight_filter_t filter, void * user_data) {
+    if (sched == NULL || !sched->is_alloc || sched->weight_plan != NULL) {
+        return NULL;
+    }
+
+    auto * plan = new ggml_backend_sched_weight_plan;
+    plan->sched = sched;
+    plan->load_finished = false;
+    plan->load_failed = false;
+    plan->committed = false;
+
+    for (int split_id = 0; split_id < sched->n_splits; ++split_id) {
+        const auto & split = sched->splits[split_id];
+        const int backend_id = split.backend_id;
+        ggml_backend_t backend = sched->backends[backend_id];
+
+        for (int input_id = 0; input_id < split.n_inputs; ++input_id) {
+            ggml_tensor * input = split.inputs[input_id];
+            if (!input->buffer || ggml_backend_buffer_get_usage(input->buffer) != GGML_BACKEND_BUFFER_USAGE_WEIGHTS) {
+                continue;
+            }
+
+            const size_t id = hash_id(input);
+            ggml_tensor * input_cpy = tensor_id_copy(id, backend_id, sched->cur_copy);
+            if (!input_cpy || tensor_id_preloaded(id, backend_id, sched->cur_copy)) {
+                continue;
+            }
+
+            ggml_backend_t input_backend = ggml_backend_sched_get_tensor_backend(sched, input);
+            if (input_backend == backend) {
+                continue;
+            }
+
+            if (filter != NULL && !filter(input, user_data)) {
+                ggml_backend_tensor_copy(input, input_cpy);
+                tensor_id_preloaded(id, backend_id, sched->cur_copy) = 1;
+                continue;
+            }
+
+            const auto task = std::find_if(plan->tasks.begin(), plan->tasks.end(), [id, backend_id, sched](const ggml_backend_sched_weight_task & task) {
+                return task.id == id && task.backend_id == backend_id && task.copy_id == sched->cur_copy;
+            });
+            if (task != plan->tasks.end()) {
+                continue;
+            }
+
+            plan->tasks.push_back({ input, input_cpy, ggml_nbytes(input), id, backend_id, sched->cur_copy, false });
+        }
+    }
+
+    sched->weight_plan = plan;
+    return plan;
+}
+
+int64_t ggml_backend_sched_load_weight_plan(
+        ggml_backend_sched_weight_plan_t plan, ggml_backend_sched_weight_loader_t loader, void * user_data) {
+    if (plan == NULL || loader == NULL || plan->load_finished) {
+        return -1;
+    }
+
+    int64_t bytes = 0;
+    for (auto & task : plan->tasks) {
+        if (task.size > (uint64_t) (INT64_MAX - bytes)) {
+            GGML_LOG_ERROR("%s: tensor %s of type %s is too large\n", __func__, task.src->name, ggml_type_name(task.src->type));
+            plan->load_failed = true;
+            plan->load_finished = true;
+            return -1;
+        }
+        if (!loader(task.src, task.dst->data, task.size, user_data)) {
+            GGML_LOG_ERROR("%s: failed to load tensor %s of type %s\n", __func__, task.src->name, ggml_type_name(task.src->type));
+            plan->load_failed = true;
+            plan->load_finished = true;
+            return -1;
+        }
+        task.loaded = true;
+        bytes += task.size;
+    }
+
+    plan->load_finished = true;
+    return bytes;
+}
+
+int64_t ggml_backend_sched_load_weight_plan_parallel(
+        ggml_backend_sched_weight_plan_t plan, ggml_backend_sched_weight_loader_t loader, void * user_data, int n_threads) {
+    if (n_threads == 1) {
+        return ggml_backend_sched_load_weight_plan(plan, loader, user_data);
+    }
+    if (!plan || !loader || plan->load_finished || n_threads < 1 || n_threads > 16) {
+        return -1;
+    }
+    int64_t bytes = 0;
+    for (size_t i = 0; i < plan->tasks.size(); ++i) {
+        const auto & task = plan->tasks[i];
+        if (!task.src || !task.dst || !task.dst->data || task.size != ggml_nbytes(task.src)) {
+            return -1;
+        }
+        if (task.size > (uint64_t) (INT64_MAX - bytes)) {
+            return -1;
+        }
+        const uintptr_t begin = (uintptr_t) task.dst->data;
+        if (task.size > UINTPTR_MAX - begin) {
+            return -1;
+        }
+        for (size_t j = 0; j < i; ++j) {
+            const auto & other = plan->tasks[j];
+            const uintptr_t other_begin = (uintptr_t) other.dst->data;
+            if (begin < other_begin + other.size && other_begin < begin + task.size) {
+                GGML_LOG_ERROR("%s: overlapping weight destinations\n", __func__);
+                return -1;
+            }
+        }
+        bytes += task.size;
+    }
+    std::atomic<size_t> next{0};
+    std::atomic<bool> failed{false};
+    auto read = [&]() {
+        while (!failed.load()) {
+            const size_t i = next.fetch_add(1);
+            if (i >= plan->tasks.size()) {
+                break;
+            }
+            auto & task = plan->tasks[i];
+            try {
+                task.loaded = loader(task.src, task.dst->data, task.size, user_data);
+                if (!task.loaded) {
+                    failed.store(true);
+                }
+            } catch (...) {
+                failed.store(true);
+            }
+        }
+    };
+    std::vector<std::thread> workers;
+    try {
+        for (int i = 1; i < n_threads && i < (int) plan->tasks.size(); ++i) {
+            workers.emplace_back(read);
+        }
+        read();
+    } catch (...) {
+        failed.store(true);
+    }
+    for (auto & worker : workers) {
+        worker.join();
+    }
+    plan->load_failed = failed.load();
+    plan->load_finished = true;
+    return plan->load_failed ? -1 : bytes;
+}
+
+bool ggml_backend_sched_commit_weight_plan(ggml_backend_sched_weight_plan_t plan) {
+    if (plan == NULL || !plan->load_finished || plan->committed || plan->sched->weight_plan != plan) {
+        return false;
+    }
+
+    ggml_backend_sched_t sched = plan->sched;
+    for (const auto & task : plan->tasks) {
+        if (!task.loaded) {
+            continue;
+        }
+        ggml_backend_tensor_set(task.dst, task.dst->data, 0, 0);
+        tensor_id_preloaded(task.id, task.backend_id, task.copy_id) = 1;
+    }
+
+    plan->committed = true;
+    return !plan->load_failed;
+}
+
+void ggml_backend_sched_free_weight_plan(ggml_backend_sched_weight_plan_t plan) {
+    if (plan == NULL) {
+        return;
+    }
+    GGML_ASSERT(plan->sched->weight_plan == plan);
+    plan->sched->weight_plan = NULL;
+    delete plan;
 }
 
 enum ggml_status ggml_backend_sched_graph_compute(ggml_backend_sched_t sched, struct ggml_cgraph * graph) {

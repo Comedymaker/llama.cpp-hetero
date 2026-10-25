@@ -18,6 +18,7 @@ extern "C" {
 #define HTP_MM_HMX_TILE_SIZE   (32 * 32 * sizeof(__fp16)) // 2048 bytes
 #define HTP_MM_HMX_TILE_N_ELMS 1024
 #define HTP_MM_HMX_MIN_NROWS   4
+#define HTP_MM_HMX_MIN_ID_ROWS 32
 
 // --- Weight Repacked Tile Sizes ---
 #define HTP_MM_WEIGHT_TILE_SIZE_Q4_0   576

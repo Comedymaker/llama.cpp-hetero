@@ -1,0 +1,712 @@
+{
+  "schema": 2,
+  "status": "offline_interpolation_not_phone_validated",
+  "route": "direct",
+  "deployment": "q23-direct-cpu4-r7",
+  "nodes": 12,
+  "base_bit": 2,
+  "upgrade_bit": 3,
+  "bit_counts": {
+    "3": 763,
+    "2": 5
+  },
+  "per_layer_upgraded": {
+    "8": 32,
+    "9": 32,
+    "10": 32,
+    "11": 32,
+    "12": 32,
+    "13": 32,
+    "14": 32,
+    "15": 32,
+    "16": 32,
+    "17": 32,
+    "18": 32,
+    "19": 32,
+    "20": 32,
+    "21": 32,
+    "22": 32,
+    "23": 32,
+    "24": 32,
+    "25": 32,
+    "26": 32,
+    "27": 32,
+    "28": 32,
+    "29": 32,
+    "30": 32,
+    "31": 27
+  },
+  "objective": "balance first beyond declared tolerance band; within band precision preference, not fictitious exact equality",
+  "within_balance": "precision",
+  "prediction": {
+    "read_union_ms": 621.7312968749999,
+    "copy_union_ms": 0.0,
+    "execute_union_ms": 344.12635937500016,
+    "evict_union_ms": 312.60500000000025,
+    "execute_evict_union_ms": 633.3833593750004,
+    "execute_copy_union_ms": 344.12635937500016,
+    "read_over_execute_evict": 0.9816034596938285,
+    "read_over_execute_copy": 1.8066947792205859,
+    "downstream_union_ms": 633.3833593750004,
+    "ratio": 0.9816034596938285,
+    "objective": 0.01856786104618156,
+    "balance_tolerance": 0.02,
+    "balance_penalty": 0.0,
+    "read_execute_overlap_ms": 242.1170000000002,
+    "read_copy_overlap_ms": 0.0,
+    "tail_to_sync_ms": 1034.4453593749997,
+    "evict_drain_ms": 13.933828124999991,
+    "payload_bytes": 2285830144,
+    "staging_reserved_bytes": 0,
+    "staging_scope": "aggregate scheduling buffers, not total runtime/HTP/PageCache peak",
+    "timeline": [
+      {
+        "layer": 8,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 337.64199999999994,
+        "execute_end_ms": 347.05999999999995,
+        "evict_begin_ms": 347.05999999999995,
+        "evict_end_ms": 360.27099999999996,
+        "cost": {
+          "read": 29.15,
+          "copy": 0.0,
+          "execute": 9.418,
+          "evict": 13.211,
+          "prep": 308.49199999999996,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": -0.0,
+            "read_end_ms": 29.15
+          }
+        ]
+      },
+      {
+        "layer": 9,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 365.76149999999996,
+        "execute_end_ms": 375.21199999999993,
+        "evict_begin_ms": 375.21199999999993,
+        "evict_end_ms": 387.75449999999995,
+        "cost": {
+          "read": 27.9375,
+          "copy": 0.0,
+          "execute": 9.4505,
+          "evict": 12.5425,
+          "prep": 0.182,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 337.64199999999994,
+            "read_end_ms": 365.57949999999994
+          }
+        ]
+      },
+      {
+        "layer": 10,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 395.78099999999995,
+        "execute_end_ms": 405.31649999999996,
+        "evict_begin_ms": 405.31649999999996,
+        "evict_end_ms": 417.4645,
+        "cost": {
+          "read": 29.8905,
+          "copy": 0.0,
+          "execute": 9.535499999999999,
+          "evict": 12.148,
+          "prep": 0.129,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 365.76149999999996,
+            "read_end_ms": 395.65199999999993
+          }
+        ]
+      },
+      {
+        "layer": 11,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 421.59549999999996,
+        "execute_end_ms": 431.1015,
+        "evict_begin_ms": 431.1015,
+        "evict_end_ms": 443.1125,
+        "cost": {
+          "read": 25.6675,
+          "copy": 0.0,
+          "execute": 9.506,
+          "evict": 12.011,
+          "prep": 0.14700000000000002,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 395.78099999999995,
+            "read_end_ms": 421.44849999999997
+          }
+        ]
+      },
+      {
+        "layer": 12,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 449.21349999999995,
+        "execute_end_ms": 458.919,
+        "evict_begin_ms": 458.919,
+        "evict_end_ms": 471.58099999999996,
+        "cost": {
+          "read": 27.4905,
+          "copy": 0.0,
+          "execute": 9.7055,
+          "evict": 12.661999999999999,
+          "prep": 0.1275,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 421.59549999999996,
+            "read_end_ms": 449.08599999999996
+          }
+        ]
+      },
+      {
+        "layer": 13,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 476.70099999999996,
+        "execute_end_ms": 486.22299999999996,
+        "evict_begin_ms": 486.22299999999996,
+        "evict_end_ms": 498.40549999999996,
+        "cost": {
+          "read": 27.3625,
+          "copy": 0.0,
+          "execute": 9.522,
+          "evict": 12.182500000000001,
+          "prep": 0.125,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 449.21349999999995,
+            "read_end_ms": 476.57599999999996
+          }
+        ]
+      },
+      {
+        "layer": 14,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 506.05249999999995,
+        "execute_end_ms": 516.3665,
+        "evict_begin_ms": 516.3665,
+        "evict_end_ms": 528.7055,
+        "cost": {
+          "read": 29.253,
+          "copy": 0.0,
+          "execute": 10.314,
+          "evict": 12.339,
+          "prep": 0.0985,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 476.70099999999996,
+            "read_end_ms": 505.95399999999995
+          }
+        ]
+      },
+      {
+        "layer": 15,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 533.7629999999999,
+        "execute_end_ms": 545.1974999999999,
+        "evict_begin_ms": 545.1974999999999,
+        "evict_end_ms": 557.3734999999999,
+        "cost": {
+          "read": 27.6145,
+          "copy": 0.0,
+          "execute": 11.4345,
+          "evict": 12.176,
+          "prep": 0.096,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 506.05249999999995,
+            "read_end_ms": 533.6669999999999
+          }
+        ]
+      },
+      {
+        "layer": 16,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 563.5349999999999,
+        "execute_end_ms": 575.8304999999998,
+        "evict_begin_ms": 575.8304999999998,
+        "evict_end_ms": 588.5369999999998,
+        "cost": {
+          "read": 29.674999999999997,
+          "copy": 0.0,
+          "execute": 12.2955,
+          "evict": 12.7065,
+          "prep": 0.097,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 533.7629999999999,
+            "read_end_ms": 563.4379999999999
+          }
+        ]
+      },
+      {
+        "layer": 17,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 591.1914999999998,
+        "execute_end_ms": 603.5274999999998,
+        "evict_begin_ms": 603.5274999999998,
+        "evict_end_ms": 618.6049999999998,
+        "cost": {
+          "read": 27.558999999999997,
+          "copy": 0.0,
+          "execute": 12.335999999999999,
+          "evict": 15.0775,
+          "prep": 0.0975,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 563.5349999999999,
+            "read_end_ms": 591.0939999999998
+          }
+        ]
+      },
+      {
+        "layer": 18,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 620.3139999999997,
+        "execute_end_ms": 630.7789999999998,
+        "evict_begin_ms": 630.7789999999998,
+        "evict_end_ms": 644.2189999999998,
+        "cost": {
+          "read": 29.024500000000003,
+          "copy": 0.0,
+          "execute": 10.465,
+          "evict": 13.440000000000001,
+          "prep": 0.098,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 591.1914999999998,
+            "read_end_ms": 620.2159999999998
+          }
+        ]
+      },
+      {
+        "layer": 19,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 647.9889999999997,
+        "execute_end_ms": 658.4834999999997,
+        "evict_begin_ms": 658.4834999999997,
+        "evict_end_ms": 675.9324999999997,
+        "cost": {
+          "read": 27.584000000000003,
+          "copy": 0.0,
+          "execute": 10.494499999999999,
+          "evict": 17.448999999999998,
+          "prep": 0.091,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 620.3139999999997,
+            "read_end_ms": 647.8979999999997
+          }
+        ]
+      },
+      {
+        "layer": 20,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 672.9864999999998,
+        "execute_end_ms": 684.2244999999998,
+        "evict_begin_ms": 684.2244999999998,
+        "evict_end_ms": 698.9079999999998,
+        "cost": {
+          "read": 24.9265,
+          "copy": 0.0,
+          "execute": 11.238,
+          "evict": 14.6835,
+          "prep": 0.07100000000000001,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 647.9889999999997,
+            "read_end_ms": 672.9154999999997
+          }
+        ]
+      },
+      {
+        "layer": 21,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 695.5539999999999,
+        "execute_end_ms": 706.0714999999999,
+        "evict_begin_ms": 706.0714999999999,
+        "evict_end_ms": 721.2249999999999,
+        "cost": {
+          "read": 22.488,
+          "copy": 0.0,
+          "execute": 10.5175,
+          "evict": 15.153500000000001,
+          "prep": 0.07949999999999999,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 672.9864999999998,
+            "read_end_ms": 695.4744999999998
+          }
+        ]
+      },
+      {
+        "layer": 22,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 718.6349999999999,
+        "execute_end_ms": 729.1674999999999,
+        "evict_begin_ms": 729.1674999999999,
+        "evict_end_ms": 742.444,
+        "cost": {
+          "read": 23.0005,
+          "copy": 0.0,
+          "execute": 10.5325,
+          "evict": 13.276499999999999,
+          "prep": 0.0805,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 695.5539999999999,
+            "read_end_ms": 718.5544999999998
+          }
+        ]
+      },
+      {
+        "layer": 23,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 741.4239999999999,
+        "execute_end_ms": 752.2954999999998,
+        "evict_begin_ms": 752.2954999999998,
+        "evict_end_ms": 765.7979999999999,
+        "cost": {
+          "read": 22.709,
+          "copy": 0.0,
+          "execute": 10.871500000000001,
+          "evict": 13.502500000000001,
+          "prep": 0.08,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 718.6349999999999,
+            "read_end_ms": 741.3439999999998
+          }
+        ]
+      },
+      {
+        "layer": 24,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 764.7144999999999,
+        "execute_end_ms": 775.1469999999999,
+        "evict_begin_ms": 775.1469999999999,
+        "evict_end_ms": 787.7655,
+        "cost": {
+          "read": 23.2055,
+          "copy": 0.0,
+          "execute": 10.432500000000001,
+          "evict": 12.618500000000001,
+          "prep": 0.08499999999999999,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 741.4239999999999,
+            "read_end_ms": 764.6294999999999
+          }
+        ]
+      },
+      {
+        "layer": 25,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 787.8949999999999,
+        "execute_end_ms": 798.3934999999999,
+        "evict_begin_ms": 798.3934999999999,
+        "evict_end_ms": 811.9929999999999,
+        "cost": {
+          "read": 23.102,
+          "copy": 0.0,
+          "execute": 10.4985,
+          "evict": 13.599499999999999,
+          "prep": 0.0785,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 764.7144999999999,
+            "read_end_ms": 787.8164999999999
+          }
+        ]
+      },
+      {
+        "layer": 26,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 810.5864999999999,
+        "execute_end_ms": 821.1979999999999,
+        "evict_begin_ms": 821.1979999999999,
+        "evict_end_ms": 838.6804999999998,
+        "cost": {
+          "read": 22.6205,
+          "copy": 0.0,
+          "execute": 10.6115,
+          "evict": 17.4825,
+          "prep": 0.07100000000000001,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 787.8949999999999,
+            "read_end_ms": 810.5154999999999
+          }
+        ]
+      },
+      {
+        "layer": 27,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 833.6634999999999,
+        "execute_end_ms": 844.5464999999999,
+        "evict_begin_ms": 844.5464999999999,
+        "evict_end_ms": 858.3989999999999,
+        "cost": {
+          "read": 23.003500000000003,
+          "copy": 0.0,
+          "execute": 10.883,
+          "evict": 13.8525,
+          "prep": 0.07350000000000001,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 810.5864999999999,
+            "read_end_ms": 833.5899999999999
+          }
+        ]
+      },
+      {
+        "layer": 28,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 856.3709999999999,
+        "execute_end_ms": 867.0524999999999,
+        "evict_begin_ms": 867.0524999999999,
+        "evict_end_ms": 880.4984999999999,
+        "cost": {
+          "read": 22.634,
+          "copy": 0.0,
+          "execute": 10.6815,
+          "evict": 13.446,
+          "prep": 0.0735,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 833.6634999999999,
+            "read_end_ms": 856.2974999999999
+          }
+        ]
+      },
+      {
+        "layer": 29,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 1,
+        "execute_begin_ms": 879.6129999999998,
+        "execute_end_ms": 890.2464999999999,
+        "evict_begin_ms": 890.2464999999999,
+        "evict_end_ms": 905.0179999999998,
+        "cost": {
+          "read": 23.17,
+          "copy": 0.0,
+          "execute": 10.6335,
+          "evict": 14.7715,
+          "prep": 0.072,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 856.3709999999999,
+            "read_end_ms": 879.5409999999998
+          }
+        ]
+      },
+      {
+        "layer": 30,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 32,
+        "htp_slot": 0,
+        "execute_begin_ms": 902.0004999999999,
+        "execute_end_ms": 912.7404999999999,
+        "evict_begin_ms": 912.7404999999999,
+        "evict_end_ms": 925.0139999999999,
+        "cost": {
+          "read": 22.305500000000002,
+          "copy": 0.0,
+          "execute": 10.739999999999998,
+          "evict": 12.273499999999999,
+          "prep": 0.082,
+          "payload_bytes": 95420416
+        },
+        "chunks": [
+          {
+            "bytes": 95420416,
+            "read_begin_ms": 879.6129999999998,
+            "read_end_ms": 901.9184999999999
+          }
+        ]
+      },
+      {
+        "layer": 31,
+        "base_bit": 2,
+        "upgrade_bit": 3,
+        "upgraded": 27,
+        "htp_slot": 1,
+        "execute_begin_ms": 932.4359999999998,
+        "execute_end_ms": 1034.4453593749997,
+        "evict_begin_ms": 1034.4453593749997,
+        "evict_end_ms": 1048.3791874999997,
+        "cost": {
+          "read": 30.357796875000002,
+          "copy": 0.0,
+          "execute": 102.009359375,
+          "evict": 13.933828125,
+          "prep": 0.077703125,
+          "payload_bytes": 91160576
+        },
+        "chunks": [
+          {
+            "bytes": 91160576,
+            "read_begin_ms": 902.0004999999999,
+            "read_end_ms": 932.3582968749998
+          }
+        ]
+      }
+    ]
+  },
+  "ranking_sha256": "58b3b88781c56b8a7875d2b76a1f39b99f1e68442e1480765cbc59e7d999133f",
+  "source_evict_policies": [
+    "postcompute"
+  ],
+  "node_clamp_requested": false,
+  "io_scale": 1.0,
+  "warnings": [
+    "Offline prediction, not device-validated optimal count or speed.",
+    "New mixed Q2/Q3 costs interpolate pure-format anchors; mixed-kernel overhead and contention not calibrated.",
+    "Node costs use real rows, not depth/window; tree shape and Tile boundaries not independently fitted.",
+    "Direct is seven-participant measured reader team; staged uses an aggregate read lane plus one serial copy lane.",
+    "Synthetic chunks distribute aggregate stage costs proportionally; tensor/chunk granularity effects need replay validation.",
+    "Compute includes DSP dequantization/dispatch/sync, not pure HMX arithmetic; eviction is not useful compute.",
+    "Only L8 may be prefetched during Draft; L9 read starts at L8 execute start; HTP slots are overwritten only after prior compute completes.",
+    "Eviction is modeled after compute; existing staged Q4 anchor evicted after read with near-zero O_DIRECT fadvise work, so its policy has changed.",
+    "No proof of total DRAM limit; staging reservation excludes HTP, allocator, KV and Page Cache.",
+    "Finite eviction-queue backpressure and changes in CPU/cache/storage contention are not simulated beyond observed costs.",
+    "Old Q2-to-Q4 NLL importance selects identities; it is not a measured Q2-to-Q3 benefit table.",
+    "More upgraded shards is a precision proxy, not a measured quality objective; coordinate search has no global optimality proof.",
+    "Changing bit distribution can change acceptance and tree size; this holds verification rows fixed."
+  ],
+  "driver_sha256": "8637c2c3bdc42072b77239d718a7b5ad59bcb2c63668ff438190f0c4a7c7c5b6",
+  "profile_sha256": "e60951ac96b1c2b1afb05d2971522496fc255c4cb0bea28da66485e188b2891e"
+}

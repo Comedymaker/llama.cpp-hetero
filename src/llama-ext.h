@@ -114,6 +114,13 @@ LLAMA_API void llama_set_embeddings_layer_inp(struct llama_context * ctx, uint32
 // LLAMA_API float * llama_get_embeddings(struct llama_context * ctx);
 LLAMA_API float * llama_get_embeddings_layer_inp(struct llama_context * ctx, uint32_t lid);
 
+LLAMA_API void llama_release_compute(struct llama_context * ctx);
+LLAMA_API int64_t llama_preload_compute_weights(struct llama_context * ctx, struct llama_batch batch);
+LLAMA_API int64_t llama_preload_compute_weights_direct(struct llama_context * ctx, struct llama_batch batch);
+LLAMA_API bool llama_prepare_compute_weights_direct(struct llama_context * ctx, struct llama_batch batch);
+LLAMA_API int64_t llama_read_prepared_compute_weights(struct llama_context * ctx);
+LLAMA_API bool llama_commit_prepared_compute_weights(struct llama_context * ctx);
+
 LLAMA_API llama_context * llama_get_ctx_other(struct llama_context * ctx);
 
 //

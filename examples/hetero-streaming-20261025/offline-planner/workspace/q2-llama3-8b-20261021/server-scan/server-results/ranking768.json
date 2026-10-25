@@ -1,0 +1,6914 @@
+[
+  {
+    "layer": "31",
+    "shard": "5",
+    "upgraded_nll": "2.65150135808",
+    "benefit": "0.0718922389642",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0442413778241"
+  },
+  {
+    "layer": "31",
+    "shard": "31",
+    "upgraded_nll": "2.67656504551",
+    "benefit": "0.0468285515338",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0288175701747"
+  },
+  {
+    "layer": "31",
+    "shard": "2",
+    "upgraded_nll": "2.70623626983",
+    "benefit": "0.0171573272165",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0105583552102"
+  },
+  {
+    "layer": "31",
+    "shard": "30",
+    "upgraded_nll": "2.71085612029",
+    "benefit": "0.0125374767501",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00771537030773"
+  },
+  {
+    "layer": "31",
+    "shard": "29",
+    "upgraded_nll": "2.71583203661",
+    "benefit": "0.00756156043592",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00465326796057"
+  },
+  {
+    "layer": "31",
+    "shard": "12",
+    "upgraded_nll": "2.71649615696",
+    "benefit": "0.0068974400825",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00424457851231"
+  },
+  {
+    "layer": "31",
+    "shard": "11",
+    "upgraded_nll": "2.71655287618",
+    "benefit": "0.00684072085934",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00420967437498"
+  },
+  {
+    "layer": "31",
+    "shard": "4",
+    "upgraded_nll": "2.71665025603",
+    "benefit": "0.00674334101218",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00414974831519"
+  },
+  {
+    "layer": "30",
+    "shard": "20",
+    "upgraded_nll": "2.7169462954",
+    "benefit": "0.00644730163937",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00396757023961"
+  },
+  {
+    "layer": "31",
+    "shard": "1",
+    "upgraded_nll": "2.71706407731",
+    "benefit": "0.00632951973141",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00389508906548"
+  },
+  {
+    "layer": "31",
+    "shard": "0",
+    "upgraded_nll": "2.71726040451",
+    "benefit": "0.00613319253068",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00377427232657"
+  },
+  {
+    "layer": "31",
+    "shard": "25",
+    "upgraded_nll": "2.71747243557",
+    "benefit": "0.00592116146956",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00364379167357"
+  },
+  {
+    "layer": "31",
+    "shard": "21",
+    "upgraded_nll": "2.71752979076",
+    "benefit": "0.00586380628756",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00360849617696"
+  },
+  {
+    "layer": "31",
+    "shard": "6",
+    "upgraded_nll": "2.71776948697",
+    "benefit": "0.00562411007117",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00346099081303"
+  },
+  {
+    "layer": "31",
+    "shard": "3",
+    "upgraded_nll": "2.71780778677",
+    "benefit": "0.00558581027249",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00343742170615"
+  },
+  {
+    "layer": "31",
+    "shard": "14",
+    "upgraded_nll": "2.71796095743",
+    "benefit": "0.00543263960989",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00334316283685"
+  },
+  {
+    "layer": "31",
+    "shard": "19",
+    "upgraded_nll": "2.71830594345",
+    "benefit": "0.00508765359514",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00313086375086"
+  },
+  {
+    "layer": "31",
+    "shard": "24",
+    "upgraded_nll": "2.71839960604",
+    "benefit": "0.00499399100346",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0030732252329"
+  },
+  {
+    "layer": "31",
+    "shard": "22",
+    "upgraded_nll": "2.71856909198",
+    "benefit": "0.00482450506819",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00296892619581"
+  },
+  {
+    "layer": "31",
+    "shard": "28",
+    "upgraded_nll": "2.71858710744",
+    "benefit": "0.0048064896077",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00295783975858"
+  },
+  {
+    "layer": "31",
+    "shard": "13",
+    "upgraded_nll": "2.71868927619",
+    "benefit": "0.00470432085066",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00289496667733"
+  },
+  {
+    "layer": "9",
+    "shard": "4",
+    "upgraded_nll": "2.71908795238",
+    "benefit": "0.00430564466633",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00264962748697"
+  },
+  {
+    "layer": "20",
+    "shard": "19",
+    "upgraded_nll": "2.71914172058",
+    "benefit": "0.00425187646321",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00261653936198"
+  },
+  {
+    "layer": "31",
+    "shard": "16",
+    "upgraded_nll": "2.71968796975",
+    "benefit": "0.00370562729151",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00228038602555"
+  },
+  {
+    "layer": "15",
+    "shard": "19",
+    "upgraded_nll": "2.71972969757",
+    "benefit": "0.00366389947056",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0022547073665"
+  },
+  {
+    "layer": "13",
+    "shard": "30",
+    "upgraded_nll": "2.71975900964",
+    "benefit": "0.00363458740352",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0022366691714"
+  },
+  {
+    "layer": "14",
+    "shard": "13",
+    "upgraded_nll": "2.7199688145",
+    "benefit": "0.0034247825405",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00210755848646"
+  },
+  {
+    "layer": "31",
+    "shard": "10",
+    "upgraded_nll": "2.72001317019",
+    "benefit": "0.00338042685633",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00208026268082"
+  },
+  {
+    "layer": "15",
+    "shard": "16",
+    "upgraded_nll": "2.72007400801",
+    "benefit": "0.0033195890347",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00204282402136"
+  },
+  {
+    "layer": "15",
+    "shard": "10",
+    "upgraded_nll": "2.72019845552",
+    "benefit": "0.00319514152101",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00196624093601"
+  },
+  {
+    "layer": "17",
+    "shard": "14",
+    "upgraded_nll": "2.72021656054",
+    "benefit": "0.00317703650212",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00195509938592"
+  },
+  {
+    "layer": "12",
+    "shard": "20",
+    "upgraded_nll": "2.72029254372",
+    "benefit": "0.00310105332088",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00190834050516"
+  },
+  {
+    "layer": "29",
+    "shard": "3",
+    "upgraded_nll": "2.72032826935",
+    "benefit": "0.0030653276978",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00188635550634"
+  },
+  {
+    "layer": "12",
+    "shard": "22",
+    "upgraded_nll": "2.72036023135",
+    "benefit": "0.00303336569133",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00186668657928"
+  },
+  {
+    "layer": "29",
+    "shard": "16",
+    "upgraded_nll": "2.72038524911",
+    "benefit": "0.00300834793492",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00185129103687"
+  },
+  {
+    "layer": "16",
+    "shard": "9",
+    "upgraded_nll": "2.72042057369",
+    "benefit": "0.00297302335054",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0018295528311"
+  },
+  {
+    "layer": "11",
+    "shard": "22",
+    "upgraded_nll": "2.72043747871",
+    "benefit": "0.00295611833701",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00181914974585"
+  },
+  {
+    "layer": "16",
+    "shard": "6",
+    "upgraded_nll": "2.72044637715",
+    "benefit": "0.00294721989352",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00181367378062"
+  },
+  {
+    "layer": "21",
+    "shard": "18",
+    "upgraded_nll": "2.72055239883",
+    "benefit": "0.00284119821249",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00174842966922"
+  },
+  {
+    "layer": "15",
+    "shard": "30",
+    "upgraded_nll": "2.72057728957",
+    "benefit": "0.00281630747291",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00173311229102"
+  },
+  {
+    "layer": "23",
+    "shard": "22",
+    "upgraded_nll": "2.72058881822",
+    "benefit": "0.00280477881999",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00172601773538"
+  },
+  {
+    "layer": "21",
+    "shard": "20",
+    "upgraded_nll": "2.72061471857",
+    "benefit": "0.00277887847168",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0017100790595"
+  },
+  {
+    "layer": "10",
+    "shard": "9",
+    "upgraded_nll": "2.72065140801",
+    "benefit": "0.00274218903888",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.001687500947"
+  },
+  {
+    "layer": "16",
+    "shard": "16",
+    "upgraded_nll": "2.72066440487",
+    "benefit": "0.00272919216926",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00167950287339"
+  },
+  {
+    "layer": "19",
+    "shard": "22",
+    "upgraded_nll": "2.7206840842",
+    "benefit": "0.00270951283912",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00166739251638"
+  },
+  {
+    "layer": "16",
+    "shard": "24",
+    "upgraded_nll": "2.72077260308",
+    "benefit": "0.00262099396434",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00161291936267"
+  },
+  {
+    "layer": "30",
+    "shard": "17",
+    "upgraded_nll": "2.72080838152",
+    "benefit": "0.00258521552418",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00159090186104"
+  },
+  {
+    "layer": "13",
+    "shard": "9",
+    "upgraded_nll": "2.72083872799",
+    "benefit": "0.00255486905095",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00157222710828"
+  },
+  {
+    "layer": "8",
+    "shard": "23",
+    "upgraded_nll": "2.72087421775",
+    "benefit": "0.00251937929577",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00155038725894"
+  },
+  {
+    "layer": "30",
+    "shard": "18",
+    "upgraded_nll": "2.72090711975",
+    "benefit": "0.00248647729414",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00153013987332"
+  },
+  {
+    "layer": "19",
+    "shard": "19",
+    "upgraded_nll": "2.72091829328",
+    "benefit": "0.00247530376049",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00152326385261"
+  },
+  {
+    "layer": "14",
+    "shard": "3",
+    "upgraded_nll": "2.72092406244",
+    "benefit": "0.00246953460192",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00151971360118"
+  },
+  {
+    "layer": "15",
+    "shard": "3",
+    "upgraded_nll": "2.72097883818",
+    "benefit": "0.00241475886387",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00148600545469"
+  },
+  {
+    "layer": "17",
+    "shard": "31",
+    "upgraded_nll": "2.72102753165",
+    "benefit": "0.00236606539438",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00145604024269"
+  },
+  {
+    "layer": "10",
+    "shard": "3",
+    "upgraded_nll": "2.72102865648",
+    "benefit": "0.00236494056248",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00145534803845"
+  },
+  {
+    "layer": "9",
+    "shard": "7",
+    "upgraded_nll": "2.72103512882",
+    "benefit": "0.00235846822357",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00145136506066"
+  },
+  {
+    "layer": "9",
+    "shard": "21",
+    "upgraded_nll": "2.72103526993",
+    "benefit": "0.0023583271153",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0014512782248"
+  },
+  {
+    "layer": "21",
+    "shard": "14",
+    "upgraded_nll": "2.72103815257",
+    "benefit": "0.00235544447761",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00144950429392"
+  },
+  {
+    "layer": "20",
+    "shard": "29",
+    "upgraded_nll": "2.72108488401",
+    "benefit": "0.00230871303003",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00142074648002"
+  },
+  {
+    "layer": "8",
+    "shard": "5",
+    "upgraded_nll": "2.72109167471",
+    "benefit": "0.00230192233885",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00141656759314"
+  },
+  {
+    "layer": "20",
+    "shard": "3",
+    "upgraded_nll": "2.72112080601",
+    "benefit": "0.00227279103765",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00139864063855"
+  },
+  {
+    "layer": "21",
+    "shard": "4",
+    "upgraded_nll": "2.72113813064",
+    "benefit": "0.00225546639907",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0013879793225"
+  },
+  {
+    "layer": "31",
+    "shard": "20",
+    "upgraded_nll": "2.72115510764",
+    "benefit": "0.00223848940096",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00137753193905"
+  },
+  {
+    "layer": "28",
+    "shard": "19",
+    "upgraded_nll": "2.72116156931",
+    "benefit": "0.00223202773166",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00137355552717"
+  },
+  {
+    "layer": "20",
+    "shard": "0",
+    "upgraded_nll": "2.72118418039",
+    "benefit": "0.00220941665111",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00135964101607"
+  },
+  {
+    "layer": "16",
+    "shard": "20",
+    "upgraded_nll": "2.72120816973",
+    "benefit": "0.00218542731195",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00134487834582"
+  },
+  {
+    "layer": "24",
+    "shard": "26",
+    "upgraded_nll": "2.72124112181",
+    "benefit": "0.00215247523692",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00132460014579"
+  },
+  {
+    "layer": "10",
+    "shard": "22",
+    "upgraded_nll": "2.72125430077",
+    "benefit": "0.00213929627309",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00131649001421"
+  },
+  {
+    "layer": "17",
+    "shard": "11",
+    "upgraded_nll": "2.72127134226",
+    "benefit": "0.00212225477931",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00130600294111"
+  },
+  {
+    "layer": "14",
+    "shard": "4",
+    "upgraded_nll": "2.72130141535",
+    "benefit": "0.00209218169067",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00128749642503"
+  },
+  {
+    "layer": "12",
+    "shard": "3",
+    "upgraded_nll": "2.72130446952",
+    "benefit": "0.00208912751995",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00128561693536"
+  },
+  {
+    "layer": "13",
+    "shard": "17",
+    "upgraded_nll": "2.72130586",
+    "benefit": "0.00208773704501",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00128476125847"
+  },
+  {
+    "layer": "15",
+    "shard": "1",
+    "upgraded_nll": "2.72131706002",
+    "benefit": "0.00207653702852",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00127786894063"
+  },
+  {
+    "layer": "9",
+    "shard": "11",
+    "upgraded_nll": "2.72133224913",
+    "benefit": "0.00206134791111",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00126852179145"
+  },
+  {
+    "layer": "15",
+    "shard": "11",
+    "upgraded_nll": "2.72133698131",
+    "benefit": "0.00205661572994",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00126560967996"
+  },
+  {
+    "layer": "8",
+    "shard": "8",
+    "upgraded_nll": "2.72134700654",
+    "benefit": "0.00204659049982",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00125944030758"
+  },
+  {
+    "layer": "19",
+    "shard": "30",
+    "upgraded_nll": "2.72134963625",
+    "benefit": "0.00204396079443",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00125782202734"
+  },
+  {
+    "layer": "17",
+    "shard": "29",
+    "upgraded_nll": "2.72135177376",
+    "benefit": "0.002041823288",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00125650663877"
+  },
+  {
+    "layer": "30",
+    "shard": "29",
+    "upgraded_nll": "2.72135867818",
+    "benefit": "0.00203491886038",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00125225776024"
+  },
+  {
+    "layer": "25",
+    "shard": "2",
+    "upgraded_nll": "2.72136943603",
+    "benefit": "0.00202416101649",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00124563754861"
+  },
+  {
+    "layer": "8",
+    "shard": "16",
+    "upgraded_nll": "2.72137274521",
+    "benefit": "0.0020208518345",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00124360112892"
+  },
+  {
+    "layer": "19",
+    "shard": "23",
+    "upgraded_nll": "2.72137633346",
+    "benefit": "0.00201726358077",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00124139297278"
+  },
+  {
+    "layer": "15",
+    "shard": "25",
+    "upgraded_nll": "2.72139082443",
+    "benefit": "0.00200277261409",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00123247545482"
+  },
+  {
+    "layer": "18",
+    "shard": "22",
+    "upgraded_nll": "2.72139617765",
+    "benefit": "0.00199741938942",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00122918116272"
+  },
+  {
+    "layer": "9",
+    "shard": "19",
+    "upgraded_nll": "2.7213983601",
+    "benefit": "0.00199523694534",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00122783812021"
+  },
+  {
+    "layer": "15",
+    "shard": "26",
+    "upgraded_nll": "2.72142540012",
+    "benefit": "0.00196819692049",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00121119810491"
+  },
+  {
+    "layer": "17",
+    "shard": "10",
+    "upgraded_nll": "2.7214367813",
+    "benefit": "0.00195681574853",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00120419430678"
+  },
+  {
+    "layer": "22",
+    "shard": "18",
+    "upgraded_nll": "2.72145422122",
+    "benefit": "0.00193937581971",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0011934620429"
+  },
+  {
+    "layer": "21",
+    "shard": "8",
+    "upgraded_nll": "2.72147383798",
+    "benefit": "0.00191975905992",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00118139019072"
+  },
+  {
+    "layer": "13",
+    "shard": "7",
+    "upgraded_nll": "2.72148110319",
+    "benefit": "0.00191249384919",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00117691929181"
+  },
+  {
+    "layer": "8",
+    "shard": "22",
+    "upgraded_nll": "2.72148455623",
+    "benefit": "0.00190904081607",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00117479434835"
+  },
+  {
+    "layer": "18",
+    "shard": "24",
+    "upgraded_nll": "2.7215155021",
+    "benefit": "0.00187809494669",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00115575073643"
+  },
+  {
+    "layer": "17",
+    "shard": "27",
+    "upgraded_nll": "2.72151824248",
+    "benefit": "0.00187535456003",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00115406434463"
+  },
+  {
+    "layer": "26",
+    "shard": "27",
+    "upgraded_nll": "2.72153441224",
+    "benefit": "0.00185918480171",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00114411372413"
+  },
+  {
+    "layer": "13",
+    "shard": "19",
+    "upgraded_nll": "2.72153772425",
+    "benefit": "0.00185587279323",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00114207556506"
+  },
+  {
+    "layer": "23",
+    "shard": "4",
+    "upgraded_nll": "2.72155409956",
+    "benefit": "0.00183949748314",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00113199845116"
+  },
+  {
+    "layer": "10",
+    "shard": "19",
+    "upgraded_nll": "2.72155754711",
+    "benefit": "0.00183604993324",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00112987688199"
+  },
+  {
+    "layer": "11",
+    "shard": "28",
+    "upgraded_nll": "2.72155923313",
+    "benefit": "0.00183436391543",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00112883933257"
+  },
+  {
+    "layer": "28",
+    "shard": "13",
+    "upgraded_nll": "2.72156246299",
+    "benefit": "0.00183113405158",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00112685172405"
+  },
+  {
+    "layer": "21",
+    "shard": "27",
+    "upgraded_nll": "2.72156336983",
+    "benefit": "0.00183022721727",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00112629367216"
+  },
+  {
+    "layer": "13",
+    "shard": "6",
+    "upgraded_nll": "2.7215696109",
+    "benefit": "0.00182398614727",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0011224530137"
+  },
+  {
+    "layer": "21",
+    "shard": "2",
+    "upgraded_nll": "2.72157143519",
+    "benefit": "0.00182216185055",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00112133036957"
+  },
+  {
+    "layer": "8",
+    "shard": "28",
+    "upgraded_nll": "2.72157828496",
+    "benefit": "0.00181531208636",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00111711513006"
+  },
+  {
+    "layer": "24",
+    "shard": "25",
+    "upgraded_nll": "2.72158729229",
+    "benefit": "0.00180630475576",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00111157215739"
+  },
+  {
+    "layer": "14",
+    "shard": "7",
+    "upgraded_nll": "2.72158824197",
+    "benefit": "0.00180535507233",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00111098773682"
+  },
+  {
+    "layer": "15",
+    "shard": "6",
+    "upgraded_nll": "2.72162343783",
+    "benefit": "0.00177015921701",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00108932874893"
+  },
+  {
+    "layer": "12",
+    "shard": "27",
+    "upgraded_nll": "2.72162654131",
+    "benefit": "0.00176705573271",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00108741891244"
+  },
+  {
+    "layer": "24",
+    "shard": "8",
+    "upgraded_nll": "2.72162706299",
+    "benefit": "0.00176653405344",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00108709787904"
+  },
+  {
+    "layer": "19",
+    "shard": "2",
+    "upgraded_nll": "2.72162718183",
+    "benefit": "0.0017664152102",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00108702474474"
+  },
+  {
+    "layer": "12",
+    "shard": "8",
+    "upgraded_nll": "2.72163255434",
+    "benefit": "0.0017610427074",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00108371858917"
+  },
+  {
+    "layer": "22",
+    "shard": "28",
+    "upgraded_nll": "2.72163592705",
+    "benefit": "0.00175766999486",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00108164307376"
+  },
+  {
+    "layer": "17",
+    "shard": "0",
+    "upgraded_nll": "2.72163893632",
+    "benefit": "0.00175466072446",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00107979121505"
+  },
+  {
+    "layer": "13",
+    "shard": "4",
+    "upgraded_nll": "2.72164042305",
+    "benefit": "0.00175317399714",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00107887630593"
+  },
+  {
+    "layer": "30",
+    "shard": "22",
+    "upgraded_nll": "2.7216736331",
+    "benefit": "0.0017199639475",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00105843935231"
+  },
+  {
+    "layer": "18",
+    "shard": "13",
+    "upgraded_nll": "2.72169598231",
+    "benefit": "0.00169761473016",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00104468598779"
+  },
+  {
+    "layer": "29",
+    "shard": "21",
+    "upgraded_nll": "2.72170353936",
+    "benefit": "0.00169005768101",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00104003549601"
+  },
+  {
+    "layer": "25",
+    "shard": "8",
+    "upgraded_nll": "2.72170595121",
+    "benefit": "0.00168764583063",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00103855128039"
+  },
+  {
+    "layer": "20",
+    "shard": "11",
+    "upgraded_nll": "2.72170664078",
+    "benefit": "0.00168695626701",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00103812693355"
+  },
+  {
+    "layer": "30",
+    "shard": "30",
+    "upgraded_nll": "2.72170990193",
+    "benefit": "0.00168369511481",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00103612007065"
+  },
+  {
+    "layer": "15",
+    "shard": "15",
+    "upgraded_nll": "2.7217150529",
+    "benefit": "0.00167854414448",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00103295024275"
+  },
+  {
+    "layer": "12",
+    "shard": "29",
+    "upgraded_nll": "2.72171596209",
+    "benefit": "0.00167763495171",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00103239073951"
+  },
+  {
+    "layer": "16",
+    "shard": "26",
+    "upgraded_nll": "2.72171785875",
+    "benefit": "0.0016757382947",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00103122356597"
+  },
+  {
+    "layer": "18",
+    "shard": "26",
+    "upgraded_nll": "2.72172650067",
+    "benefit": "0.00166709637703",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00102590546279"
+  },
+  {
+    "layer": "22",
+    "shard": "29",
+    "upgraded_nll": "2.72172685648",
+    "benefit": "0.00166674056447",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00102568650121"
+  },
+  {
+    "layer": "21",
+    "shard": "31",
+    "upgraded_nll": "2.7217311046",
+    "benefit": "0.0016624924409",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00102307227132"
+  },
+  {
+    "layer": "9",
+    "shard": "0",
+    "upgraded_nll": "2.72173229231",
+    "benefit": "0.00166130473245",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00102234137382"
+  },
+  {
+    "layer": "9",
+    "shard": "8",
+    "upgraded_nll": "2.72173315779",
+    "benefit": "0.00166043925056",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00102180876957"
+  },
+  {
+    "layer": "10",
+    "shard": "27",
+    "upgraded_nll": "2.72173545888",
+    "benefit": "0.00165813816567",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00102039271733"
+  },
+  {
+    "layer": "29",
+    "shard": "15",
+    "upgraded_nll": "2.72174105271",
+    "benefit": "0.00165254433471",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00101695035982"
+  },
+  {
+    "layer": "27",
+    "shard": "12",
+    "upgraded_nll": "2.72175516387",
+    "benefit": "0.00163843316917",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00100826656564"
+  },
+  {
+    "layer": "21",
+    "shard": "5",
+    "upgraded_nll": "2.72177525889",
+    "benefit": "0.00161833815574",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000995900403534"
+  },
+  {
+    "layer": "12",
+    "shard": "24",
+    "upgraded_nll": "2.72177860356",
+    "benefit": "0.00161499348828",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000993842146635"
+  },
+  {
+    "layer": "24",
+    "shard": "6",
+    "upgraded_nll": "2.72180083067",
+    "benefit": "0.0015927663734",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000980163922092"
+  },
+  {
+    "layer": "11",
+    "shard": "23",
+    "upgraded_nll": "2.72180330517",
+    "benefit": "0.00159029187786",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000978641155606"
+  },
+  {
+    "layer": "18",
+    "shard": "17",
+    "upgraded_nll": "2.72181043073",
+    "benefit": "0.00158316630984",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00097425619067"
+  },
+  {
+    "layer": "30",
+    "shard": "19",
+    "upgraded_nll": "2.7218187568",
+    "benefit": "0.00157484023978",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000969132455248"
+  },
+  {
+    "layer": "16",
+    "shard": "17",
+    "upgraded_nll": "2.72182774829",
+    "benefit": "0.00156584875804",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000963599235716"
+  },
+  {
+    "layer": "18",
+    "shard": "12",
+    "upgraded_nll": "2.721827845",
+    "benefit": "0.00156575204627",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000963539720783"
+  },
+  {
+    "layer": "24",
+    "shard": "1",
+    "upgraded_nll": "2.72183769224",
+    "benefit": "0.00155590480661",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000957479880988"
+  },
+  {
+    "layer": "23",
+    "shard": "20",
+    "upgraded_nll": "2.72184459758",
+    "benefit": "0.00154899945928",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000953230436482"
+  },
+  {
+    "layer": "24",
+    "shard": "10",
+    "upgraded_nll": "2.72184504909",
+    "benefit": "0.00154854794906",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000952952584038"
+  },
+  {
+    "layer": "8",
+    "shard": "2",
+    "upgraded_nll": "2.72184655363",
+    "benefit": "0.00154704341026",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000952026714008"
+  },
+  {
+    "layer": "20",
+    "shard": "15",
+    "upgraded_nll": "2.72187201589",
+    "benefit": "0.00152158115099",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000936357631377"
+  },
+  {
+    "layer": "16",
+    "shard": "13",
+    "upgraded_nll": "2.7218974643",
+    "benefit": "0.00149613274815",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000920697075782"
+  },
+  {
+    "layer": "23",
+    "shard": "8",
+    "upgraded_nll": "2.72189790092",
+    "benefit": "0.0014956961191",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000920428380988"
+  },
+  {
+    "layer": "31",
+    "shard": "7",
+    "upgraded_nll": "2.7219030493",
+    "benefit": "0.00149054774763",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000917260152387"
+  },
+  {
+    "layer": "12",
+    "shard": "4",
+    "upgraded_nll": "2.72190541783",
+    "benefit": "0.00148817921434",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000915802593442"
+  },
+  {
+    "layer": "17",
+    "shard": "1",
+    "upgraded_nll": "2.72191022534",
+    "benefit": "0.00148337170055",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000912844123414"
+  },
+  {
+    "layer": "8",
+    "shard": "3",
+    "upgraded_nll": "2.72192952205",
+    "benefit": "0.00146407499006",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000900969224651"
+  },
+  {
+    "layer": "10",
+    "shard": "6",
+    "upgraded_nll": "2.72193056852",
+    "benefit": "0.001463028519",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000900325242462"
+  },
+  {
+    "layer": "22",
+    "shard": "0",
+    "upgraded_nll": "2.72193367647",
+    "benefit": "0.00145992057712",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000898412662842"
+  },
+  {
+    "layer": "15",
+    "shard": "22",
+    "upgraded_nll": "2.72194903341",
+    "benefit": "0.00144456363502",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000888962236937"
+  },
+  {
+    "layer": "10",
+    "shard": "15",
+    "upgraded_nll": "2.72195294332",
+    "benefit": "0.00144065372591",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000886556139019"
+  },
+  {
+    "layer": "16",
+    "shard": "27",
+    "upgraded_nll": "2.72195631579",
+    "benefit": "0.00143728125863",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000884480774539"
+  },
+  {
+    "layer": "30",
+    "shard": "16",
+    "upgraded_nll": "2.72195639373",
+    "benefit": "0.00143720331107",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000884432806814"
+  },
+  {
+    "layer": "15",
+    "shard": "20",
+    "upgraded_nll": "2.72195647795",
+    "benefit": "0.00143711909605",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000884380982182"
+  },
+  {
+    "layer": "14",
+    "shard": "12",
+    "upgraded_nll": "2.72195736626",
+    "benefit": "0.00143623078882",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000883834331583"
+  },
+  {
+    "layer": "29",
+    "shard": "6",
+    "upgraded_nll": "2.72195764142",
+    "benefit": "0.0014359556259",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000883665000552"
+  },
+  {
+    "layer": "24",
+    "shard": "31",
+    "upgraded_nll": "2.72196008139",
+    "benefit": "0.00143351565513",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000882163480081"
+  },
+  {
+    "layer": "30",
+    "shard": "10",
+    "upgraded_nll": "2.72196616774",
+    "benefit": "0.00142742930108",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000878418031433"
+  },
+  {
+    "layer": "17",
+    "shard": "8",
+    "upgraded_nll": "2.72196693093",
+    "benefit": "0.00142666611077",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000877948375857"
+  },
+  {
+    "layer": "19",
+    "shard": "17",
+    "upgraded_nll": "2.72197457107",
+    "benefit": "0.0014190259779",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000873246755631"
+  },
+  {
+    "layer": "26",
+    "shard": "8",
+    "upgraded_nll": "2.72198082571",
+    "benefit": "0.00141277133566",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000869397745024"
+  },
+  {
+    "layer": "14",
+    "shard": "27",
+    "upgraded_nll": "2.7219819057",
+    "benefit": "0.00141169134754",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000868733136949"
+  },
+  {
+    "layer": "16",
+    "shard": "7",
+    "upgraded_nll": "2.72198413305",
+    "benefit": "0.00140946399678",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000867362459555"
+  },
+  {
+    "layer": "29",
+    "shard": "25",
+    "upgraded_nll": "2.72198632752",
+    "benefit": "0.00140726952246",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00086601201382"
+  },
+  {
+    "layer": "10",
+    "shard": "29",
+    "upgraded_nll": "2.72198872156",
+    "benefit": "0.00140487548376",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000864538759235"
+  },
+  {
+    "layer": "31",
+    "shard": "18",
+    "upgraded_nll": "2.72199000888",
+    "benefit": "0.00140358816802",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000863746564934"
+  },
+  {
+    "layer": "21",
+    "shard": "3",
+    "upgraded_nll": "2.72199648",
+    "benefit": "0.00139711704112",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000859764333"
+  },
+  {
+    "layer": "13",
+    "shard": "14",
+    "upgraded_nll": "2.72200029076",
+    "benefit": "0.00139330628003",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000857419249246"
+  },
+  {
+    "layer": "23",
+    "shard": "31",
+    "upgraded_nll": "2.72201321942",
+    "benefit": "0.00138037762816",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00084946315579"
+  },
+  {
+    "layer": "15",
+    "shard": "12",
+    "upgraded_nll": "2.72203331748",
+    "benefit": "0.00136027956205",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00083709511511"
+  },
+  {
+    "layer": "23",
+    "shard": "9",
+    "upgraded_nll": "2.72203485125",
+    "benefit": "0.00135874579454",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000836151258178"
+  },
+  {
+    "layer": "12",
+    "shard": "26",
+    "upgraded_nll": "2.72204213757",
+    "benefit": "0.00135145947413",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000831667368696"
+  },
+  {
+    "layer": "29",
+    "shard": "0",
+    "upgraded_nll": "2.72205186089",
+    "benefit": "0.00134173615842",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000825683789796"
+  },
+  {
+    "layer": "14",
+    "shard": "0",
+    "upgraded_nll": "2.72205809604",
+    "benefit": "0.00133550100373",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000821846771523"
+  },
+  {
+    "layer": "9",
+    "shard": "16",
+    "upgraded_nll": "2.7220634774",
+    "benefit": "0.001330119646",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000818535166769"
+  },
+  {
+    "layer": "20",
+    "shard": "6",
+    "upgraded_nll": "2.72206615695",
+    "benefit": "0.00132744009392",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000816886211645"
+  },
+  {
+    "layer": "29",
+    "shard": "17",
+    "upgraded_nll": "2.72206641318",
+    "benefit": "0.00132718386227",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000816728530625"
+  },
+  {
+    "layer": "11",
+    "shard": "2",
+    "upgraded_nll": "2.72206746636",
+    "benefit": "0.00132613068147",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000816080419367"
+  },
+  {
+    "layer": "16",
+    "shard": "25",
+    "upgraded_nll": "2.72207430381",
+    "benefit": "0.00131929323556",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000811872760342"
+  },
+  {
+    "layer": "17",
+    "shard": "5",
+    "upgraded_nll": "2.7220769803",
+    "benefit": "0.00131661674561",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000810225689603"
+  },
+  {
+    "layer": "27",
+    "shard": "8",
+    "upgraded_nll": "2.72207730762",
+    "benefit": "0.00131628942372",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00081002426075"
+  },
+  {
+    "layer": "13",
+    "shard": "16",
+    "upgraded_nll": "2.72208272365",
+    "benefit": "0.00131087339083",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000806691317433"
+  },
+  {
+    "layer": "14",
+    "shard": "19",
+    "upgraded_nll": "2.7221180195",
+    "benefit": "0.00127557754368",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000784970796113"
+  },
+  {
+    "layer": "18",
+    "shard": "28",
+    "upgraded_nll": "2.72211992669",
+    "benefit": "0.00127367035602",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000783797142165"
+  },
+  {
+    "layer": "16",
+    "shard": "5",
+    "upgraded_nll": "2.72212058466",
+    "benefit": "0.00127301238072",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000783392234287"
+  },
+  {
+    "layer": "14",
+    "shard": "26",
+    "upgraded_nll": "2.72212083998",
+    "benefit": "0.00127275705965",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000783235113631"
+  },
+  {
+    "layer": "15",
+    "shard": "28",
+    "upgraded_nll": "2.72212680739",
+    "benefit": "0.00126678965387",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000779562863918"
+  },
+  {
+    "layer": "27",
+    "shard": "23",
+    "upgraded_nll": "2.72212698762",
+    "benefit": "0.00126660942897",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000779451956289"
+  },
+  {
+    "layer": "24",
+    "shard": "28",
+    "upgraded_nll": "2.7221321654",
+    "benefit": "0.00126143164705",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000776265628957"
+  },
+  {
+    "layer": "30",
+    "shard": "27",
+    "upgraded_nll": "2.72213624997",
+    "benefit": "0.00125734707499",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000773752046147"
+  },
+  {
+    "layer": "21",
+    "shard": "23",
+    "upgraded_nll": "2.72214041873",
+    "benefit": "0.00125317831659",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000771186656363"
+  },
+  {
+    "layer": "30",
+    "shard": "4",
+    "upgraded_nll": "2.72214185676",
+    "benefit": "0.00125174028391",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000770301713177"
+  },
+  {
+    "layer": "26",
+    "shard": "22",
+    "upgraded_nll": "2.72214306913",
+    "benefit": "0.00125052791271",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000769555638592"
+  },
+  {
+    "layer": "27",
+    "shard": "2",
+    "upgraded_nll": "2.72214769298",
+    "benefit": "0.00124590406293",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00076671019257"
+  },
+  {
+    "layer": "17",
+    "shard": "28",
+    "upgraded_nll": "2.72215108673",
+    "benefit": "0.0012425103187",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000764621734586"
+  },
+  {
+    "layer": "16",
+    "shard": "22",
+    "upgraded_nll": "2.72215271953",
+    "benefit": "0.00124087751822",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000763616934291"
+  },
+  {
+    "layer": "12",
+    "shard": "25",
+    "upgraded_nll": "2.72215365301",
+    "benefit": "0.00123994402969",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00076304247981"
+  },
+  {
+    "layer": "19",
+    "shard": "16",
+    "upgraded_nll": "2.72215959435",
+    "benefit": "0.00123400269526",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000759386274009"
+  },
+  {
+    "layer": "18",
+    "shard": "8",
+    "upgraded_nll": "2.72216083544",
+    "benefit": "0.00123276160387",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000758622525462"
+  },
+  {
+    "layer": "10",
+    "shard": "24",
+    "upgraded_nll": "2.72216795663",
+    "benefit": "0.00122564041611",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000754240256066"
+  },
+  {
+    "layer": "27",
+    "shard": "22",
+    "upgraded_nll": "2.72216848394",
+    "benefit": "0.0012251131063",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000753915757726"
+  },
+  {
+    "layer": "26",
+    "shard": "11",
+    "upgraded_nll": "2.72217679289",
+    "benefit": "0.00121680415564",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00074880255732"
+  },
+  {
+    "layer": "13",
+    "shard": "3",
+    "upgraded_nll": "2.72217978571",
+    "benefit": "0.00121381133408",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000746960820973"
+  },
+  {
+    "layer": "15",
+    "shard": "17",
+    "upgraded_nll": "2.72218053801",
+    "benefit": "0.00121305903046",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000746497864901"
+  },
+  {
+    "layer": "28",
+    "shard": "23",
+    "upgraded_nll": "2.72218344235",
+    "benefit": "0.00121015469668",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000744710582571"
+  },
+  {
+    "layer": "19",
+    "shard": "0",
+    "upgraded_nll": "2.72218556796",
+    "benefit": "0.00120802908399",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000743402513222"
+  },
+  {
+    "layer": "16",
+    "shard": "21",
+    "upgraded_nll": "2.72218600483",
+    "benefit": "0.00120759221433",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00074313367036"
+  },
+  {
+    "layer": "18",
+    "shard": "25",
+    "upgraded_nll": "2.72219214181",
+    "benefit": "0.00120145523497",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000739357067674"
+  },
+  {
+    "layer": "17",
+    "shard": "16",
+    "upgraded_nll": "2.72219566932",
+    "benefit": "0.00119792772723",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000737186293677"
+  },
+  {
+    "layer": "15",
+    "shard": "21",
+    "upgraded_nll": "2.72220009656",
+    "benefit": "0.00119350048003",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000734461833864"
+  },
+  {
+    "layer": "13",
+    "shard": "29",
+    "upgraded_nll": "2.72220140125",
+    "benefit": "0.00119219579663",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000733658951771"
+  },
+  {
+    "layer": "20",
+    "shard": "16",
+    "upgraded_nll": "2.72221263959",
+    "benefit": "0.00118095745085",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000726743046675"
+  },
+  {
+    "layer": "23",
+    "shard": "16",
+    "upgraded_nll": "2.72221712604",
+    "benefit": "0.00117647100721",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000723982158281"
+  },
+  {
+    "layer": "22",
+    "shard": "19",
+    "upgraded_nll": "2.72222262821",
+    "benefit": "0.00117096882926",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000720596202622"
+  },
+  {
+    "layer": "11",
+    "shard": "0",
+    "upgraded_nll": "2.72222332373",
+    "benefit": "0.0011702733104",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000720168191015"
+  },
+  {
+    "layer": "8",
+    "shard": "31",
+    "upgraded_nll": "2.72223173188",
+    "benefit": "0.00116186516134",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00071499394544"
+  },
+  {
+    "layer": "12",
+    "shard": "11",
+    "upgraded_nll": "2.72223273725",
+    "benefit": "0.00116085979184",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000714375256519"
+  },
+  {
+    "layer": "13",
+    "shard": "1",
+    "upgraded_nll": "2.72223363041",
+    "benefit": "0.00115996663793",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000713825623339"
+  },
+  {
+    "layer": "21",
+    "shard": "0",
+    "upgraded_nll": "2.72223385951",
+    "benefit": "0.00115973753114",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000713684634547"
+  },
+  {
+    "layer": "14",
+    "shard": "16",
+    "upgraded_nll": "2.7222362981",
+    "benefit": "0.00115729894815",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000712183968092"
+  },
+  {
+    "layer": "17",
+    "shard": "20",
+    "upgraded_nll": "2.72224029906",
+    "benefit": "0.00115329798306",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000709721835729"
+  },
+  {
+    "layer": "16",
+    "shard": "23",
+    "upgraded_nll": "2.72224087851",
+    "benefit": "0.00115271853166",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00070936525025"
+  },
+  {
+    "layer": "12",
+    "shard": "0",
+    "upgraded_nll": "2.72224173314",
+    "benefit": "0.0011518639056",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000708839326523"
+  },
+  {
+    "layer": "28",
+    "shard": "26",
+    "upgraded_nll": "2.72224564163",
+    "benefit": "0.00114795541449",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000706434101223"
+  },
+  {
+    "layer": "23",
+    "shard": "2",
+    "upgraded_nll": "2.72224865807",
+    "benefit": "0.00114493897383",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000704577830047"
+  },
+  {
+    "layer": "30",
+    "shard": "26",
+    "upgraded_nll": "2.72225402398",
+    "benefit": "0.001139573066",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000701275732922"
+  },
+  {
+    "layer": "12",
+    "shard": "16",
+    "upgraded_nll": "2.72225406227",
+    "benefit": "0.00113953477196",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00070125216736"
+  },
+  {
+    "layer": "24",
+    "shard": "12",
+    "upgraded_nll": "2.72225884578",
+    "benefit": "0.00113475126118",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00069830846842"
+  },
+  {
+    "layer": "10",
+    "shard": "7",
+    "upgraded_nll": "2.72226476322",
+    "benefit": "0.00112883382761",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000694666970837"
+  },
+  {
+    "layer": "24",
+    "shard": "5",
+    "upgraded_nll": "2.72226718937",
+    "benefit": "0.00112640767073",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000693173951218"
+  },
+  {
+    "layer": "11",
+    "shard": "21",
+    "upgraded_nll": "2.72227019132",
+    "benefit": "0.00112340572724",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000691326601378"
+  },
+  {
+    "layer": "13",
+    "shard": "11",
+    "upgraded_nll": "2.72228124491",
+    "benefit": "0.00111235213686",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000684524391913"
+  },
+  {
+    "layer": "13",
+    "shard": "0",
+    "upgraded_nll": "2.72228465402",
+    "benefit": "0.00110894302255",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000682426475413"
+  },
+  {
+    "layer": "31",
+    "shard": "17",
+    "upgraded_nll": "2.7222917604",
+    "benefit": "0.00110183664341",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000678053319023"
+  },
+  {
+    "layer": "8",
+    "shard": "6",
+    "upgraded_nll": "2.72230275249",
+    "benefit": "0.00109084455526",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000671288957081"
+  },
+  {
+    "layer": "17",
+    "shard": "15",
+    "upgraded_nll": "2.72230436166",
+    "benefit": "0.00108923538132",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000670298696199"
+  },
+  {
+    "layer": "11",
+    "shard": "15",
+    "upgraded_nll": "2.72231227575",
+    "benefit": "0.00108132128909",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000665428485594"
+  },
+  {
+    "layer": "8",
+    "shard": "1",
+    "upgraded_nll": "2.72232191541",
+    "benefit": "0.00107168163526",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000659496390929"
+  },
+  {
+    "layer": "14",
+    "shard": "25",
+    "upgraded_nll": "2.72232472081",
+    "benefit": "0.00106887622954",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000657769987412"
+  },
+  {
+    "layer": "19",
+    "shard": "26",
+    "upgraded_nll": "2.72233153049",
+    "benefit": "0.00106206655669",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000653579419502"
+  },
+  {
+    "layer": "23",
+    "shard": "7",
+    "upgraded_nll": "2.72233482551",
+    "benefit": "0.0010587715311",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000651551711445"
+  },
+  {
+    "layer": "23",
+    "shard": "25",
+    "upgraded_nll": "2.72234236514",
+    "benefit": "0.00105123190097",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000646911939058"
+  },
+  {
+    "layer": "12",
+    "shard": "23",
+    "upgraded_nll": "2.72234472155",
+    "benefit": "0.00104887549632",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000645461843887"
+  },
+  {
+    "layer": "24",
+    "shard": "19",
+    "upgraded_nll": "2.72235203449",
+    "benefit": "0.00104156255794",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000640961574115"
+  },
+  {
+    "layer": "26",
+    "shard": "17",
+    "upgraded_nll": "2.72235323342",
+    "benefit": "0.00104036362483",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000640223769125"
+  },
+  {
+    "layer": "14",
+    "shard": "29",
+    "upgraded_nll": "2.72236226344",
+    "benefit": "0.00103133360745",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000634666835354"
+  },
+  {
+    "layer": "17",
+    "shard": "30",
+    "upgraded_nll": "2.72237442656",
+    "benefit": "0.0010191704836",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000627181836062"
+  },
+  {
+    "layer": "19",
+    "shard": "28",
+    "upgraded_nll": "2.7223745296",
+    "benefit": "0.00101906744553",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000627118428016"
+  },
+  {
+    "layer": "16",
+    "shard": "2",
+    "upgraded_nll": "2.72238771161",
+    "benefit": "0.00100588543598",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000619006422139"
+  },
+  {
+    "layer": "18",
+    "shard": "5",
+    "upgraded_nll": "2.72239326568",
+    "benefit": "0.00100033135972",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000615588529058"
+  },
+  {
+    "layer": "11",
+    "shard": "18",
+    "upgraded_nll": "2.72239858907",
+    "benefit": "0.000995007975431",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000612312600265"
+  },
+  {
+    "layer": "12",
+    "shard": "18",
+    "upgraded_nll": "2.72240535574",
+    "benefit": "0.000988241299411",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000608148491945"
+  },
+  {
+    "layer": "12",
+    "shard": "2",
+    "upgraded_nll": "2.72241356106",
+    "benefit": "0.000980035980252",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00060309906477"
+  },
+  {
+    "layer": "24",
+    "shard": "7",
+    "upgraded_nll": "2.72242011981",
+    "benefit": "0.000973477230181",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000599062910881"
+  },
+  {
+    "layer": "25",
+    "shard": "9",
+    "upgraded_nll": "2.72242066265",
+    "benefit": "0.000972934394644",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000598728858242"
+  },
+  {
+    "layer": "16",
+    "shard": "0",
+    "upgraded_nll": "2.72242242866",
+    "benefit": "0.000971168386554",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000597642084033"
+  },
+  {
+    "layer": "20",
+    "shard": "24",
+    "upgraded_nll": "2.72242846208",
+    "benefit": "0.000965134965572",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000593929209583"
+  },
+  {
+    "layer": "8",
+    "shard": "24",
+    "upgraded_nll": "2.72242874752",
+    "benefit": "0.000964849521609",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000593753551759"
+  },
+  {
+    "layer": "22",
+    "shard": "7",
+    "upgraded_nll": "2.72242927938",
+    "benefit": "0.000964317666707",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000593426256435"
+  },
+  {
+    "layer": "13",
+    "shard": "28",
+    "upgraded_nll": "2.72243266876",
+    "benefit": "0.000960928283972",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000591340482445"
+  },
+  {
+    "layer": "23",
+    "shard": "26",
+    "upgraded_nll": "2.72243268914",
+    "benefit": "0.000960907908077",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000591327943432"
+  },
+  {
+    "layer": "16",
+    "shard": "11",
+    "upgraded_nll": "2.72243988234",
+    "benefit": "0.000953714702549",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000586901355415"
+  },
+  {
+    "layer": "28",
+    "shard": "9",
+    "upgraded_nll": "2.7224427671",
+    "benefit": "0.000950829940872",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00058512611746"
+  },
+  {
+    "layer": "27",
+    "shard": "0",
+    "upgraded_nll": "2.72245802595",
+    "benefit": "0.00093557109821",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000575736060437"
+  },
+  {
+    "layer": "30",
+    "shard": "28",
+    "upgraded_nll": "2.7224582009",
+    "benefit": "0.000935396142689",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000575628395501"
+  },
+  {
+    "layer": "30",
+    "shard": "2",
+    "upgraded_nll": "2.72245883023",
+    "benefit": "0.000934766817669",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000575241118565"
+  },
+  {
+    "layer": "26",
+    "shard": "15",
+    "upgraded_nll": "2.72246061083",
+    "benefit": "0.000932986214381",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000574145362696"
+  },
+  {
+    "layer": "9",
+    "shard": "29",
+    "upgraded_nll": "2.72247346351",
+    "benefit": "0.00092013353819",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000566236023502"
+  },
+  {
+    "layer": "10",
+    "shard": "2",
+    "upgraded_nll": "2.72247394779",
+    "benefit": "0.000919649251672",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000565938001029"
+  },
+  {
+    "layer": "29",
+    "shard": "23",
+    "upgraded_nll": "2.72247498079",
+    "benefit": "0.000918616256975",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000565302311985"
+  },
+  {
+    "layer": "27",
+    "shard": "15",
+    "upgraded_nll": "2.72247934093",
+    "benefit": "0.000914256117513",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000562619149239"
+  },
+  {
+    "layer": "27",
+    "shard": "3",
+    "upgraded_nll": "2.72248797966",
+    "benefit": "0.00090561738135",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000557303003908"
+  },
+  {
+    "layer": "21",
+    "shard": "10",
+    "upgraded_nll": "2.72249133207",
+    "benefit": "0.000902264976328",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000555239985433"
+  },
+  {
+    "layer": "25",
+    "shard": "19",
+    "upgraded_nll": "2.72249164047",
+    "benefit": "0.000901956569727",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000555050196755"
+  },
+  {
+    "layer": "9",
+    "shard": "31",
+    "upgraded_nll": "2.72249212802",
+    "benefit": "0.00090146902612",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00055475016992"
+  },
+  {
+    "layer": "13",
+    "shard": "8",
+    "upgraded_nll": "2.72249423741",
+    "benefit": "0.000899359634096",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000553452082521"
+  },
+  {
+    "layer": "23",
+    "shard": "19",
+    "upgraded_nll": "2.72249487144",
+    "benefit": "0.000898725606897",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000553061911937"
+  },
+  {
+    "layer": "11",
+    "shard": "1",
+    "upgraded_nll": "2.72249620846",
+    "benefit": "0.000897388582052",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000552239127417"
+  },
+  {
+    "layer": "14",
+    "shard": "22",
+    "upgraded_nll": "2.72249901149",
+    "benefit": "0.000894585553399",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000550514186707"
+  },
+  {
+    "layer": "24",
+    "shard": "27",
+    "upgraded_nll": "2.72250188361",
+    "benefit": "0.000891713433678",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000548746728417"
+  },
+  {
+    "layer": "24",
+    "shard": "3",
+    "upgraded_nll": "2.72250189927",
+    "benefit": "0.000891697772322",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00054873709066"
+  },
+  {
+    "layer": "9",
+    "shard": "25",
+    "upgraded_nll": "2.72250245782",
+    "benefit": "0.000891139227618",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000548393370842"
+  },
+  {
+    "layer": "17",
+    "shard": "22",
+    "upgraded_nll": "2.72250288111",
+    "benefit": "0.000890715933197",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000548132881967"
+  },
+  {
+    "layer": "9",
+    "shard": "23",
+    "upgraded_nll": "2.72250838953",
+    "benefit": "0.000885207510366",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000544743083302"
+  },
+  {
+    "layer": "27",
+    "shard": "9",
+    "upgraded_nll": "2.72251566853",
+    "benefit": "0.000877928517401",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000540263703016"
+  },
+  {
+    "layer": "26",
+    "shard": "10",
+    "upgraded_nll": "2.72251672924",
+    "benefit": "0.000876867808008",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000539610958774"
+  },
+  {
+    "layer": "14",
+    "shard": "2",
+    "upgraded_nll": "2.72252256478",
+    "benefit": "0.000871032264737",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000536019855223"
+  },
+  {
+    "layer": "28",
+    "shard": "7",
+    "upgraded_nll": "2.72252754937",
+    "benefit": "0.000866047670609",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000532952412682"
+  },
+  {
+    "layer": "16",
+    "shard": "15",
+    "upgraded_nll": "2.72252756871",
+    "benefit": "0.000866028336945",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000532940515043"
+  },
+  {
+    "layer": "26",
+    "shard": "25",
+    "upgraded_nll": "2.72252906401",
+    "benefit": "0.000864533037888",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000532020331008"
+  },
+  {
+    "layer": "27",
+    "shard": "17",
+    "upgraded_nll": "2.72253075939",
+    "benefit": "0.000862837652536",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000530977016945"
+  },
+  {
+    "layer": "8",
+    "shard": "0",
+    "upgraded_nll": "2.72254279751",
+    "benefit": "0.000850799533221",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00052356894352"
+  },
+  {
+    "layer": "12",
+    "shard": "9",
+    "upgraded_nll": "2.72255355102",
+    "benefit": "0.000840046021813",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000516951398039"
+  },
+  {
+    "layer": "19",
+    "shard": "5",
+    "upgraded_nll": "2.72255481448",
+    "benefit": "0.000838782560063",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000516173883116"
+  },
+  {
+    "layer": "29",
+    "shard": "22",
+    "upgraded_nll": "2.72255570648",
+    "benefit": "0.000837890563437",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000515624962115"
+  },
+  {
+    "layer": "9",
+    "shard": "5",
+    "upgraded_nll": "2.72255668037",
+    "benefit": "0.000836916675961",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000515025646745"
+  },
+  {
+    "layer": "29",
+    "shard": "29",
+    "upgraded_nll": "2.7225577729",
+    "benefit": "0.000835824142468",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000514353318442"
+  },
+  {
+    "layer": "8",
+    "shard": "11",
+    "upgraded_nll": "2.72255784954",
+    "benefit": "0.000835747507908",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000514306158713"
+  },
+  {
+    "layer": "24",
+    "shard": "9",
+    "upgraded_nll": "2.72256607988",
+    "benefit": "0.000827517163084",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000509241331129"
+  },
+  {
+    "layer": "31",
+    "shard": "23",
+    "upgraded_nll": "2.72258077459",
+    "benefit": "0.000812822449422",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000500198430413"
+  },
+  {
+    "layer": "28",
+    "shard": "20",
+    "upgraded_nll": "2.72258256881",
+    "benefit": "0.000811028231309",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00049909429619"
+  },
+  {
+    "layer": "27",
+    "shard": "5",
+    "upgraded_nll": "2.72259420965",
+    "benefit": "0.000799387396465",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000491930705517"
+  },
+  {
+    "layer": "13",
+    "shard": "12",
+    "upgraded_nll": "2.72260321422",
+    "benefit": "0.000790382822014",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000486389428932"
+  },
+  {
+    "layer": "19",
+    "shard": "21",
+    "upgraded_nll": "2.72260884456",
+    "benefit": "0.000784752485838",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00048292460667"
+  },
+  {
+    "layer": "25",
+    "shard": "20",
+    "upgraded_nll": "2.7226130343",
+    "benefit": "0.000780562743014",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000480346303393"
+  },
+  {
+    "layer": "15",
+    "shard": "8",
+    "upgraded_nll": "2.72261877448",
+    "benefit": "0.000774822560983",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000476813883682"
+  },
+  {
+    "layer": "16",
+    "shard": "10",
+    "upgraded_nll": "2.72261970709",
+    "benefit": "0.000773889949857",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000476239969143"
+  },
+  {
+    "layer": "8",
+    "shard": "27",
+    "upgraded_nll": "2.72262139493",
+    "benefit": "0.000772202109607",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00047520129822"
+  },
+  {
+    "layer": "22",
+    "shard": "6",
+    "upgraded_nll": "2.72262582485",
+    "benefit": "0.000767772198743",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000472475199227"
+  },
+  {
+    "layer": "27",
+    "shard": "4",
+    "upgraded_nll": "2.7226258657",
+    "benefit": "0.000767731342945",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000472450057197"
+  },
+  {
+    "layer": "27",
+    "shard": "31",
+    "upgraded_nll": "2.72262844021",
+    "benefit": "0.000765156829875",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000470865741462"
+  },
+  {
+    "layer": "17",
+    "shard": "17",
+    "upgraded_nll": "2.72263637867",
+    "benefit": "0.000757218371078",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000465980536048"
+  },
+  {
+    "layer": "21",
+    "shard": "19",
+    "upgraded_nll": "2.72263745951",
+    "benefit": "0.000756137537766",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000465315407856"
+  },
+  {
+    "layer": "19",
+    "shard": "4",
+    "upgraded_nll": "2.72263938492",
+    "benefit": "0.000754212126464",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000464130539362"
+  },
+  {
+    "layer": "11",
+    "shard": "3",
+    "upgraded_nll": "2.72263982893",
+    "benefit": "0.000753768114364",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000463857301147"
+  },
+  {
+    "layer": "25",
+    "shard": "23",
+    "upgraded_nll": "2.72264021782",
+    "benefit": "0.000753379226599",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000463617985599"
+  },
+  {
+    "layer": "28",
+    "shard": "0",
+    "upgraded_nll": "2.72264434173",
+    "benefit": "0.000749255309458",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000461080190436"
+  },
+  {
+    "layer": "14",
+    "shard": "8",
+    "upgraded_nll": "2.722647211",
+    "benefit": "0.00074638604702",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000459314490474"
+  },
+  {
+    "layer": "14",
+    "shard": "21",
+    "upgraded_nll": "2.72264830295",
+    "benefit": "0.000745294089998",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000458642516922"
+  },
+  {
+    "layer": "30",
+    "shard": "7",
+    "upgraded_nll": "2.72264901221",
+    "benefit": "0.00074458483182",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000458206050351"
+  },
+  {
+    "layer": "22",
+    "shard": "22",
+    "upgraded_nll": "2.72264906927",
+    "benefit": "0.000744527769111",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000458170934837"
+  },
+  {
+    "layer": "8",
+    "shard": "25",
+    "upgraded_nll": "2.72265132893",
+    "benefit": "0.000742268115473",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000456780378752"
+  },
+  {
+    "layer": "19",
+    "shard": "20",
+    "upgraded_nll": "2.7226533296",
+    "benefit": "0.000740267445799",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000455549197415"
+  },
+  {
+    "layer": "10",
+    "shard": "16",
+    "upgraded_nll": "2.72266573107",
+    "benefit": "0.000727865969643",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00044791751978"
+  },
+  {
+    "layer": "26",
+    "shard": "26",
+    "upgraded_nll": "2.72266588338",
+    "benefit": "0.000727713665202",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000447823793971"
+  },
+  {
+    "layer": "16",
+    "shard": "1",
+    "upgraded_nll": "2.72266591628",
+    "benefit": "0.000727680761862",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000447803545761"
+  },
+  {
+    "layer": "17",
+    "shard": "23",
+    "upgraded_nll": "2.72266867036",
+    "benefit": "0.000724926688318",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000446108731273"
+  },
+  {
+    "layer": "15",
+    "shard": "4",
+    "upgraded_nll": "2.7226690207",
+    "benefit": "0.000724576345369",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000445893135612"
+  },
+  {
+    "layer": "23",
+    "shard": "5",
+    "upgraded_nll": "2.7226706391",
+    "benefit": "0.000722957942905",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000444897195634"
+  },
+  {
+    "layer": "17",
+    "shard": "19",
+    "upgraded_nll": "2.72267485818",
+    "benefit": "0.00071873886565",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0004423008404"
+  },
+  {
+    "layer": "9",
+    "shard": "12",
+    "upgraded_nll": "2.72267895015",
+    "benefit": "0.000714646890251",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000439782701693"
+  },
+  {
+    "layer": "29",
+    "shard": "31",
+    "upgraded_nll": "2.72267926646",
+    "benefit": "0.000714330581314",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000439588050039"
+  },
+  {
+    "layer": "27",
+    "shard": "13",
+    "upgraded_nll": "2.72268135658",
+    "benefit": "0.000712240464583",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000438301824358"
+  },
+  {
+    "layer": "18",
+    "shard": "20",
+    "upgraded_nll": "2.72268608552",
+    "benefit": "0.000707511527756",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000435391709389"
+  },
+  {
+    "layer": "11",
+    "shard": "25",
+    "upgraded_nll": "2.72268623933",
+    "benefit": "0.000707357718319",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000435297057427"
+  },
+  {
+    "layer": "20",
+    "shard": "5",
+    "upgraded_nll": "2.72268650457",
+    "benefit": "0.00070709247241",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000435133829176"
+  },
+  {
+    "layer": "28",
+    "shard": "29",
+    "upgraded_nll": "2.72269240493",
+    "benefit": "0.000701192118034",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000431502841867"
+  },
+  {
+    "layer": "28",
+    "shard": "12",
+    "upgraded_nll": "2.72269659862",
+    "benefit": "0.000696998425991",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000428922108302"
+  },
+  {
+    "layer": "20",
+    "shard": "28",
+    "upgraded_nll": "2.72269733716",
+    "benefit": "0.000696259884456",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000428467621204"
+  },
+  {
+    "layer": "28",
+    "shard": "21",
+    "upgraded_nll": "2.72269995678",
+    "benefit": "0.000693640264533",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000426855547405"
+  },
+  {
+    "layer": "30",
+    "shard": "31",
+    "upgraded_nll": "2.72270129193",
+    "benefit": "0.000692305112703",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00042603391551"
+  },
+  {
+    "layer": "18",
+    "shard": "23",
+    "upgraded_nll": "2.72270905334",
+    "benefit": "0.000684543703819",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000421257663889"
+  },
+  {
+    "layer": "19",
+    "shard": "1",
+    "upgraded_nll": "2.72271012828",
+    "benefit": "0.000683468760047",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000420596160029"
+  },
+  {
+    "layer": "14",
+    "shard": "23",
+    "upgraded_nll": "2.72271141978",
+    "benefit": "0.00068217725998",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000419801390757"
+  },
+  {
+    "layer": "14",
+    "shard": "28",
+    "upgraded_nll": "2.72271546656",
+    "benefit": "0.000678130483537",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000417311066792"
+  },
+  {
+    "layer": "14",
+    "shard": "1",
+    "upgraded_nll": "2.72272103202",
+    "benefit": "0.000672565019758",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000413886166005"
+  },
+  {
+    "layer": "23",
+    "shard": "29",
+    "upgraded_nll": "2.72272567485",
+    "benefit": "0.000667922194322",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00041102904266"
+  },
+  {
+    "layer": "11",
+    "shard": "12",
+    "upgraded_nll": "2.7227303707",
+    "benefit": "0.000663226343671",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000408139288413"
+  },
+  {
+    "layer": "8",
+    "shard": "14",
+    "upgraded_nll": "2.72273783513",
+    "benefit": "0.000655761915552",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000403545794186"
+  },
+  {
+    "layer": "14",
+    "shard": "14",
+    "upgraded_nll": "2.72274006374",
+    "benefit": "0.000653533306042",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00040217434218"
+  },
+  {
+    "layer": "25",
+    "shard": "16",
+    "upgraded_nll": "2.72274015587",
+    "benefit": "0.000653441171046",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000402117643721"
+  },
+  {
+    "layer": "9",
+    "shard": "2",
+    "upgraded_nll": "2.72274154095",
+    "benefit": "0.000652056089061",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000401265285576"
+  },
+  {
+    "layer": "16",
+    "shard": "31",
+    "upgraded_nll": "2.72275138004",
+    "benefit": "0.000642216999598",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000395210461291"
+  },
+  {
+    "layer": "28",
+    "shard": "18",
+    "upgraded_nll": "2.72275606497",
+    "benefit": "0.000637532072571",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000392327429274"
+  },
+  {
+    "layer": "13",
+    "shard": "25",
+    "upgraded_nll": "2.72276159321",
+    "benefit": "0.000632003837699",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000388925438584"
+  },
+  {
+    "layer": "11",
+    "shard": "9",
+    "upgraded_nll": "2.72276166922",
+    "benefit": "0.000631927824618",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000388878661304"
+  },
+  {
+    "layer": "23",
+    "shard": "28",
+    "upgraded_nll": "2.72276216271",
+    "benefit": "0.000631434331516",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000388574973241"
+  },
+  {
+    "layer": "9",
+    "shard": "18",
+    "upgraded_nll": "2.72276445228",
+    "benefit": "0.000629144768258",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000387166011236"
+  },
+  {
+    "layer": "18",
+    "shard": "3",
+    "upgraded_nll": "2.72276473096",
+    "benefit": "0.00062886607967",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000386994510566"
+  },
+  {
+    "layer": "23",
+    "shard": "21",
+    "upgraded_nll": "2.722772866",
+    "benefit": "0.000620731041639",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000381988333316"
+  },
+  {
+    "layer": "22",
+    "shard": "14",
+    "upgraded_nll": "2.72277321695",
+    "benefit": "0.000620380095087",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000381772366207"
+  },
+  {
+    "layer": "11",
+    "shard": "20",
+    "upgraded_nll": "2.72277467923",
+    "benefit": "0.000618917811333",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000380872499282"
+  },
+  {
+    "layer": "29",
+    "shard": "28",
+    "upgraded_nll": "2.72277574147",
+    "benefit": "0.000617855574764",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00038021881524"
+  },
+  {
+    "layer": "28",
+    "shard": "15",
+    "upgraded_nll": "2.72277913469",
+    "benefit": "0.000614462350095",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000378130676981"
+  },
+  {
+    "layer": "22",
+    "shard": "27",
+    "upgraded_nll": "2.72278053162",
+    "benefit": "0.000613065424941",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000377271030733"
+  },
+  {
+    "layer": "11",
+    "shard": "4",
+    "upgraded_nll": "2.72278340924",
+    "benefit": "0.000610187800985",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000375500185222"
+  },
+  {
+    "layer": "11",
+    "shard": "14",
+    "upgraded_nll": "2.722783474",
+    "benefit": "0.00061012304521",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000375460335514"
+  },
+  {
+    "layer": "30",
+    "shard": "24",
+    "upgraded_nll": "2.72278861736",
+    "benefit": "0.000604979683927",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000372295190109"
+  },
+  {
+    "layer": "12",
+    "shard": "19",
+    "upgraded_nll": "2.7227888329",
+    "benefit": "0.000604764147759",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000372162552467"
+  },
+  {
+    "layer": "20",
+    "shard": "14",
+    "upgraded_nll": "2.7227893118",
+    "benefit": "0.000604285244137",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000371867842546"
+  },
+  {
+    "layer": "23",
+    "shard": "3",
+    "upgraded_nll": "2.72280872039",
+    "benefit": "0.000584876653501",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000359924094462"
+  },
+  {
+    "layer": "14",
+    "shard": "11",
+    "upgraded_nll": "2.72281146766",
+    "benefit": "0.00058212938365",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000358233466861"
+  },
+  {
+    "layer": "20",
+    "shard": "22",
+    "upgraded_nll": "2.72281173498",
+    "benefit": "0.000581862065535",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000358068963406"
+  },
+  {
+    "layer": "29",
+    "shard": "7",
+    "upgraded_nll": "2.72281599266",
+    "benefit": "0.000577604384007",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000355448851697"
+  },
+  {
+    "layer": "10",
+    "shard": "1",
+    "upgraded_nll": "2.72281732097",
+    "benefit": "0.000576276074146",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000354631430244"
+  },
+  {
+    "layer": "18",
+    "shard": "2",
+    "upgraded_nll": "2.72282156984",
+    "benefit": "0.000572027199031",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000352016737865"
+  },
+  {
+    "layer": "26",
+    "shard": "14",
+    "upgraded_nll": "2.72282662826",
+    "benefit": "0.00056696878426",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000348903867237"
+  },
+  {
+    "layer": "23",
+    "shard": "24",
+    "upgraded_nll": "2.72283558457",
+    "benefit": "0.000558012476387",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000343392293161"
+  },
+  {
+    "layer": "29",
+    "shard": "2",
+    "upgraded_nll": "2.72283808092",
+    "benefit": "0.000555516123955",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00034185607628"
+  },
+  {
+    "layer": "25",
+    "shard": "15",
+    "upgraded_nll": "2.72283829198",
+    "benefit": "0.00055530505905",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000341726190185"
+  },
+  {
+    "layer": "20",
+    "shard": "9",
+    "upgraded_nll": "2.72284428001",
+    "benefit": "0.00054931703543",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000338041252572"
+  },
+  {
+    "layer": "15",
+    "shard": "23",
+    "upgraded_nll": "2.7228482805",
+    "benefit": "0.000545316546979",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000335579413525"
+  },
+  {
+    "layer": "18",
+    "shard": "11",
+    "upgraded_nll": "2.72285215372",
+    "benefit": "0.000541443327481",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000333195893835"
+  },
+  {
+    "layer": "24",
+    "shard": "4",
+    "upgraded_nll": "2.72285240143",
+    "benefit": "0.000541195617778",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000333043457094"
+  },
+  {
+    "layer": "13",
+    "shard": "31",
+    "upgraded_nll": "2.72285378726",
+    "benefit": "0.000539809786815",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00033219063804"
+  },
+  {
+    "layer": "21",
+    "shard": "28",
+    "upgraded_nll": "2.72285488044",
+    "benefit": "0.000538716604497",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00033151791046"
+  },
+  {
+    "layer": "15",
+    "shard": "2",
+    "upgraded_nll": "2.72285911953",
+    "benefit": "0.000534477509386",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000328909236545"
+  },
+  {
+    "layer": "21",
+    "shard": "29",
+    "upgraded_nll": "2.72286039373",
+    "benefit": "0.000533203310142",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000328125113934"
+  },
+  {
+    "layer": "16",
+    "shard": "18",
+    "upgraded_nll": "2.72286581293",
+    "benefit": "0.000527784113249",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000324790223538"
+  },
+  {
+    "layer": "26",
+    "shard": "19",
+    "upgraded_nll": "2.72286778872",
+    "benefit": "0.000525808327609",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000323574355451"
+  },
+  {
+    "layer": "13",
+    "shard": "2",
+    "upgraded_nll": "2.72286882855",
+    "benefit": "0.000524768489214",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000322934454901"
+  },
+  {
+    "layer": "19",
+    "shard": "11",
+    "upgraded_nll": "2.72286981325",
+    "benefit": "0.000523783789822",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000322328486044"
+  },
+  {
+    "layer": "24",
+    "shard": "29",
+    "upgraded_nll": "2.72287122521",
+    "benefit": "0.000522371838339",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000321459592824"
+  },
+  {
+    "layer": "11",
+    "shard": "16",
+    "upgraded_nll": "2.72287965646",
+    "benefit": "0.000513940580509",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000316271126467"
+  },
+  {
+    "layer": "20",
+    "shard": "21",
+    "upgraded_nll": "2.72288444935",
+    "benefit": "0.000509147693608",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000313321657605"
+  },
+  {
+    "layer": "11",
+    "shard": "27",
+    "upgraded_nll": "2.72288453572",
+    "benefit": "0.000509061323505",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000313268506772"
+  },
+  {
+    "layer": "12",
+    "shard": "12",
+    "upgraded_nll": "2.72288527456",
+    "benefit": "0.000508322482089",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000312813835131"
+  },
+  {
+    "layer": "21",
+    "shard": "9",
+    "upgraded_nll": "2.72288859709",
+    "benefit": "0.000504999956794",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000310769204181"
+  },
+  {
+    "layer": "19",
+    "shard": "24",
+    "upgraded_nll": "2.72289284033",
+    "benefit": "0.000500756714418",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000308157978103"
+  },
+  {
+    "layer": "20",
+    "shard": "20",
+    "upgraded_nll": "2.72289487144",
+    "benefit": "0.000498725599939",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000306908061501"
+  },
+  {
+    "layer": "25",
+    "shard": "25",
+    "upgraded_nll": "2.72289702863",
+    "benefit": "0.000496568418133",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000305580565005"
+  },
+  {
+    "layer": "19",
+    "shard": "9",
+    "upgraded_nll": "2.72289786162",
+    "benefit": "0.000495735426807",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000305067954958"
+  },
+  {
+    "layer": "21",
+    "shard": "21",
+    "upgraded_nll": "2.72289960404",
+    "benefit": "0.000493993004067",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000303995694811"
+  },
+  {
+    "layer": "9",
+    "shard": "22",
+    "upgraded_nll": "2.72290095136",
+    "benefit": "0.000492645682025",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000303166573554"
+  },
+  {
+    "layer": "10",
+    "shard": "20",
+    "upgraded_nll": "2.72290265204",
+    "benefit": "0.000490945004338",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000302120002669"
+  },
+  {
+    "layer": "10",
+    "shard": "23",
+    "upgraded_nll": "2.72290561939",
+    "benefit": "0.000487977657233",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000300293942913"
+  },
+  {
+    "layer": "17",
+    "shard": "25",
+    "upgraded_nll": "2.72290779924",
+    "benefit": "0.000485797799049",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000298952491723"
+  },
+  {
+    "layer": "13",
+    "shard": "15",
+    "upgraded_nll": "2.72290856668",
+    "benefit": "0.000485030366917",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000298480225795"
+  },
+  {
+    "layer": "24",
+    "shard": "21",
+    "upgraded_nll": "2.7229210951",
+    "benefit": "0.000472501948282",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000290770429712"
+  },
+  {
+    "layer": "28",
+    "shard": "2",
+    "upgraded_nll": "2.7229246209",
+    "benefit": "0.000468976144937",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000288600704576"
+  },
+  {
+    "layer": "20",
+    "shard": "2",
+    "upgraded_nll": "2.72293348508",
+    "benefit": "0.000460111967397",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00028314582609"
+  },
+  {
+    "layer": "9",
+    "shard": "27",
+    "upgraded_nll": "2.72293690494",
+    "benefit": "0.000456692103301",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000281041294339"
+  },
+  {
+    "layer": "26",
+    "shard": "7",
+    "upgraded_nll": "2.7229377465",
+    "benefit": "0.000455850544844",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000280523412212"
+  },
+  {
+    "layer": "9",
+    "shard": "24",
+    "upgraded_nll": "2.72294149888",
+    "benefit": "0.000452098166626",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000278214256385"
+  },
+  {
+    "layer": "22",
+    "shard": "4",
+    "upgraded_nll": "2.72294625554",
+    "benefit": "0.000447341504672",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000275287079798"
+  },
+  {
+    "layer": "29",
+    "shard": "10",
+    "upgraded_nll": "2.72294684235",
+    "benefit": "0.000446754694543",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000274925965873"
+  },
+  {
+    "layer": "22",
+    "shard": "20",
+    "upgraded_nll": "2.72295211872",
+    "benefit": "0.000441478326874",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000271678970384"
+  },
+  {
+    "layer": "14",
+    "shard": "24",
+    "upgraded_nll": "2.7229553503",
+    "benefit": "0.000438246741622",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000269690302536"
+  },
+  {
+    "layer": "27",
+    "shard": "7",
+    "upgraded_nll": "2.722958922",
+    "benefit": "0.000434675040412",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000267492332561"
+  },
+  {
+    "layer": "13",
+    "shard": "5",
+    "upgraded_nll": "2.72295937975",
+    "benefit": "0.000434217297991",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000267210644918"
+  },
+  {
+    "layer": "10",
+    "shard": "14",
+    "upgraded_nll": "2.7229632854",
+    "benefit": "0.000430311640993",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000264807163688"
+  },
+  {
+    "layer": "24",
+    "shard": "11",
+    "upgraded_nll": "2.72296602375",
+    "benefit": "0.000427573291993",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000263122025842"
+  },
+  {
+    "layer": "11",
+    "shard": "13",
+    "upgraded_nll": "2.72296895063",
+    "benefit": "0.000424646415937",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000261320871346"
+  },
+  {
+    "layer": "20",
+    "shard": "8",
+    "upgraded_nll": "2.7229707592",
+    "benefit": "0.000422837841148",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000260207902245"
+  },
+  {
+    "layer": "9",
+    "shard": "28",
+    "upgraded_nll": "2.72298930201",
+    "benefit": "0.000404295029628",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000248796941309"
+  },
+  {
+    "layer": "9",
+    "shard": "17",
+    "upgraded_nll": "2.72298945125",
+    "benefit": "0.000404145798465",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000248705106748"
+  },
+  {
+    "layer": "15",
+    "shard": "13",
+    "upgraded_nll": "2.7230014748",
+    "benefit": "0.000392122246621",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000241305997921"
+  },
+  {
+    "layer": "26",
+    "shard": "30",
+    "upgraded_nll": "2.72300164295",
+    "benefit": "0.000391954092811",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000241202518653"
+  },
+  {
+    "layer": "11",
+    "shard": "26",
+    "upgraded_nll": "2.72300630558",
+    "benefit": "0.000387291467619",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000238333210842"
+  },
+  {
+    "layer": "20",
+    "shard": "18",
+    "upgraded_nll": "2.72300645646",
+    "benefit": "0.000387140588559",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00023824036219"
+  },
+  {
+    "layer": "21",
+    "shard": "12",
+    "upgraded_nll": "2.72300820376",
+    "benefit": "0.000385393287465",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000237165099979"
+  },
+  {
+    "layer": "9",
+    "shard": "9",
+    "upgraded_nll": "2.72301130203",
+    "benefit": "0.00038229501736",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000235258472222"
+  },
+  {
+    "layer": "21",
+    "shard": "24",
+    "upgraded_nll": "2.72301313507",
+    "benefit": "0.000380461973188",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000234130445039"
+  },
+  {
+    "layer": "17",
+    "shard": "13",
+    "upgraded_nll": "2.72301528844",
+    "benefit": "0.000378308603062",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000232805294192"
+  },
+  {
+    "layer": "19",
+    "shard": "7",
+    "upgraded_nll": "2.72301600691",
+    "benefit": "0.000377590135057",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000232363160035"
+  },
+  {
+    "layer": "18",
+    "shard": "21",
+    "upgraded_nll": "2.72301651958",
+    "benefit": "0.000377077461283",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000232047668482"
+  },
+  {
+    "layer": "18",
+    "shard": "18",
+    "upgraded_nll": "2.72301694563",
+    "benefit": "0.000376651414299",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000231785485723"
+  },
+  {
+    "layer": "9",
+    "shard": "3",
+    "upgraded_nll": "2.72302752613",
+    "benefit": "0.000366070913842",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000225274408518"
+  },
+  {
+    "layer": "28",
+    "shard": "27",
+    "upgraded_nll": "2.72303623266",
+    "benefit": "0.000357364382041",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000219916542795"
+  },
+  {
+    "layer": "26",
+    "shard": "3",
+    "upgraded_nll": "2.72304425138",
+    "benefit": "0.000349345661919",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000214981945797"
+  },
+  {
+    "layer": "29",
+    "shard": "18",
+    "upgraded_nll": "2.72305063952",
+    "benefit": "0.000342957524615",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000211050784379"
+  },
+  {
+    "layer": "8",
+    "shard": "12",
+    "upgraded_nll": "2.72305269139",
+    "benefit": "0.000340905658",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000209788097231"
+  },
+  {
+    "layer": "8",
+    "shard": "18",
+    "upgraded_nll": "2.72305863497",
+    "benefit": "0.000334962072868",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00020613050638"
+  },
+  {
+    "layer": "11",
+    "shard": "17",
+    "upgraded_nll": "2.72306029229",
+    "benefit": "0.000333304757701",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000205110620124"
+  },
+  {
+    "layer": "23",
+    "shard": "18",
+    "upgraded_nll": "2.7230678628",
+    "benefit": "0.000325734239265",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000200451839547"
+  },
+  {
+    "layer": "18",
+    "shard": "9",
+    "upgraded_nll": "2.72306953477",
+    "benefit": "0.000324062278333",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000199422940512"
+  },
+  {
+    "layer": "26",
+    "shard": "9",
+    "upgraded_nll": "2.72307866748",
+    "benefit": "0.000314929559075",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000193802805585"
+  },
+  {
+    "layer": "27",
+    "shard": "19",
+    "upgraded_nll": "2.72307967981",
+    "benefit": "0.000313917230655",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000193179834249"
+  },
+  {
+    "layer": "8",
+    "shard": "19",
+    "upgraded_nll": "2.72308215795",
+    "benefit": "0.000311439092884",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00019165482639"
+  },
+  {
+    "layer": "22",
+    "shard": "21",
+    "upgraded_nll": "2.72308488685",
+    "benefit": "0.000308710190254",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000189975501695"
+  },
+  {
+    "layer": "21",
+    "shard": "15",
+    "upgraded_nll": "2.72309176292",
+    "benefit": "0.000301834122342",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000185744075288"
+  },
+  {
+    "layer": "17",
+    "shard": "9",
+    "upgraded_nll": "2.72309410199",
+    "benefit": "0.000299495056575",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.0001843046502"
+  },
+  {
+    "layer": "8",
+    "shard": "13",
+    "upgraded_nll": "2.723097028",
+    "benefit": "0.000296569042388",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000182504026085"
+  },
+  {
+    "layer": "11",
+    "shard": "5",
+    "upgraded_nll": "2.72309978749",
+    "benefit": "0.000293809555971",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000180805880598"
+  },
+  {
+    "layer": "27",
+    "shard": "26",
+    "upgraded_nll": "2.7231036784",
+    "benefit": "0.00028991863989",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000178411470702"
+  },
+  {
+    "layer": "18",
+    "shard": "0",
+    "upgraded_nll": "2.72310368103",
+    "benefit": "0.000289916009538",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000178409852023"
+  },
+  {
+    "layer": "27",
+    "shard": "21",
+    "upgraded_nll": "2.72310558772",
+    "benefit": "0.000288009323575",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000177236506815"
+  },
+  {
+    "layer": "8",
+    "shard": "7",
+    "upgraded_nll": "2.72311132483",
+    "benefit": "0.000282272213747",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00017370597769"
+  },
+  {
+    "layer": "16",
+    "shard": "12",
+    "upgraded_nll": "2.72311355277",
+    "benefit": "0.00028004427102",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000172334936012"
+  },
+  {
+    "layer": "13",
+    "shard": "18",
+    "upgraded_nll": "2.72312119849",
+    "benefit": "0.000272398557829",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000167629881741"
+  },
+  {
+    "layer": "21",
+    "shard": "11",
+    "upgraded_nll": "2.723121759",
+    "benefit": "0.000271838040218",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000167284947826"
+  },
+  {
+    "layer": "11",
+    "shard": "6",
+    "upgraded_nll": "2.72312267629",
+    "benefit": "0.000270920753481",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000166720463681"
+  },
+  {
+    "layer": "12",
+    "shard": "31",
+    "upgraded_nll": "2.72312334628",
+    "benefit": "0.000270250764168",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000166308162565"
+  },
+  {
+    "layer": "18",
+    "shard": "30",
+    "upgraded_nll": "2.72312771315",
+    "benefit": "0.000265883891138",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000163620856085"
+  },
+  {
+    "layer": "26",
+    "shard": "24",
+    "upgraded_nll": "2.72312787787",
+    "benefit": "0.000265719177312",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00016351949373"
+  },
+  {
+    "layer": "10",
+    "shard": "4",
+    "upgraded_nll": "2.72313142083",
+    "benefit": "0.000262176214957",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000161339209204"
+  },
+  {
+    "layer": "14",
+    "shard": "30",
+    "upgraded_nll": "2.72314711183",
+    "benefit": "0.000246485213431",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000151683208265"
+  },
+  {
+    "layer": "14",
+    "shard": "9",
+    "upgraded_nll": "2.72314936986",
+    "benefit": "0.000244227183626",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000150293651462"
+  },
+  {
+    "layer": "10",
+    "shard": "0",
+    "upgraded_nll": "2.72315121897",
+    "benefit": "0.000242378072774",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000149155737091"
+  },
+  {
+    "layer": "19",
+    "shard": "18",
+    "upgraded_nll": "2.72315323927",
+    "benefit": "0.000240357770696",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000147912474274"
+  },
+  {
+    "layer": "22",
+    "shard": "16",
+    "upgraded_nll": "2.72315702815",
+    "benefit": "0.000236568893841",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000145580857748"
+  },
+  {
+    "layer": "24",
+    "shard": "2",
+    "upgraded_nll": "2.72316710092",
+    "benefit": "0.000226496121075",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000139382228354"
+  },
+  {
+    "layer": "18",
+    "shard": "14",
+    "upgraded_nll": "2.72317169229",
+    "benefit": "0.000221904751185",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00013655676996"
+  },
+  {
+    "layer": "9",
+    "shard": "13",
+    "upgraded_nll": "2.72317202872",
+    "benefit": "0.000221568325156",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000136349738558"
+  },
+  {
+    "layer": "12",
+    "shard": "1",
+    "upgraded_nll": "2.72317356853",
+    "benefit": "0.000220028510411",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000135402160253"
+  },
+  {
+    "layer": "25",
+    "shard": "31",
+    "upgraded_nll": "2.72317984582",
+    "benefit": "0.00021375122382",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000131539214658"
+  },
+  {
+    "layer": "22",
+    "shard": "24",
+    "upgraded_nll": "2.72318407962",
+    "benefit": "0.000209517423707",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000128933799204"
+  },
+  {
+    "layer": "12",
+    "shard": "14",
+    "upgraded_nll": "2.72318590864",
+    "benefit": "0.000207688402981",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000127808247988"
+  },
+  {
+    "layer": "31",
+    "shard": "26",
+    "upgraded_nll": "2.72319114276",
+    "benefit": "0.000202454285779",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000124587252787"
+  },
+  {
+    "layer": "26",
+    "shard": "16",
+    "upgraded_nll": "2.72319131823",
+    "benefit": "0.00020227881897",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000124479273212"
+  },
+  {
+    "layer": "20",
+    "shard": "26",
+    "upgraded_nll": "2.72319150763",
+    "benefit": "0.00020208941767",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000124362718566"
+  },
+  {
+    "layer": "20",
+    "shard": "17",
+    "upgraded_nll": "2.72319252301",
+    "benefit": "0.000201074032756",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000123737866312"
+  },
+  {
+    "layer": "30",
+    "shard": "15",
+    "upgraded_nll": "2.72319266264",
+    "benefit": "0.000200934405576",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000123651941893"
+  },
+  {
+    "layer": "22",
+    "shard": "15",
+    "upgraded_nll": "2.72320531375",
+    "benefit": "0.000188283297649",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000115866644707"
+  },
+  {
+    "layer": "25",
+    "shard": "26",
+    "upgraded_nll": "2.72320548632",
+    "benefit": "0.000188110728636",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000115760448391"
+  },
+  {
+    "layer": "10",
+    "shard": "11",
+    "upgraded_nll": "2.72320675143",
+    "benefit": "0.000186845616926",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000114981918108"
+  },
+  {
+    "layer": "10",
+    "shard": "5",
+    "upgraded_nll": "2.72320698498",
+    "benefit": "0.000186612065388",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000114838194085"
+  },
+  {
+    "layer": "10",
+    "shard": "8",
+    "upgraded_nll": "2.7232072463",
+    "benefit": "0.000186350743623",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000114677380691"
+  },
+  {
+    "layer": "17",
+    "shard": "18",
+    "upgraded_nll": "2.72320795654",
+    "benefit": "0.000185640501032",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000114240308328"
+  },
+  {
+    "layer": "10",
+    "shard": "25",
+    "upgraded_nll": "2.72320986775",
+    "benefit": "0.00018372929845",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000113064183662"
+  },
+  {
+    "layer": "13",
+    "shard": "24",
+    "upgraded_nll": "2.72321400964",
+    "benefit": "0.00017958740834",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000110515328209"
+  },
+  {
+    "layer": "28",
+    "shard": "5",
+    "upgraded_nll": "2.72321466895",
+    "benefit": "0.000178928091127",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.00011010959454"
+  },
+  {
+    "layer": "13",
+    "shard": "23",
+    "upgraded_nll": "2.72321765834",
+    "benefit": "0.000175938703646",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000108269971474"
+  },
+  {
+    "layer": "25",
+    "shard": "4",
+    "upgraded_nll": "2.72321833608",
+    "benefit": "0.000175260961116",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000107852899148"
+  },
+  {
+    "layer": "22",
+    "shard": "11",
+    "upgraded_nll": "2.723221037",
+    "benefit": "0.000172560047674",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000106190798569"
+  },
+  {
+    "layer": "17",
+    "shard": "7",
+    "upgraded_nll": "2.7232232261",
+    "benefit": "0.000170370947087",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000104843659746"
+  },
+  {
+    "layer": "24",
+    "shard": "0",
+    "upgraded_nll": "2.72322519967",
+    "benefit": "0.000168397378463",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "0.000103629155977"
+  },
+  {
+    "layer": "18",
+    "shard": "7",
+    "upgraded_nll": "2.72323854593",
+    "benefit": "0.000155051109984",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "9.54160676823e-05"
+  },
+  {
+    "layer": "16",
+    "shard": "19",
+    "upgraded_nll": "2.72324306075",
+    "benefit": "0.000150536289498",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "9.26377166143e-05"
+  },
+  {
+    "layer": "28",
+    "shard": "14",
+    "upgraded_nll": "2.72324794796",
+    "benefit": "0.000145649088621",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "8.96302083824e-05"
+  },
+  {
+    "layer": "25",
+    "shard": "30",
+    "upgraded_nll": "2.72324921081",
+    "benefit": "0.000144386230734",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "8.88530650672e-05"
+  },
+  {
+    "layer": "25",
+    "shard": "6",
+    "upgraded_nll": "2.72325038649",
+    "benefit": "0.000143210550641",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "8.81295696255e-05"
+  },
+  {
+    "layer": "21",
+    "shard": "7",
+    "upgraded_nll": "2.72325150455",
+    "benefit": "0.000142092498863",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "8.74415377616e-05"
+  },
+  {
+    "layer": "15",
+    "shard": "24",
+    "upgraded_nll": "2.72325233371",
+    "benefit": "0.000141263338874",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "8.69312854606e-05"
+  },
+  {
+    "layer": "29",
+    "shard": "5",
+    "upgraded_nll": "2.72326040617",
+    "benefit": "0.000133190878634",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "8.19636176208e-05"
+  },
+  {
+    "layer": "20",
+    "shard": "4",
+    "upgraded_nll": "2.72326435666",
+    "benefit": "0.000129240382894",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "7.95325433193e-05"
+  },
+  {
+    "layer": "27",
+    "shard": "24",
+    "upgraded_nll": "2.72326624028",
+    "benefit": "0.000127356761384",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "7.83733916206e-05"
+  },
+  {
+    "layer": "26",
+    "shard": "31",
+    "upgraded_nll": "2.72327263732",
+    "benefit": "0.000120959720295",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "7.44367509509e-05"
+  },
+  {
+    "layer": "11",
+    "shard": "24",
+    "upgraded_nll": "2.72327455136",
+    "benefit": "0.000119045685057",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "7.32588831122e-05"
+  },
+  {
+    "layer": "19",
+    "shard": "15",
+    "upgraded_nll": "2.72327549417",
+    "benefit": "0.000118102878761",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "7.2678694622e-05"
+  },
+  {
+    "layer": "17",
+    "shard": "3",
+    "upgraded_nll": "2.72327639877",
+    "benefit": "0.000117198271469",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "7.21220132117e-05"
+  },
+  {
+    "layer": "26",
+    "shard": "23",
+    "upgraded_nll": "2.72327684163",
+    "benefit": "0.000116755409828",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "7.18494829712e-05"
+  },
+  {
+    "layer": "22",
+    "shard": "26",
+    "upgraded_nll": "2.72328154443",
+    "benefit": "0.000112052609049",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "6.89554517223e-05"
+  },
+  {
+    "layer": "29",
+    "shard": "9",
+    "upgraded_nll": "2.72328194403",
+    "benefit": "0.00011165301335",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "6.87095466767e-05"
+  },
+  {
+    "layer": "28",
+    "shard": "30",
+    "upgraded_nll": "2.72328476739",
+    "benefit": "0.000108829652484",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "6.69720938366e-05"
+  },
+  {
+    "layer": "17",
+    "shard": "2",
+    "upgraded_nll": "2.72329554824",
+    "benefit": "9.80488085931e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "6.0337728365e-05"
+  },
+  {
+    "layer": "24",
+    "shard": "13",
+    "upgraded_nll": "2.72329654791",
+    "benefit": "9.70491305048e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "5.97225418491e-05"
+  },
+  {
+    "layer": "10",
+    "shard": "10",
+    "upgraded_nll": "2.72330186144",
+    "benefit": "9.1735602449e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "5.64526784302e-05"
+  },
+  {
+    "layer": "28",
+    "shard": "6",
+    "upgraded_nll": "2.72330282148",
+    "benefit": "9.07755676494e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "5.58618877842e-05"
+  },
+  {
+    "layer": "12",
+    "shard": "15",
+    "upgraded_nll": "2.7233030645",
+    "benefit": "9.05325472345e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "5.57123367597e-05"
+  },
+  {
+    "layer": "17",
+    "shard": "4",
+    "upgraded_nll": "2.7233109662",
+    "benefit": "8.26308436466e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "5.08497499364e-05"
+  },
+  {
+    "layer": "10",
+    "shard": "13",
+    "upgraded_nll": "2.72331188504",
+    "benefit": "8.17120046022e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "5.02843105244e-05"
+  },
+  {
+    "layer": "25",
+    "shard": "22",
+    "upgraded_nll": "2.72332004692",
+    "benefit": "7.35501196196e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "4.52616120736e-05"
+  },
+  {
+    "layer": "8",
+    "shard": "21",
+    "upgraded_nll": "2.72332572567",
+    "benefit": "6.78713743199e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "4.17669995814e-05"
+  },
+  {
+    "layer": "29",
+    "shard": "1",
+    "upgraded_nll": "2.7233280651",
+    "benefit": "6.55319429881e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "4.03273495311e-05"
+  },
+  {
+    "layer": "25",
+    "shard": "18",
+    "upgraded_nll": "2.72333005841",
+    "benefit": "6.35386362733e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "3.91006992451e-05"
+  },
+  {
+    "layer": "22",
+    "shard": "9",
+    "upgraded_nll": "2.72333080607",
+    "benefit": "6.27909717315e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "3.86405979886e-05"
+  },
+  {
+    "layer": "21",
+    "shard": "30",
+    "upgraded_nll": "2.72333153349",
+    "benefit": "6.20635529964e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "3.81929556901e-05"
+  },
+  {
+    "layer": "26",
+    "shard": "1",
+    "upgraded_nll": "2.72333278721",
+    "benefit": "6.08098294483e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "3.74214335067e-05"
+  },
+  {
+    "layer": "14",
+    "shard": "6",
+    "upgraded_nll": "2.72333830092",
+    "benefit": "5.52961248887e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "3.40283845469e-05"
+  },
+  {
+    "layer": "28",
+    "shard": "16",
+    "upgraded_nll": "2.72334767987",
+    "benefit": "4.59171730589e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "2.82567218824e-05"
+  },
+  {
+    "layer": "18",
+    "shard": "16",
+    "upgraded_nll": "2.72334839812",
+    "benefit": "4.51989218386e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "2.78147211315e-05"
+  },
+  {
+    "layer": "22",
+    "shard": "5",
+    "upgraded_nll": "2.72335018758",
+    "benefit": "4.34094659769e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "2.67135175243e-05"
+  },
+  {
+    "layer": "26",
+    "shard": "2",
+    "upgraded_nll": "2.72335284399",
+    "benefit": "4.07530533808e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "2.50788020805e-05"
+  },
+  {
+    "layer": "27",
+    "shard": "27",
+    "upgraded_nll": "2.72335620188",
+    "benefit": "3.73951652688e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "2.30124093962e-05"
+  },
+  {
+    "layer": "23",
+    "shard": "0",
+    "upgraded_nll": "2.72336218894",
+    "benefit": "3.14081006283e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "1.93280619251e-05"
+  },
+  {
+    "layer": "19",
+    "shard": "6",
+    "upgraded_nll": "2.72336580153",
+    "benefit": "2.77955098773e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "1.71049291553e-05"
+  },
+  {
+    "layer": "13",
+    "shard": "22",
+    "upgraded_nll": "2.72337569117",
+    "benefit": "1.79058736745e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "1.10189991843e-05"
+  },
+  {
+    "layer": "17",
+    "shard": "12",
+    "upgraded_nll": "2.72337587131",
+    "benefit": "1.77257373011e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "1.09081460314e-05"
+  },
+  {
+    "layer": "23",
+    "shard": "11",
+    "upgraded_nll": "2.7233761533",
+    "benefit": "1.7443743118e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "1.07346111495e-05"
+  },
+  {
+    "layer": "16",
+    "shard": "8",
+    "upgraded_nll": "2.72337914941",
+    "benefit": "1.44476380908e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "8.89085420971e-06"
+  },
+  {
+    "layer": "18",
+    "shard": "19",
+    "upgraded_nll": "2.72338464751",
+    "benefit": "8.94953792097e-06",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "5.50740795136e-06"
+  },
+  {
+    "layer": "26",
+    "shard": "21",
+    "upgraded_nll": "2.72338633082",
+    "benefit": "7.26622821956e-06",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "4.47152505819e-06"
+  },
+  {
+    "layer": "15",
+    "shard": "29",
+    "upgraded_nll": "2.72338901082",
+    "benefit": "4.58622128541e-06",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "2.82229002179e-06"
+  },
+  {
+    "layer": "21",
+    "shard": "25",
+    "upgraded_nll": "2.72340140873",
+    "benefit": "-7.81168933184e-06",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-4.80719343498e-06"
+  },
+  {
+    "layer": "22",
+    "shard": "3",
+    "upgraded_nll": "2.72340439797",
+    "benefit": "-1.08009300397e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-6.64672617827e-06"
+  },
+  {
+    "layer": "24",
+    "shard": "17",
+    "upgraded_nll": "2.72341179847",
+    "benefit": "-1.82014256982e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-1.12008773527e-05"
+  },
+  {
+    "layer": "25",
+    "shard": "21",
+    "upgraded_nll": "2.7234180033",
+    "benefit": "-2.44062555059e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-1.50192341575e-05"
+  },
+  {
+    "layer": "26",
+    "shard": "0",
+    "upgraded_nll": "2.72341993459",
+    "benefit": "-2.6337547772e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-1.62077217059e-05"
+  },
+  {
+    "layer": "22",
+    "shard": "31",
+    "upgraded_nll": "2.72342507092",
+    "benefit": "-3.14738719864e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-1.9368536607e-05"
+  },
+  {
+    "layer": "19",
+    "shard": "3",
+    "upgraded_nll": "2.72342852904",
+    "benefit": "-3.49319973099e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-2.14966137291e-05"
+  },
+  {
+    "layer": "18",
+    "shard": "10",
+    "upgraded_nll": "2.72344976013",
+    "benefit": "-5.61630829026e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-3.45618971708e-05"
+  },
+  {
+    "layer": "30",
+    "shard": "13",
+    "upgraded_nll": "2.72345110424",
+    "benefit": "-5.75071929485e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-3.53890418145e-05"
+  },
+  {
+    "layer": "14",
+    "shard": "17",
+    "upgraded_nll": "2.72345273369",
+    "benefit": "-5.9136641235e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-3.63917792216e-05"
+  },
+  {
+    "layer": "25",
+    "shard": "17",
+    "upgraded_nll": "2.72345312867",
+    "benefit": "-5.95316290677e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-3.6634848657e-05"
+  },
+  {
+    "layer": "22",
+    "shard": "13",
+    "upgraded_nll": "2.72346452317",
+    "benefit": "-7.09261241236e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-4.36468456145e-05"
+  },
+  {
+    "layer": "25",
+    "shard": "27",
+    "upgraded_nll": "2.72346576556",
+    "benefit": "-7.21685151763e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-4.44113939547e-05"
+  },
+  {
+    "layer": "27",
+    "shard": "29",
+    "upgraded_nll": "2.72346727391",
+    "benefit": "-7.36768611094e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-4.53396068365e-05"
+  },
+  {
+    "layer": "27",
+    "shard": "1",
+    "upgraded_nll": "2.72346845917",
+    "benefit": "-7.48621229176e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-4.60689987185e-05"
+  },
+  {
+    "layer": "18",
+    "shard": "31",
+    "upgraded_nll": "2.72346913497",
+    "benefit": "-7.55379233608e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-4.64848759143e-05"
+  },
+  {
+    "layer": "25",
+    "shard": "28",
+    "upgraded_nll": "2.72347145339",
+    "benefit": "-7.78563459938e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-4.79115975346e-05"
+  },
+  {
+    "layer": "8",
+    "shard": "4",
+    "upgraded_nll": "2.72347186947",
+    "benefit": "-7.82724309665e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-4.81676498255e-05"
+  },
+  {
+    "layer": "13",
+    "shard": "21",
+    "upgraded_nll": "2.72347980323",
+    "benefit": "-8.6206181797e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-5.30499580289e-05"
+  },
+  {
+    "layer": "18",
+    "shard": "27",
+    "upgraded_nll": "2.72348245543",
+    "benefit": "-8.88583889198e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-5.46820854891e-05"
+  },
+  {
+    "layer": "22",
+    "shard": "10",
+    "upgraded_nll": "2.72348339688",
+    "benefit": "-8.97998405374e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-5.52614403307e-05"
+  },
+  {
+    "layer": "26",
+    "shard": "6",
+    "upgraded_nll": "2.72348424545",
+    "benefit": "-9.0648401041e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-5.57836314098e-05"
+  },
+  {
+    "layer": "13",
+    "shard": "27",
+    "upgraded_nll": "2.72348664917",
+    "benefit": "-9.30521303157e-05",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-5.72628494251e-05"
+  },
+  {
+    "layer": "25",
+    "shard": "0",
+    "upgraded_nll": "2.72350150929",
+    "benefit": "-0.000107912241869",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-6.64075334581e-05"
+  },
+  {
+    "layer": "9",
+    "shard": "30",
+    "upgraded_nll": "2.72350222323",
+    "benefit": "-0.00010862618559",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-6.68468834398e-05"
+  },
+  {
+    "layer": "11",
+    "shard": "29",
+    "upgraded_nll": "2.72350470415",
+    "benefit": "-0.000111107103777",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-6.83736023243e-05"
+  },
+  {
+    "layer": "27",
+    "shard": "28",
+    "upgraded_nll": "2.72350549409",
+    "benefit": "-0.000111897049973",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-6.88597230605e-05"
+  },
+  {
+    "layer": "27",
+    "shard": "30",
+    "upgraded_nll": "2.72350691049",
+    "benefit": "-0.000113313441658",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-6.97313487127e-05"
+  },
+  {
+    "layer": "22",
+    "shard": "12",
+    "upgraded_nll": "2.72350767873",
+    "benefit": "-0.000114081682031",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-7.02041120193e-05"
+  },
+  {
+    "layer": "10",
+    "shard": "21",
+    "upgraded_nll": "2.72351571046",
+    "benefit": "-0.000122113411783",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-7.51467149433e-05"
+  },
+  {
+    "layer": "15",
+    "shard": "0",
+    "upgraded_nll": "2.72352798047",
+    "benefit": "-0.000134383430638",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-8.26974957775e-05"
+  },
+  {
+    "layer": "24",
+    "shard": "15",
+    "upgraded_nll": "2.72352843588",
+    "benefit": "-0.000134838836973",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-8.29777458294e-05"
+  },
+  {
+    "layer": "22",
+    "shard": "17",
+    "upgraded_nll": "2.72353274159",
+    "benefit": "-0.000139144547089",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-8.56274135934e-05"
+  },
+  {
+    "layer": "29",
+    "shard": "20",
+    "upgraded_nll": "2.72354082429",
+    "benefit": "-0.000147227245229",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-9.06013816794e-05"
+  },
+  {
+    "layer": "12",
+    "shard": "17",
+    "upgraded_nll": "2.72354767081",
+    "benefit": "-0.000154073763016",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-9.48146233944e-05"
+  },
+  {
+    "layer": "27",
+    "shard": "16",
+    "upgraded_nll": "2.72355074498",
+    "benefit": "-0.000157147935278",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-9.67064217098e-05"
+  },
+  {
+    "layer": "16",
+    "shard": "28",
+    "upgraded_nll": "2.72355955895",
+    "benefit": "-0.000165961905109",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000102130403144"
+  },
+  {
+    "layer": "26",
+    "shard": "12",
+    "upgraded_nll": "2.7235615021",
+    "benefit": "-0.000167905054911",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000103326187638"
+  },
+  {
+    "layer": "22",
+    "shard": "8",
+    "upgraded_nll": "2.72356565757",
+    "benefit": "-0.00017206052276",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000105883398622"
+  },
+  {
+    "layer": "28",
+    "shard": "3",
+    "upgraded_nll": "2.72357000895",
+    "benefit": "-0.000176411909429",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000108561175033"
+  },
+  {
+    "layer": "24",
+    "shard": "16",
+    "upgraded_nll": "2.72357307896",
+    "benefit": "-0.000179481914003",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000110450408617"
+  },
+  {
+    "layer": "10",
+    "shard": "12",
+    "upgraded_nll": "2.72357510804",
+    "benefit": "-0.000181510992027",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000111699072017"
+  },
+  {
+    "layer": "26",
+    "shard": "5",
+    "upgraded_nll": "2.72357729334",
+    "benefit": "-0.000183696299203",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000113043876433"
+  },
+  {
+    "layer": "29",
+    "shard": "14",
+    "upgraded_nll": "2.72357749614",
+    "benefit": "-0.000183899092013",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000113168672008"
+  },
+  {
+    "layer": "24",
+    "shard": "23",
+    "upgraded_nll": "2.72358329767",
+    "benefit": "-0.000189700626832",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000116738847281"
+  },
+  {
+    "layer": "12",
+    "shard": "21",
+    "upgraded_nll": "2.72358829725",
+    "benefit": "-0.000194700205349",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000119815510984"
+  },
+  {
+    "layer": "23",
+    "shard": "1",
+    "upgraded_nll": "2.72359142421",
+    "benefit": "-0.000197827170259",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000121739797083"
+  },
+  {
+    "layer": "23",
+    "shard": "27",
+    "upgraded_nll": "2.72359278463",
+    "benefit": "-0.000199187586449",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000122576976276"
+  },
+  {
+    "layer": "15",
+    "shard": "9",
+    "upgraded_nll": "2.72359673206",
+    "benefit": "-0.00020313501751",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000125006164622"
+  },
+  {
+    "layer": "24",
+    "shard": "14",
+    "upgraded_nll": "2.72361172054",
+    "benefit": "-0.000218123493646",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000134229842244"
+  },
+  {
+    "layer": "12",
+    "shard": "5",
+    "upgraded_nll": "2.72361308872",
+    "benefit": "-0.000219491678349",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000135071802061"
+  },
+  {
+    "layer": "15",
+    "shard": "27",
+    "upgraded_nll": "2.72362873748",
+    "benefit": "-0.000235140436444",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000144701807042"
+  },
+  {
+    "layer": "19",
+    "shard": "13",
+    "upgraded_nll": "2.72363094164",
+    "benefit": "-0.000237344596045",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000146058212951"
+  },
+  {
+    "layer": "20",
+    "shard": "10",
+    "upgraded_nll": "2.72363216835",
+    "benefit": "-0.000238571310802",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00014681311434"
+  },
+  {
+    "layer": "19",
+    "shard": "10",
+    "upgraded_nll": "2.72363666248",
+    "benefit": "-0.000243065440672",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000149578732721"
+  },
+  {
+    "layer": "30",
+    "shard": "5",
+    "upgraded_nll": "2.72364061218",
+    "benefit": "-0.00024701513804",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000152009315717"
+  },
+  {
+    "layer": "28",
+    "shard": "31",
+    "upgraded_nll": "2.72364487132",
+    "benefit": "-0.000251274274789",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000154630322947"
+  },
+  {
+    "layer": "15",
+    "shard": "5",
+    "upgraded_nll": "2.72364686678",
+    "benefit": "-0.000253269733133",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000155858297312"
+  },
+  {
+    "layer": "13",
+    "shard": "13",
+    "upgraded_nll": "2.72365418295",
+    "benefit": "-0.000260585904415",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000160360556563"
+  },
+  {
+    "layer": "11",
+    "shard": "10",
+    "upgraded_nll": "2.72365623155",
+    "benefit": "-0.000262634507329",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000161621235279"
+  },
+  {
+    "layer": "25",
+    "shard": "11",
+    "upgraded_nll": "2.72366516287",
+    "benefit": "-0.000271565822576",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000167117429278"
+  },
+  {
+    "layer": "30",
+    "shard": "3",
+    "upgraded_nll": "2.72366789845",
+    "benefit": "-0.000274301406592",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000168800865595"
+  },
+  {
+    "layer": "29",
+    "shard": "19",
+    "upgraded_nll": "2.72367257227",
+    "benefit": "-0.000278975230595",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000171677064982"
+  },
+  {
+    "layer": "8",
+    "shard": "30",
+    "upgraded_nll": "2.72367556624",
+    "benefit": "-0.000281969200173",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000173519507799"
+  },
+  {
+    "layer": "22",
+    "shard": "25",
+    "upgraded_nll": "2.72367929096",
+    "benefit": "-0.000285693919127",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00017581164254"
+  },
+  {
+    "layer": "15",
+    "shard": "18",
+    "upgraded_nll": "2.72367986521",
+    "benefit": "-0.00028626816951",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000176165027391"
+  },
+  {
+    "layer": "24",
+    "shard": "22",
+    "upgraded_nll": "2.72368030468",
+    "benefit": "-0.000286707635394",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000176435467935"
+  },
+  {
+    "layer": "17",
+    "shard": "21",
+    "upgraded_nll": "2.72368606997",
+    "benefit": "-0.000292472927118",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000179983339765"
+  },
+  {
+    "layer": "28",
+    "shard": "11",
+    "upgraded_nll": "2.72369441627",
+    "benefit": "-0.000300819224251",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000185119522616"
+  },
+  {
+    "layer": "20",
+    "shard": "1",
+    "upgraded_nll": "2.72369444432",
+    "benefit": "-0.000300847272051",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000185136782801"
+  },
+  {
+    "layer": "8",
+    "shard": "10",
+    "upgraded_nll": "2.72370177549",
+    "benefit": "-0.000308178447467",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000189648275364"
+  },
+  {
+    "layer": "16",
+    "shard": "3",
+    "upgraded_nll": "2.72371536961",
+    "benefit": "-0.000321772561939",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00019801388427"
+  },
+  {
+    "layer": "28",
+    "shard": "4",
+    "upgraded_nll": "2.72371876194",
+    "benefit": "-0.000325164899999",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000200101476923"
+  },
+  {
+    "layer": "12",
+    "shard": "30",
+    "upgraded_nll": "2.7237225182",
+    "benefit": "-0.000328921156021",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00020241301909"
+  },
+  {
+    "layer": "8",
+    "shard": "20",
+    "upgraded_nll": "2.72372399098",
+    "benefit": "-0.000330393938029",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00020331934648"
+  },
+  {
+    "layer": "26",
+    "shard": "4",
+    "upgraded_nll": "2.72372818567",
+    "benefit": "-0.000334588627109",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000205900693606"
+  },
+  {
+    "layer": "30",
+    "shard": "25",
+    "upgraded_nll": "2.72373545494",
+    "benefit": "-0.000341857893499",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000210374088307"
+  },
+  {
+    "layer": "27",
+    "shard": "10",
+    "upgraded_nll": "2.72373599379",
+    "benefit": "-0.000342396743106",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000210705688065"
+  },
+  {
+    "layer": "26",
+    "shard": "28",
+    "upgraded_nll": "2.72373767668",
+    "benefit": "-0.000344079633532",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000211741312943"
+  },
+  {
+    "layer": "28",
+    "shard": "8",
+    "upgraded_nll": "2.72373848373",
+    "benefit": "-0.000344886681991",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000212237958148"
+  },
+  {
+    "layer": "19",
+    "shard": "8",
+    "upgraded_nll": "2.72374614993",
+    "benefit": "-0.000352552886806",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00021695562265"
+  },
+  {
+    "layer": "11",
+    "shard": "8",
+    "upgraded_nll": "2.72375103676",
+    "benefit": "-0.000357439715058",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000219962901574"
+  },
+  {
+    "layer": "28",
+    "shard": "1",
+    "upgraded_nll": "2.7237568524",
+    "benefit": "-0.000363255360694",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000223541760427"
+  },
+  {
+    "layer": "27",
+    "shard": "18",
+    "upgraded_nll": "2.72379963642",
+    "benefit": "-0.000406039377371",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000249870386074"
+  },
+  {
+    "layer": "17",
+    "shard": "26",
+    "upgraded_nll": "2.7238040454",
+    "benefit": "-0.000410448355005",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00025258360308"
+  },
+  {
+    "layer": "16",
+    "shard": "30",
+    "upgraded_nll": "2.72380435214",
+    "benefit": "-0.000410755097531",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000252772367712"
+  },
+  {
+    "layer": "20",
+    "shard": "7",
+    "upgraded_nll": "2.72380801827",
+    "benefit": "-0.000414421227058",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00025502844742"
+  },
+  {
+    "layer": "27",
+    "shard": "20",
+    "upgraded_nll": "2.72380908845",
+    "benefit": "-0.000415491401038",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000255687016024"
+  },
+  {
+    "layer": "24",
+    "shard": "24",
+    "upgraded_nll": "2.72381019976",
+    "benefit": "-0.000416602712919",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000256370900258"
+  },
+  {
+    "layer": "26",
+    "shard": "18",
+    "upgraded_nll": "2.72381128769",
+    "benefit": "-0.000417690650763",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000257040400469"
+  },
+  {
+    "layer": "18",
+    "shard": "6",
+    "upgraded_nll": "2.72382111776",
+    "benefit": "-0.000427520711314",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000263089668501"
+  },
+  {
+    "layer": "19",
+    "shard": "31",
+    "upgraded_nll": "2.7238279114",
+    "benefit": "-0.000434314353036",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000267270371099"
+  },
+  {
+    "layer": "30",
+    "shard": "11",
+    "upgraded_nll": "2.72384094814",
+    "benefit": "-0.00044735109451",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000275292981237"
+  },
+  {
+    "layer": "29",
+    "shard": "12",
+    "upgraded_nll": "2.72384507449",
+    "benefit": "-0.000451477446084",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000277832274513"
+  },
+  {
+    "layer": "14",
+    "shard": "20",
+    "upgraded_nll": "2.72385029143",
+    "benefit": "-0.00045669438521",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000281042698591"
+  },
+  {
+    "layer": "15",
+    "shard": "14",
+    "upgraded_nll": "2.72386278884",
+    "benefit": "-0.000469191792759",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000288733410929"
+  },
+  {
+    "layer": "20",
+    "shard": "30",
+    "upgraded_nll": "2.72386815908",
+    "benefit": "-0.000474562035425",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000292038175646"
+  },
+  {
+    "layer": "24",
+    "shard": "30",
+    "upgraded_nll": "2.72387215804",
+    "benefit": "-0.000478561000939",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000294499077501"
+  },
+  {
+    "layer": "12",
+    "shard": "6",
+    "upgraded_nll": "2.72387440059",
+    "benefit": "-0.000480803547663",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000295879106254"
+  },
+  {
+    "layer": "24",
+    "shard": "18",
+    "upgraded_nll": "2.72387496979",
+    "benefit": "-0.000481372747071",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000296229382813"
+  },
+  {
+    "layer": "27",
+    "shard": "25",
+    "upgraded_nll": "2.72388536654",
+    "benefit": "-0.000491769494641",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000302627381317"
+  },
+  {
+    "layer": "23",
+    "shard": "23",
+    "upgraded_nll": "2.72388609599",
+    "benefit": "-0.000492498950261",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000303076277084"
+  },
+  {
+    "layer": "23",
+    "shard": "15",
+    "upgraded_nll": "2.72389276168",
+    "benefit": "-0.000499164636413",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000307178237793"
+  },
+  {
+    "layer": "30",
+    "shard": "21",
+    "upgraded_nll": "2.72389443607",
+    "benefit": "-0.00050083903069",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000308208634271"
+  },
+  {
+    "layer": "22",
+    "shard": "2",
+    "upgraded_nll": "2.72389468704",
+    "benefit": "-0.000501089993847",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000308363073137"
+  },
+  {
+    "layer": "25",
+    "shard": "7",
+    "upgraded_nll": "2.72389723684",
+    "benefit": "-0.00050363979505",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000309932181569"
+  },
+  {
+    "layer": "28",
+    "shard": "24",
+    "upgraded_nll": "2.7239036751",
+    "benefit": "-0.000510078053873",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000313894186999"
+  },
+  {
+    "layer": "23",
+    "shard": "17",
+    "upgraded_nll": "2.72390492656",
+    "benefit": "-0.000511329517978",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000314664318756"
+  },
+  {
+    "layer": "26",
+    "shard": "20",
+    "upgraded_nll": "2.72391246842",
+    "benefit": "-0.000518871375299",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000319305461722"
+  },
+  {
+    "layer": "19",
+    "shard": "27",
+    "upgraded_nll": "2.72391815837",
+    "benefit": "-0.000524561322299",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000322806967569"
+  },
+  {
+    "layer": "18",
+    "shard": "1",
+    "upgraded_nll": "2.72392442095",
+    "benefit": "-0.000530823903115",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000326660863456"
+  },
+  {
+    "layer": "11",
+    "shard": "11",
+    "upgraded_nll": "2.72392517344",
+    "benefit": "-0.000531576397687",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000327123937038"
+  },
+  {
+    "layer": "30",
+    "shard": "0",
+    "upgraded_nll": "2.72392855573",
+    "benefit": "-0.000534958684104",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000329205344064"
+  },
+  {
+    "layer": "23",
+    "shard": "12",
+    "upgraded_nll": "2.72393554225",
+    "benefit": "-0.000541945210602",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000333504744986"
+  },
+  {
+    "layer": "22",
+    "shard": "23",
+    "upgraded_nll": "2.72393580337",
+    "benefit": "-0.000542206325777",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000333665431247"
+  },
+  {
+    "layer": "9",
+    "shard": "14",
+    "upgraded_nll": "2.72393624452",
+    "benefit": "-0.000542647477186",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000333936909037"
+  },
+  {
+    "layer": "10",
+    "shard": "30",
+    "upgraded_nll": "2.72395694112",
+    "benefit": "-0.000563344080478",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000346673280294"
+  },
+  {
+    "layer": "30",
+    "shard": "6",
+    "upgraded_nll": "2.72395754916",
+    "benefit": "-0.000563952112602",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000347047453909"
+  },
+  {
+    "layer": "20",
+    "shard": "27",
+    "upgraded_nll": "2.72395882848",
+    "benefit": "-0.000565231433286",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000347834728176"
+  },
+  {
+    "layer": "19",
+    "shard": "29",
+    "upgraded_nll": "2.72396382831",
+    "benefit": "-0.000570231270111",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000350911550837"
+  },
+  {
+    "layer": "15",
+    "shard": "7",
+    "upgraded_nll": "2.72397740042",
+    "benefit": "-0.000583803375522",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000359263615706"
+  },
+  {
+    "layer": "29",
+    "shard": "8",
+    "upgraded_nll": "2.72397778903",
+    "benefit": "-0.000584191984644",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000359502759781"
+  },
+  {
+    "layer": "19",
+    "shard": "14",
+    "upgraded_nll": "2.72398149223",
+    "benefit": "-0.000587895184001",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000361781651693"
+  },
+  {
+    "layer": "25",
+    "shard": "12",
+    "upgraded_nll": "2.72398782372",
+    "benefit": "-0.00059422667241",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000365677952252"
+  },
+  {
+    "layer": "18",
+    "shard": "29",
+    "upgraded_nll": "2.72399050499",
+    "benefit": "-0.000596907944783",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00036732796602"
+  },
+  {
+    "layer": "9",
+    "shard": "26",
+    "upgraded_nll": "2.72399080181",
+    "benefit": "-0.000597204763649",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000367510623784"
+  },
+  {
+    "layer": "23",
+    "shard": "14",
+    "upgraded_nll": "2.72399368815",
+    "benefit": "-0.000600091103843",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000369286833134"
+  },
+  {
+    "layer": "20",
+    "shard": "31",
+    "upgraded_nll": "2.72399473506",
+    "benefit": "-0.000601138014364",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000369931085763"
+  },
+  {
+    "layer": "11",
+    "shard": "31",
+    "upgraded_nll": "2.72399849015",
+    "benefit": "-0.000604893104109",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000372241910221"
+  },
+  {
+    "layer": "13",
+    "shard": "10",
+    "upgraded_nll": "2.72400048368",
+    "benefit": "-0.000606886637195",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000373468699812"
+  },
+  {
+    "layer": "12",
+    "shard": "10",
+    "upgraded_nll": "2.72400144556",
+    "benefit": "-0.000607848514555",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000374060624341"
+  },
+  {
+    "layer": "18",
+    "shard": "4",
+    "upgraded_nll": "2.724007935",
+    "benefit": "-0.00061433795373",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000378054125372"
+  },
+  {
+    "layer": "9",
+    "shard": "20",
+    "upgraded_nll": "2.72401332689",
+    "benefit": "-0.000619729844964",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000381372212286"
+  },
+  {
+    "layer": "12",
+    "shard": "7",
+    "upgraded_nll": "2.72402276238",
+    "benefit": "-0.000629165340495",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000387178671074"
+  },
+  {
+    "layer": "20",
+    "shard": "13",
+    "upgraded_nll": "2.72402873931",
+    "benefit": "-0.000635142265058",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000390856778497"
+  },
+  {
+    "layer": "25",
+    "shard": "5",
+    "upgraded_nll": "2.72402945533",
+    "benefit": "-0.000635858281416",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000391297403948"
+  },
+  {
+    "layer": "28",
+    "shard": "17",
+    "upgraded_nll": "2.72405680687",
+    "benefit": "-0.000663209823807",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000408129122343"
+  },
+  {
+    "layer": "28",
+    "shard": "25",
+    "upgraded_nll": "2.72405837852",
+    "benefit": "-0.000664781478424",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000409096294415"
+  },
+  {
+    "layer": "31",
+    "shard": "27",
+    "upgraded_nll": "2.72406133929",
+    "benefit": "-0.000667742250242",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000410918307841"
+  },
+  {
+    "layer": "30",
+    "shard": "8",
+    "upgraded_nll": "2.72406438715",
+    "benefit": "-0.000670790106448",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00041279391166"
+  },
+  {
+    "layer": "12",
+    "shard": "13",
+    "upgraded_nll": "2.72406547093",
+    "benefit": "-0.000671873883291",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000413460851256"
+  },
+  {
+    "layer": "13",
+    "shard": "20",
+    "upgraded_nll": "2.72407419303",
+    "benefit": "-0.000680595988514",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000418828300624"
+  },
+  {
+    "layer": "20",
+    "shard": "12",
+    "upgraded_nll": "2.72408246746",
+    "benefit": "-0.000688870411839",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00042392025344"
+  },
+  {
+    "layer": "26",
+    "shard": "29",
+    "upgraded_nll": "2.7240938862",
+    "benefit": "-0.000700289152514",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000430947170778"
+  },
+  {
+    "layer": "14",
+    "shard": "31",
+    "upgraded_nll": "2.7241140135",
+    "benefit": "-0.00072041645761",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000443333204683"
+  },
+  {
+    "layer": "20",
+    "shard": "23",
+    "upgraded_nll": "2.72411604163",
+    "benefit": "-0.000722444581831",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000444581281127"
+  },
+  {
+    "layer": "21",
+    "shard": "16",
+    "upgraded_nll": "2.72411682931",
+    "benefit": "-0.000723232266746",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000445066010305"
+  },
+  {
+    "layer": "10",
+    "shard": "31",
+    "upgraded_nll": "2.72412098355",
+    "benefit": "-0.000727386506786",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000447622465714"
+  },
+  {
+    "layer": "23",
+    "shard": "13",
+    "upgraded_nll": "2.72412924441",
+    "benefit": "-0.000735647365214",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000452706070901"
+  },
+  {
+    "layer": "16",
+    "shard": "29",
+    "upgraded_nll": "2.72413228244",
+    "benefit": "-0.000738685399328",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000454575630356"
+  },
+  {
+    "layer": "28",
+    "shard": "28",
+    "upgraded_nll": "2.72414441947",
+    "benefit": "-0.000750822425439",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000462044569501"
+  },
+  {
+    "layer": "25",
+    "shard": "3",
+    "upgraded_nll": "2.7241572531",
+    "benefit": "-0.000763656051262",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000469942185392"
+  },
+  {
+    "layer": "19",
+    "shard": "25",
+    "upgraded_nll": "2.7241638918",
+    "benefit": "-0.000770294757488",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000474027543069"
+  },
+  {
+    "layer": "23",
+    "shard": "30",
+    "upgraded_nll": "2.72416969162",
+    "benefit": "-0.000776094574062",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000477596660961"
+  },
+  {
+    "layer": "15",
+    "shard": "31",
+    "upgraded_nll": "2.72417111399",
+    "benefit": "-0.000777516943927",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000478471965494"
+  },
+  {
+    "layer": "8",
+    "shard": "29",
+    "upgraded_nll": "2.72417111872",
+    "benefit": "-0.000777521674791",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000478474876795"
+  },
+  {
+    "layer": "25",
+    "shard": "14",
+    "upgraded_nll": "2.724176635",
+    "benefit": "-0.000783037957022",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000481869512014"
+  },
+  {
+    "layer": "21",
+    "shard": "13",
+    "upgraded_nll": "2.72418716233",
+    "benefit": "-0.000793565281991",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000488347865841"
+  },
+  {
+    "layer": "14",
+    "shard": "10",
+    "upgraded_nll": "2.72418783161",
+    "benefit": "-0.000794234567266",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000488759733702"
+  },
+  {
+    "layer": "29",
+    "shard": "13",
+    "upgraded_nll": "2.72418852077",
+    "benefit": "-0.000794923727609",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000489183832375"
+  },
+  {
+    "layer": "10",
+    "shard": "18",
+    "upgraded_nll": "2.72418863369",
+    "benefit": "-0.00079503664201",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00048925331816"
+  },
+  {
+    "layer": "24",
+    "shard": "20",
+    "upgraded_nll": "2.72419702811",
+    "benefit": "-0.000803431061349",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000494419114676"
+  },
+  {
+    "layer": "8",
+    "shard": "26",
+    "upgraded_nll": "2.72420673806",
+    "benefit": "-0.000813141011561",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000500394468653"
+  },
+  {
+    "layer": "27",
+    "shard": "6",
+    "upgraded_nll": "2.72421224263",
+    "benefit": "-0.000818645590168",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000503781901642"
+  },
+  {
+    "layer": "9",
+    "shard": "15",
+    "upgraded_nll": "2.7242193586",
+    "benefit": "-0.000825761557039",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000508160958178"
+  },
+  {
+    "layer": "17",
+    "shard": "24",
+    "upgraded_nll": "2.72422754502",
+    "benefit": "-0.000833947979467",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000513198756595"
+  },
+  {
+    "layer": "14",
+    "shard": "18",
+    "upgraded_nll": "2.72424192335",
+    "benefit": "-0.000848326305298",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000522046957107"
+  },
+  {
+    "layer": "12",
+    "shard": "28",
+    "upgraded_nll": "2.72424775258",
+    "benefit": "-0.000854155539978",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000525634178448"
+  },
+  {
+    "layer": "25",
+    "shard": "1",
+    "upgraded_nll": "2.7242597045",
+    "benefit": "-0.000866107457553",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000532989204648"
+  },
+  {
+    "layer": "9",
+    "shard": "1",
+    "upgraded_nll": "2.72427924871",
+    "benefit": "-0.000885651666619",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000545016410227"
+  },
+  {
+    "layer": "22",
+    "shard": "1",
+    "upgraded_nll": "2.72428109891",
+    "benefit": "-0.000887501869793",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000546154996796"
+  },
+  {
+    "layer": "21",
+    "shard": "6",
+    "upgraded_nll": "2.72431782293",
+    "benefit": "-0.000924225890554",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000568754394187"
+  },
+  {
+    "layer": "13",
+    "shard": "26",
+    "upgraded_nll": "2.72433233452",
+    "benefit": "-0.000938737474382",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00057768459962"
+  },
+  {
+    "layer": "19",
+    "shard": "12",
+    "upgraded_nll": "2.72434859139",
+    "benefit": "-0.00095499434607",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000587688828351"
+  },
+  {
+    "layer": "25",
+    "shard": "13",
+    "upgraded_nll": "2.72436242994",
+    "benefit": "-0.000968832894687",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000596204858269"
+  },
+  {
+    "layer": "18",
+    "shard": "15",
+    "upgraded_nll": "2.72437993201",
+    "benefit": "-0.000986334962846",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000606975361751"
+  },
+  {
+    "layer": "25",
+    "shard": "10",
+    "upgraded_nll": "2.72438140352",
+    "benefit": "-0.000987806475115",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000607880907763"
+  },
+  {
+    "layer": "27",
+    "shard": "14",
+    "upgraded_nll": "2.72438752835",
+    "benefit": "-0.000993931304589",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000611650033593"
+  },
+  {
+    "layer": "14",
+    "shard": "5",
+    "upgraded_nll": "2.72439018911",
+    "benefit": "-0.000996592070952",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000613287428278"
+  },
+  {
+    "layer": "23",
+    "shard": "6",
+    "upgraded_nll": "2.72443439819",
+    "benefit": "-0.00104080115075",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000640493015847"
+  },
+  {
+    "layer": "25",
+    "shard": "24",
+    "upgraded_nll": "2.72445341436",
+    "benefit": "-0.00105981731377",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000652195270012"
+  },
+  {
+    "layer": "27",
+    "shard": "11",
+    "upgraded_nll": "2.72446884623",
+    "benefit": "-0.00107524918917",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000661691808717"
+  },
+  {
+    "layer": "21",
+    "shard": "17",
+    "upgraded_nll": "2.7244792385",
+    "benefit": "-0.00108564146051",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00066808705262"
+  },
+  {
+    "layer": "21",
+    "shard": "26",
+    "upgraded_nll": "2.72449118978",
+    "benefit": "-0.00109759273542",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000675441683336"
+  },
+  {
+    "layer": "10",
+    "shard": "28",
+    "upgraded_nll": "2.72450694375",
+    "benefit": "-0.00111334670414",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000685136433314"
+  },
+  {
+    "layer": "29",
+    "shard": "30",
+    "upgraded_nll": "2.72451094463",
+    "benefit": "-0.00111734758705",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000687598515105"
+  },
+  {
+    "layer": "29",
+    "shard": "11",
+    "upgraded_nll": "2.72452298087",
+    "benefit": "-0.00112938382237",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000695005429148"
+  },
+  {
+    "layer": "16",
+    "shard": "14",
+    "upgraded_nll": "2.72452385668",
+    "benefit": "-0.00113025963206",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000695544388962"
+  },
+  {
+    "layer": "29",
+    "shard": "4",
+    "upgraded_nll": "2.72452729615",
+    "benefit": "-0.0011336991049",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000697660987632"
+  },
+  {
+    "layer": "17",
+    "shard": "6",
+    "upgraded_nll": "2.72457441756",
+    "benefit": "-0.00118082051841",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000726658780557"
+  },
+  {
+    "layer": "9",
+    "shard": "10",
+    "upgraded_nll": "2.72463043934",
+    "benefit": "-0.00123684229289",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000761133718704"
+  },
+  {
+    "layer": "8",
+    "shard": "9",
+    "upgraded_nll": "2.72469556124",
+    "benefit": "-0.00130196419632",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000801208736196"
+  },
+  {
+    "layer": "29",
+    "shard": "27",
+    "upgraded_nll": "2.7246968803",
+    "benefit": "-0.00130328325773",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000802020466297"
+  },
+  {
+    "layer": "21",
+    "shard": "22",
+    "upgraded_nll": "2.72471516622",
+    "benefit": "-0.00132156917844",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000813273340579"
+  },
+  {
+    "layer": "25",
+    "shard": "29",
+    "upgraded_nll": "2.72472910755",
+    "benefit": "-0.00133551050987",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000821852621459"
+  },
+  {
+    "layer": "29",
+    "shard": "26",
+    "upgraded_nll": "2.72477475122",
+    "benefit": "-0.00138115417878",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000849941033093"
+  },
+  {
+    "layer": "20",
+    "shard": "25",
+    "upgraded_nll": "2.7247967621",
+    "benefit": "-0.00140316506056",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000863486191116"
+  },
+  {
+    "layer": "11",
+    "shard": "7",
+    "upgraded_nll": "2.72482889457",
+    "benefit": "-0.00143529752898",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000883260017832"
+  },
+  {
+    "layer": "11",
+    "shard": "19",
+    "upgraded_nll": "2.72498495492",
+    "benefit": "-0.001591357879",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000979297156307"
+  },
+  {
+    "layer": "30",
+    "shard": "9",
+    "upgraded_nll": "2.72500349581",
+    "benefit": "-0.0016098987699",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.000990706935325"
+  },
+  {
+    "layer": "23",
+    "shard": "10",
+    "upgraded_nll": "2.72503693538",
+    "benefit": "-0.00164333834047",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.0010112851326"
+  },
+  {
+    "layer": "14",
+    "shard": "15",
+    "upgraded_nll": "2.72505137215",
+    "benefit": "-0.00165777510887",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00102016929776"
+  },
+  {
+    "layer": "30",
+    "shard": "12",
+    "upgraded_nll": "2.72506673384",
+    "benefit": "-0.00167313679296",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00102962264182"
+  },
+  {
+    "layer": "10",
+    "shard": "17",
+    "upgraded_nll": "2.72508362253",
+    "benefit": "-0.00169002549034",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00104001568636"
+  },
+  {
+    "layer": "30",
+    "shard": "23",
+    "upgraded_nll": "2.72510353595",
+    "benefit": "-0.00170993890977",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00105227009832"
+  },
+  {
+    "layer": "9",
+    "shard": "6",
+    "upgraded_nll": "2.7251116324",
+    "benefit": "-0.0017180353582",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00105725252812"
+  },
+  {
+    "layer": "16",
+    "shard": "4",
+    "upgraded_nll": "2.72516049733",
+    "benefit": "-0.00176690029036",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.0010873232556"
+  },
+  {
+    "layer": "22",
+    "shard": "30",
+    "upgraded_nll": "2.72517028298",
+    "benefit": "-0.00177668593673",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00109334519184"
+  },
+  {
+    "layer": "21",
+    "shard": "1",
+    "upgraded_nll": "2.72521877124",
+    "benefit": "-0.00182517419432",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00112318411958"
+  },
+  {
+    "layer": "26",
+    "shard": "13",
+    "upgraded_nll": "2.72525674544",
+    "benefit": "-0.00186314839146",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00114655285628"
+  },
+  {
+    "layer": "8",
+    "shard": "15",
+    "upgraded_nll": "2.72529792736",
+    "benefit": "-0.0019043303163",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00117189557926"
+  },
+  {
+    "layer": "31",
+    "shard": "15",
+    "upgraded_nll": "2.72542295246",
+    "benefit": "-0.00202935541796",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00124883410336"
+  },
+  {
+    "layer": "28",
+    "shard": "22",
+    "upgraded_nll": "2.72552987698",
+    "benefit": "-0.00213627993194",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00131463380427"
+  },
+  {
+    "layer": "11",
+    "shard": "30",
+    "upgraded_nll": "2.72553781616",
+    "benefit": "-0.00214421911858",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00131951945759"
+  },
+  {
+    "layer": "31",
+    "shard": "8",
+    "upgraded_nll": "2.72557444626",
+    "benefit": "-0.00218084921618",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00134206105611"
+  },
+  {
+    "layer": "28",
+    "shard": "10",
+    "upgraded_nll": "2.72564669897",
+    "benefit": "-0.00225310192969",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00138652426442"
+  },
+  {
+    "layer": "29",
+    "shard": "24",
+    "upgraded_nll": "2.72568814459",
+    "benefit": "-0.00229454754358",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00141202925759"
+  },
+  {
+    "layer": "8",
+    "shard": "17",
+    "upgraded_nll": "2.72569208029",
+    "benefit": "-0.00229848324321",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00141445122659"
+  },
+  {
+    "layer": "10",
+    "shard": "26",
+    "upgraded_nll": "2.72597247679",
+    "benefit": "-0.00257887975018",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00158700292319"
+  },
+  {
+    "layer": "30",
+    "shard": "14",
+    "upgraded_nll": "2.72611947783",
+    "benefit": "-0.00272588078953",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00167746510125"
+  },
+  {
+    "layer": "30",
+    "shard": "1",
+    "upgraded_nll": "2.72624845707",
+    "benefit": "-0.00285486002895",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.00175683694089"
+  },
+  {
+    "layer": "31",
+    "shard": "9",
+    "upgraded_nll": "2.72674285283",
+    "benefit": "-0.00334925578666",
+    "weights": "6815744",
+    "delta_bytes": "1703936",
+    "benefit_per_mib": "-0.0020610804841"
+  }
+]

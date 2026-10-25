@@ -202,7 +202,8 @@ static void ggml_hexagon_dump_op_prof(const std::string &sess_name, const htp_op
             node.op_name().c_str(), fmt.names, fmt.dims, fmt.types, fmt.strides, fmt.kparams, op_usec, op_cycles, pd.cycles_start, mhz, pmu_str);
 }
 
-static void ggml_hexagon_dump_batch_prof(const std::string & sess_name, const htp_opbatch_rsp & rsp) {
+static void ggml_hexagon_dump_batch_prof(const std::string & sess_name, const htp_opbatch_rsp & rsp,
+                                         uint64_t host_submit_us, uint64_t host_receive_us) {
     uint64_t batch_cycles = rsp.cycles_stop - rsp.cycles_start;
     float batch_mhz = rsp.usecs > 0 ? (float) batch_cycles / rsp.usecs : 0.0f;
 
@@ -214,8 +215,10 @@ static void ggml_hexagon_dump_batch_prof(const std::string & sess_name, const ht
                 rsp.n_traces[8], rsp.n_traces[9], rsp.n_traces[10]);
     }
 
-    GGML_LOG_DEBUG("ggml-hex: %s profile-op OPBATCH|----|n-ops %u|%s|----|----|usec %u cycles %llu start %llu mhz %.1f\n",
-                   sess_name.c_str(), rsp.n_ops, evt_str, rsp.usecs, (unsigned long long) batch_cycles, (unsigned long long) rsp.cycles_start, batch_mhz);
+    GGML_LOG_DEBUG("ggml-hex: %s profile-op OPBATCH|----|n-ops %u|%s|----|----|usec %u cycles %llu start %llu mhz %.1f host-submit-us %llu host-receive-us %llu host-span-us %llu seq %llu\n",
+                   sess_name.c_str(), rsp.n_ops, evt_str, rsp.usecs, (unsigned long long) batch_cycles, (unsigned long long) rsp.cycles_start, batch_mhz,
+                   (unsigned long long) host_submit_us, (unsigned long long) host_receive_us,
+                   (unsigned long long) (host_receive_us - host_submit_us), (unsigned long long) rsp.seq);
 }
 
 static void ggml_hexagon_dump_trace_events(const std::string & sess_name, const htp_opbatch_rsp & rsp,
@@ -389,6 +392,17 @@ struct ggml_hexagon_session {
 
     uint64_t                cached_uid = 0;
     std::vector<htp_opnode> cached_nodes;
+
+    struct graph_plan_node {
+        uint64_t signature;
+        htp_op_code opcode;
+        int32_t kernel_params[HTP_OP_MAX_KERN_PARAMS];
+    };
+
+    bool graph_plan_cache = false;
+    uint64_t graph_plan_cache_hits = 0;
+    uint64_t graph_plan_cache_misses = 0;
+    std::unordered_map<uint64_t, std::vector<graph_plan_node>> graph_plans;
 
     mutable std::unordered_set<const ggml_tensor *> needs_repack;
 
@@ -2035,6 +2049,8 @@ struct ggml_hexagon_opbatch {
         const ggml_tensor * src0 = last_node.src0();
         const ggml_tensor * src1 = last_node.src1();
         if (!src0 || !src1) return false;
+        // F16 MUL_MAT+ADD does not match the separate ops on HTP.
+        if (src0->type == GGML_TYPE_F16) return false;
 
         struct htp_mm_kernel_params kparams;
         ggml_hexagon_precompute_fused_matmul_add_params(sess, src0, src1, src2, node.dst(), &kparams);
@@ -2183,6 +2199,16 @@ struct ggml_hexagon_opbatch {
             const ggml_tensor * x  = last_node.src1();
             const ggml_tensor * w1 = node.src0();
             if (!w0 || !x || !w1) return false;
+
+            struct htp_mm_kernel_params mm0_params;
+            struct htp_mm_kernel_params mm1_params;
+            ggml_hexagon_precompute_matmul_params(sess, w0, x, last_node.dst(), &mm0_params);
+            ggml_hexagon_precompute_matmul_params(sess, w1, x, node.dst(), &mm1_params);
+            if (mm0_params.n_hmx > 0 && mm1_params.n_hmx > 0) {
+                HEX_VERBOSE("ggml-hex: %s skip MUL_MAT_NX fusion: preserve batched HMX (#%u)\n",
+                            sess->c_name(), n_ops - 1);
+                return false;
+            }
 
             struct htp_mm_kernel_params kparams;
             ggml_hexagon_precompute_fused_mmnx_params(sess, w0, x, 2, &kparams);
@@ -2402,6 +2428,9 @@ struct ggml_hexagon_opqueue {
     void pop(htp_opbatch_rsp rsp, dspqueue_buffer dbuf) {
         GGML_ASSERT(rsp.id < op_cache.size());
 
+        const uint64_t host_receive_us = ggml_time_us();
+        const uint64_t host_submit_us = start_usec[rsp.id];
+
         done.push(rsp.id);
 
         const size_t b_size = sizeof(htp_buf_desc)  * rsp.n_bufs;
@@ -2437,7 +2466,7 @@ struct ggml_hexagon_opqueue {
             }
 
             if (opt_profile) {
-                ggml_hexagon_dump_batch_prof(shm_buf->sess->name, rsp);
+                ggml_hexagon_dump_batch_prof(shm_buf->sess->name, rsp, host_submit_us, host_receive_us);
             }
 
             for (uint32_t i = 0; i < rsp.n_ops; i++) {
@@ -3061,6 +3090,10 @@ ggml_hexagon_session::ggml_hexagon_session(int dev_id, ggml_backend_dev_t dev) n
     op_batch = nullptr;
     op_queue = nullptr;
     fence_seq = ((uintptr_t)this) & 0xFFFF;
+    graph_plan_cache = getenv("GGML_HEXAGON_GRAPH_PLAN_CACHE") != nullptr;
+    if (graph_plan_cache) {
+        GGML_LOG_INFO("ggml-hex: graph plan cache enabled\n");
+    }
 
     try {
         allocate(dev_id);
@@ -3077,6 +3110,10 @@ ggml_hexagon_session::ggml_hexagon_session(int dev_id, ggml_backend_dev_t dev) n
 }
 
 ggml_hexagon_session::~ggml_hexagon_session() noexcept(true) {
+    if (graph_plan_cache) {
+        GGML_LOG_INFO("ggml-hex: %s graph plan cache hits = %" PRIu64 ", misses = %" PRIu64 ", entries = %zu\n",
+                c_name(), graph_plan_cache_hits, graph_plan_cache_misses, graph_plans.size());
+    }
     release();
 
     delete static_cast<ggml_backend_hexagon_buffer_type_context *>(buffer_type.context);
@@ -3358,8 +3395,11 @@ static bool ggml_hexagon_matmul_is_hmx_eligible(
 ) {
     const int ne00  = src0->ne[0];
     const int ne11  = src1->ne[1];
-    const int ne12  = src1->ne[2];
     const int wtype = src0->type;
+
+    if (src1->type != GGML_TYPE_F32) {
+        return false;
+    }
 
     // HMX weight tile requires N to be 32-aligned.
     if (ne01_padded % 32 != 0) {
@@ -3386,9 +3426,10 @@ static bool ggml_hexagon_matmul_is_hmx_eligible(
         return false;
     }
 
-    // M alignment: Use HMX when M > HTP_MM_HMX_MIN_NROWS
-    const int m = is_matmul_id ? ne12 : ne11;
-    if (m <= HTP_MM_HMX_MIN_NROWS) {
+    // M alignment
+    const int64_t m = is_matmul_id ? dst->ne[1] * dst->ne[2] : ne11;
+    if ((is_matmul_id && m < HTP_MM_HMX_MIN_ID_ROWS) ||
+        (!is_matmul_id && m <= HTP_MM_HMX_MIN_NROWS)) {
         return false;
     }
 
@@ -4731,6 +4772,73 @@ static bool is_mergeable_mul_mat_pair(const ggml_tensor * n1, const ggml_tensor 
     return true;
 }
 
+static uint64_t graph_plan_hash_bytes(uint64_t hash, const void * data, size_t size) {
+    const uint8_t * bytes = static_cast<const uint8_t *>(data);
+    for (size_t i = 0; i < size; ++i) {
+        hash ^= bytes[i];
+        hash *= 1099511628211ULL;
+    }
+    return hash;
+}
+
+template<typename T>
+static uint64_t graph_plan_hash_value(uint64_t hash, const T & value) {
+    return graph_plan_hash_bytes(hash, &value, sizeof(value));
+}
+
+static uint64_t graph_plan_tensor_signature(uint64_t hash, const ggml_tensor * tensor) {
+    const uint8_t present = tensor != nullptr;
+    hash = graph_plan_hash_value(hash, present);
+    if (!tensor) {
+        return hash;
+    }
+
+    hash = graph_plan_hash_value(hash, tensor->type);
+    hash = graph_plan_hash_value(hash, tensor->op);
+    hash = graph_plan_hash_bytes(hash, tensor->ne, sizeof(tensor->ne));
+    hash = graph_plan_hash_bytes(hash, tensor->nb, sizeof(tensor->nb));
+    return hash;
+}
+
+static uint64_t graph_plan_node_signature(const ggml_tensor * node) {
+    uint64_t hash = 1469598103934665603ULL;
+    hash = graph_plan_tensor_signature(hash, node);
+    hash = graph_plan_hash_bytes(hash, node->op_params, sizeof(node->op_params));
+    for (int i = 0; i < GGML_MAX_SRC; ++i) {
+        hash = graph_plan_tensor_signature(hash, node->src[i]);
+    }
+    return hash;
+}
+
+static void ggml_hexagon_precompute_node(
+        const ggml_hexagon_session * sess,
+        htp_opnode & node) {
+    if (node.opcode == HTP_OP_MUL_MAT || node.opcode == HTP_OP_MUL_MAT_ID) {
+        ggml_hexagon_precompute_matmul_params(sess,
+            node.node->src[0], node.node->src[1], node.node,
+            (struct htp_mm_kernel_params *) node.kernel_params);
+    } else if (node.opcode == HTP_OP_FLASH_ATTN_EXT) {
+        ggml_hexagon_precompute_flash_attn_params(sess,
+            node.node,
+            (struct htp_fa_kernel_params *) node.kernel_params);
+    } else if (htp_op_is_unary(node.opcode)) {
+        auto inputs = node.get_inputs();
+        const struct ggml_tensor * src0 = inputs[0];
+        const struct ggml_tensor * src1 = inputs.size() > 1 ? inputs[1] : nullptr;
+        ggml_hexagon_precompute_unary_params(sess,
+            node.opcode, src0, src1, node.dst(),
+            (struct htp_unary_kernel_params *) node.kernel_params);
+    } else if (node.opcode == HTP_OP_GET_ROWS) {
+        ggml_hexagon_precompute_get_rows_params(sess,
+            node.node->src[0], node.node->src[1], node.dst(),
+            (struct htp_get_rows_kernel_params *) node.kernel_params);
+    } else if (node.opcode == HTP_OP_SET_ROWS) {
+        ggml_hexagon_precompute_set_rows_params(sess,
+            node.node->src[0], node.node->src[1], node.dst(),
+            (struct htp_set_rows_kernel_params *) node.kernel_params);
+    }
+}
+
 static ggml_status ggml_backend_hexagon_graph_compute(ggml_backend_t backend, ggml_cgraph * graph) {
     auto sess = static_cast<ggml_hexagon_session *>(backend->context);
 
@@ -4761,44 +4869,78 @@ static ggml_status ggml_backend_hexagon_graph_compute(ggml_backend_t backend, gg
 
         computed_nodes.reserve(graph->n_nodes);
 
+        uint64_t graph_signature = 1469598103934665603ULL;
+        std::vector<uint64_t> node_signatures;
+        std::vector<ggml_tensor *> compute_nodes;
+        node_signatures.reserve(graph->n_nodes);
+        compute_nodes.reserve(graph->n_nodes);
+
         for (int i = 0; i < graph->n_nodes; ++i) {
             ggml_tensor * n = graph->nodes[i];
             if (!op_is_compute(n)) {
                 continue;
             }
 
+            const uint64_t signature = graph_plan_node_signature(n);
+            graph_signature = graph_plan_hash_value(graph_signature, signature);
+            node_signatures.push_back(signature);
+            compute_nodes.push_back(n);
+        }
+
+        graph_signature = graph_plan_hash_value(graph_signature, compute_nodes.size());
+        const std::vector<ggml_hexagon_session::graph_plan_node> * plan = nullptr;
+        if (sess->graph_plan_cache) {
+            const auto it = sess->graph_plans.find(graph_signature);
+            if (it != sess->graph_plans.end() && it->second.size() == compute_nodes.size()) {
+                bool matches = true;
+                for (size_t i = 0; i < node_signatures.size(); ++i) {
+                    if (it->second[i].signature != node_signatures[i]) {
+                        matches = false;
+                        break;
+                    }
+                }
+                if (matches) {
+                    plan = &it->second;
+                    ++sess->graph_plan_cache_hits;
+                    if (sess->graph_plan_cache_hits == 1) {
+                        GGML_LOG_INFO("ggml-hex: %s graph plan cache first hit, nodes = %zu\n",
+                                sess->c_name(), compute_nodes.size());
+                    }
+                }
+            }
+            if (!plan) {
+                ++sess->graph_plan_cache_misses;
+                if (sess->graph_plan_cache_misses == 1) {
+                    GGML_LOG_INFO("ggml-hex: %s graph plan cache first miss, nodes = %zu\n",
+                            sess->c_name(), compute_nodes.size());
+                }
+            }
+        }
+
+        for (size_t i = 0; i < compute_nodes.size(); ++i) {
+            ggml_tensor * n = compute_nodes[i];
+
             htp_opnode node(HTP_OP_INVALID, n);
             node.opcode = op_remap_to_htp(n);
-            if (node.opcode == HTP_OP_MUL_MAT || node.opcode == HTP_OP_MUL_MAT_ID) {
-                ggml_hexagon_precompute_matmul_params(sess,
-                    node.node->src[0], node.node->src[1], node.node,
-                    (struct htp_mm_kernel_params *)node.kernel_params
-                );
-            } else if (node.opcode == HTP_OP_FLASH_ATTN_EXT) {
-                ggml_hexagon_precompute_flash_attn_params(sess,
-                    node.node,
-                    (struct htp_fa_kernel_params *)node.kernel_params
-                );
-            } else if (htp_op_is_unary(node.opcode)) {
-                auto inputs = node.get_inputs();
-                const struct ggml_tensor * src0 = inputs[0];
-                const struct ggml_tensor * src1 = inputs.size() > 1 ? inputs[1] : nullptr;
-                ggml_hexagon_precompute_unary_params(sess,
-                    node.opcode, src0, src1, node.dst(),
-                    (struct htp_unary_kernel_params *)node.kernel_params
-                );
-            } else if (node.opcode == HTP_OP_GET_ROWS) {
-                ggml_hexagon_precompute_get_rows_params(sess,
-                    node.node->src[0], node.node->src[1], node.dst(),
-                    (struct htp_get_rows_kernel_params *)node.kernel_params
-                );
-            } else if (node.opcode == HTP_OP_SET_ROWS) {
-                ggml_hexagon_precompute_set_rows_params(sess,
-                    node.node->src[0], node.node->src[1], node.dst(),
-                    (struct htp_set_rows_kernel_params *)node.kernel_params
-                );
+            if (plan && (*plan)[i].opcode == node.opcode) {
+                memcpy(node.kernel_params, (*plan)[i].kernel_params, sizeof(node.kernel_params));
+            } else {
+                ggml_hexagon_precompute_node(sess, node);
             }
             computed_nodes.push_back(std::move(node));
+        }
+
+        if (sess->graph_plan_cache && !plan) {
+            std::vector<ggml_hexagon_session::graph_plan_node> new_plan;
+            new_plan.reserve(computed_nodes.size());
+            for (size_t i = 0; i < computed_nodes.size(); ++i) {
+                ggml_hexagon_session::graph_plan_node entry = {};
+                entry.signature = node_signatures[i];
+                entry.opcode = computed_nodes[i].opcode;
+                memcpy(entry.kernel_params, computed_nodes[i].kernel_params, sizeof(entry.kernel_params));
+                new_plan.push_back(entry);
+            }
+            sess->graph_plans[graph_signature] = std::move(new_plan);
         }
 
         if (graph->uid != 0) {

@@ -744,6 +744,9 @@ struct llama_model {
 
     const struct ggml_tensor * get_tensor(const char * name) const;
 
+    size_t mmap_advise(const struct ggml_tensor * tensor, bool will_need) const;
+    bool mmap_read(const struct ggml_tensor * tensor, void * dst, bool evict) const;
+
     float get_rope_freq_base (const llama_cparams & cparams, int il) const;
     float get_rope_freq_scale(const llama_cparams & cparams, int il) const;
 

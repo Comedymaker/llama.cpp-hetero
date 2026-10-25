@@ -254,6 +254,23 @@ static void test(void) {
     assert(true == common_params_parse(argv.size(), list_str_to_char(argv).data(), params, LLAMA_EXAMPLE_SPECULATIVE));
     assert(params.speculative.draft.n_max == 123);
 
+    argv = {"binary_name", "--spec-tree-max-depth", "8", "--spec-tree-max-nodes", "32", "--spec-tree-max-leaves", "4", "--spec-tree-pad-nodes", "--spec-tree-widths", "1,2,1,1", "--spec-tree-p-ratio", "0.25", "--spec-tree-frontier", "--spec-tree-frontier-min-gain", "0.75"};
+    assert(true == common_params_parse(argv.size(), list_str_to_char(argv).data(), params, LLAMA_EXAMPLE_SPECULATIVE));
+    assert(params.speculative.draft.tree_max_depth == 8);
+    assert(params.speculative.draft.tree_max_nodes == 32);
+    assert(params.speculative.draft.tree_max_leaves == 4);
+    assert(params.speculative.draft.tree_pad_nodes);
+    assert(params.speculative.draft.tree_widths == std::vector<int32_t>({1, 2, 1, 1}));
+    assert(params.speculative.draft.tree_p_ratio == 0.25f);
+    assert(params.speculative.draft.tree_frontier);
+    assert(params.speculative.draft.tree_frontier_min_gain == 0.75f);
+
+    for (const char * value : {"-0.1", "1.1", "nan", "inf", "-inf"}) {
+        common_params frontier_params;
+        argv = {"binary_name", "--spec-tree-frontier-min-gain", value};
+        assert(false == common_params_parse(argv.size(), list_str_to_char(argv).data(), frontier_params, LLAMA_EXAMPLE_SPECULATIVE));
+    }
+
     {
         common_params synth_params;
         argv = {"binary_name", "--spec-synth-len", "3.4"};

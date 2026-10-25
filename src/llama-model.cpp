@@ -2180,6 +2180,46 @@ const ggml_tensor * llama_model::get_tensor(const char * name) const {
     return it->second;
 }
 
+size_t llama_model::mmap_advise(const ggml_tensor * tensor, bool will_need) const {
+    if (tensor == nullptr || tensor->data == nullptr) {
+        return 0;
+    }
+
+    const uintptr_t data = (uintptr_t) tensor->data;
+    const size_t nbytes = ggml_nbytes(tensor);
+    for (const auto & mapping : pimpl->mappings) {
+        const uintptr_t base = (uintptr_t) mapping->addr();
+        if (data >= base && data - base <= mapping->size() && nbytes <= mapping->size() - (data - base)) {
+            const size_t first = data - base;
+            return mapping->advise(first, first + nbytes, will_need);
+        }
+    }
+    return 0;
+}
+
+bool llama_model::mmap_read(const ggml_tensor * tensor, void * dst, bool evict) const {
+    if (tensor == nullptr || tensor->data == nullptr || dst == nullptr) {
+        return false;
+    }
+
+    const uintptr_t data = (uintptr_t) tensor->data;
+    const size_t nbytes = ggml_nbytes(tensor);
+    for (const auto & mapping : pimpl->mappings) {
+        const uintptr_t base = (uintptr_t) mapping->addr();
+        if (data >= base && data - base <= mapping->size() && nbytes <= mapping->size() - (data - base)) {
+            const bool trace = std::getenv("LLAMA_CLUSTER_TRACE") != nullptr;
+            const int64_t start = trace ? ggml_time_us() : 0;
+            const bool ok = mapping->read(data - base, dst, nbytes, evict);
+            if (trace) {
+                std::fprintf(stderr, "cluster io tensor=%s start_us=%lld end_us=%lld bytes=%llu ok=%d\n",
+                        tensor->name, (long long) start, (long long) ggml_time_us(), (unsigned long long) nbytes, ok);
+            }
+            return ok;
+        }
+    }
+    return false;
+}
+
 float llama_model::get_rope_freq_base (const llama_cparams & cparams, int il) const {
     return hparams.is_swa(il) ? hparams.rope_freq_base_train_swa : cparams.rope_freq_base;
 }
@@ -2544,6 +2584,12 @@ llama_memory_i * llama_model::create_memory(const llama_memory_params & params, 
                     llama_kv_cache::layer_filter_cb filter = nullptr;
                     llama_memory_i::layer_reuse_cb reuse = nullptr;
                     llama_kv_cache::layer_share_cb share = nullptr;
+
+                    if (cparams.n_layer_start != 0 || cparams.n_layer_end != hparams.n_layer()) {
+                        filter = [&](uint32_t il) {
+                            return il >= cparams.n_layer_start && il < cparams.n_layer_end;
+                        };
+                    }
 
                     if (arch == LLM_ARCH_GEMMA3N || arch == LLM_ARCH_GEMMA4) {
                         reuse = [&](uint32_t il) {

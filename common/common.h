@@ -326,7 +326,16 @@ struct common_params_speculative_draft {
     int32_t n_max = 3; // maximum number of tokens to draft during speculative decoding
     int32_t n_min = 0; // minimum number of draft tokens to use for speculative decoding
 
-    float p_split = 0.1f; // speculative decoding split probability
+    int32_t tree_max_depth  = -1; // maximum speculative tree depth (-1 = n_max)
+    int32_t tree_max_nodes  = -1; // maximum speculative tree nodes (-1 = n_max)
+    int32_t tree_max_leaves = -1; // maximum speculative tree leaves (-1 = n_parallel)
+    bool    tree_pad_nodes  = false; // pad target verification to tree_max_nodes
+    std::vector<int32_t> tree_widths; // maximum child count for each tree depth
+    bool    tree_frontier = false; // select draft-tree nodes by calibrated marginal gain and draft cost
+
+    float tree_p_ratio = 0.0f; // minimum local probability ratio for tree branches
+    float tree_frontier_min_gain = 0.25f; // minimum marginal gain rate relative to the best candidate
+    float p_split = 0.1f; // minimum cumulative probability for speculative side paths
     float p_min   = 0.0f; // minimum speculative decoding probability (greedy)
 
     bool backend_sampling = true; // offload draft sampling to the backend (default: on)

@@ -1,0 +1,2242 @@
+{
+  "schema": 2,
+  "route": "staged",
+  "deployment": "q4-staged-cpu8-r7-c1",
+  "layers": {
+    "8": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 35.567499999999995,
+            "copy": 10.4765,
+            "execute": 8.403,
+            "evict": 0.010499999999999999,
+            "prep": 196.4475
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.457,
+            "copy": 8.926,
+            "execute": 7.184,
+            "evict": 0.006,
+            "prep": 230.709
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 34.353,
+            "copy": 9.42,
+            "execute": 7.441,
+            "evict": 0.012,
+            "prep": 225.878
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 34.543,
+            "copy": 9.187,
+            "execute": 7.953,
+            "evict": 0.009,
+            "prep": 225.526
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 34.777,
+            "copy": 8.2985,
+            "execute": 7.259,
+            "evict": 0.009,
+            "prep": 255.75799999999998
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 34.872,
+            "copy": 8.691,
+            "execute": 8.629,
+            "evict": 0.011,
+            "prep": 302.353
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.644,
+            "copy": 9.325,
+            "execute": 7.93,
+            "evict": 0.013,
+            "prep": 314.898
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 34.286,
+            "copy": 10.039,
+            "execute": 9.878,
+            "evict": 0.012,
+            "prep": 344.797
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 35.317,
+            "copy": 8.43,
+            "execute": 9.739,
+            "evict": 0.021,
+            "prep": 340.123
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "9": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 34.585499999999996,
+            "copy": 8.4235,
+            "execute": 10.68,
+            "evict": 0.008,
+            "prep": 0.107
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 39.713,
+            "copy": 7.319,
+            "execute": 11.763,
+            "evict": 0.016,
+            "prep": 0.135
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 34.84,
+            "copy": 8.202,
+            "execute": 9.725,
+            "evict": 0.008,
+            "prep": 1.744
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 34.648,
+            "copy": 8.459,
+            "execute": 9.816,
+            "evict": 0.007,
+            "prep": 0.217
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 35.387,
+            "copy": 8.4125,
+            "execute": 10.1465,
+            "evict": 0.008,
+            "prep": 1.008
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 35.673,
+            "copy": 9.46,
+            "execute": 9.386,
+            "evict": 0.007,
+            "prep": 2.829
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 35.206,
+            "copy": 7.851,
+            "execute": 10.031,
+            "evict": 0.007,
+            "prep": 2.979
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 37.033,
+            "copy": 7.741,
+            "execute": 10.811,
+            "evict": 0.005,
+            "prep": 0.114
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 35.797,
+            "copy": 8.898,
+            "execute": 12.195,
+            "evict": 0.007,
+            "prep": 0.126
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "10": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.692499999999995,
+            "copy": 8.7345,
+            "execute": 9.113,
+            "evict": 0.0075,
+            "prep": 3.002
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 34.188,
+            "copy": 8.707,
+            "execute": 6.504,
+            "evict": 0.007,
+            "prep": 0.1
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 32.359,
+            "copy": 8.681,
+            "execute": 9.575,
+            "evict": 0.008,
+            "prep": 2.279
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 32.424,
+            "copy": 8.298,
+            "execute": 9.131,
+            "evict": 0.007,
+            "prep": 2.981
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 32.301500000000004,
+            "copy": 8.559000000000001,
+            "execute": 9.833,
+            "evict": 0.006500000000000001,
+            "prep": 2.5490000000000004
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.582,
+            "copy": 8.597,
+            "execute": 8.843,
+            "evict": 0.005,
+            "prep": 3.653
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.993,
+            "copy": 8.465,
+            "execute": 9.935,
+            "evict": 0.006,
+            "prep": 2.437
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 32.263,
+            "copy": 9.129,
+            "execute": 11.754,
+            "evict": 0.027,
+            "prep": 0.107
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 37.897,
+            "copy": 8.088,
+            "execute": 12.619,
+            "evict": 0.008,
+            "prep": 0.137
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "11": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 30.8815,
+            "copy": 8.9175,
+            "execute": 8.832,
+            "evict": 0.009,
+            "prep": 2.9939999999999998
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 31.293,
+            "copy": 8.748,
+            "execute": 9.79,
+            "evict": 0.009,
+            "prep": 0.182
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 30.96,
+            "copy": 9.455,
+            "execute": 9.272,
+            "evict": 0.008,
+            "prep": 2.711
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 30.828,
+            "copy": 8.883,
+            "execute": 9.486,
+            "evict": 0.006,
+            "prep": 2.121
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 31.3255,
+            "copy": 9.3,
+            "execute": 10.0625,
+            "evict": 0.006,
+            "prep": 1.9324999999999999
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 31.118,
+            "copy": 9.51,
+            "execute": 9.993,
+            "evict": 0.012,
+            "prep": 3.155
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 31.212,
+            "copy": 8.736,
+            "execute": 7.855,
+            "evict": 0.006,
+            "prep": 4.772
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 30.821,
+            "copy": 9.718,
+            "execute": 11.818,
+            "evict": 0.006,
+            "prep": 0.916
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 33.131,
+            "copy": 8.912,
+            "execute": 22.211,
+            "evict": 0.006,
+            "prep": 2.874
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "12": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.666,
+            "copy": 10.046,
+            "execute": 10.4465,
+            "evict": 0.0075,
+            "prep": 1.239
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 34.255,
+            "copy": 10.654,
+            "execute": 15.919,
+            "evict": 0.008,
+            "prep": 0.13
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 32.382,
+            "copy": 8.886,
+            "execute": 8.835,
+            "evict": 0.008,
+            "prep": 2.368
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 32.489,
+            "copy": 8.492,
+            "execute": 9.754,
+            "evict": 0.007,
+            "prep": 1.448
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 34.2885,
+            "copy": 8.567499999999999,
+            "execute": 10.7165,
+            "evict": 0.01,
+            "prep": 1.18
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.427,
+            "copy": 8.279,
+            "execute": 10.838,
+            "evict": 0.007,
+            "prep": 0.111
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.402,
+            "copy": 8.773,
+            "execute": 10.549,
+            "evict": 0.006,
+            "prep": 2.251
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 31.863,
+            "copy": 8.149,
+            "execute": 9.703,
+            "evict": 0.003,
+            "prep": 0.116
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 37.649,
+            "copy": 15.345,
+            "execute": 9.893,
+            "evict": 0.01,
+            "prep": 0.205
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "13": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 33.314499999999995,
+            "copy": 9.322500000000002,
+            "execute": 9.2195,
+            "evict": 0.006999999999999999,
+            "prep": 2.8655
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.566,
+            "copy": 11.682,
+            "execute": 9.026,
+            "evict": 0.01,
+            "prep": 0.418
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 32.749,
+            "copy": 8.292,
+            "execute": 9.465,
+            "evict": 0.007,
+            "prep": 2.334
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 32.581,
+            "copy": 8.9,
+            "execute": 9.361,
+            "evict": 0.008,
+            "prep": 2.74
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 33.347,
+            "copy": 8.6115,
+            "execute": 13.5655,
+            "evict": 0.008,
+            "prep": 1.3960000000000001
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.976,
+            "copy": 9.163,
+            "execute": 8.744,
+            "evict": 0.008,
+            "prep": 1.724
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.719,
+            "copy": 8.553,
+            "execute": 11.529,
+            "evict": 0.009,
+            "prep": 0.103
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 32.994,
+            "copy": 8.496,
+            "execute": 10.912,
+            "evict": 0.007,
+            "prep": 1.286
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 33.349,
+            "copy": 7.625,
+            "execute": 7.465,
+            "evict": 0.009,
+            "prep": 0.112
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "14": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 31.7135,
+            "copy": 9.6395,
+            "execute": 7.438,
+            "evict": 0.0045000000000000005,
+            "prep": 0.0955
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 31.487,
+            "copy": 8.607,
+            "execute": 6.51,
+            "evict": 0.01,
+            "prep": 0.133
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 31.493,
+            "copy": 8.859,
+            "execute": 7.162,
+            "evict": 0.009,
+            "prep": 0.12
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 32.254,
+            "copy": 8.611,
+            "execute": 7.887,
+            "evict": 0.01,
+            "prep": 0.109
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 33.0905,
+            "copy": 8.74,
+            "execute": 7.8115000000000006,
+            "evict": 0.0135,
+            "prep": 0.1205
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 31.998,
+            "copy": 8.649,
+            "execute": 7.605,
+            "evict": 0.007,
+            "prep": 0.1
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 31.497,
+            "copy": 8.787,
+            "execute": 7.064,
+            "evict": 0.007,
+            "prep": 0.138
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 31.657,
+            "copy": 9.075,
+            "execute": 8.837,
+            "evict": 0.006,
+            "prep": 0.136
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 34.227,
+            "copy": 8.156,
+            "execute": 9.683,
+            "evict": 0.009,
+            "prep": 0.143
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "15": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 31.787,
+            "copy": 8.413,
+            "execute": 7.3265,
+            "evict": 0.0135,
+            "prep": 0.098
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 34.501,
+            "copy": 8.7,
+            "execute": 6.412,
+            "evict": 0.011,
+            "prep": 0.146
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 31.786,
+            "copy": 8.447,
+            "execute": 7.281,
+            "evict": 0.008,
+            "prep": 0.099
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 32.093,
+            "copy": 8.675,
+            "execute": 7.541,
+            "evict": 0.007,
+            "prep": 0.104
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 31.676499999999997,
+            "copy": 8.502,
+            "execute": 7.583500000000001,
+            "evict": 0.008,
+            "prep": 0.1305
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 31.906,
+            "copy": 8.456,
+            "execute": 7.365,
+            "evict": 0.006,
+            "prep": 0.101
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 31.864,
+            "copy": 8.364,
+            "execute": 7.719,
+            "evict": 0.009,
+            "prep": 0.107
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 31.625,
+            "copy": 8.892,
+            "execute": 8.013,
+            "evict": 0.008,
+            "prep": 0.112
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 34.283,
+            "copy": 9.228,
+            "execute": 8.093,
+            "evict": 0.007,
+            "prep": 0.155
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "16": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.844,
+            "copy": 8.5185,
+            "execute": 7.343,
+            "evict": 0.006999999999999999,
+            "prep": 0.0985
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.903,
+            "copy": 8.542,
+            "execute": 7.338,
+            "evict": 0.008,
+            "prep": 0.132
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 32.883,
+            "copy": 8.168,
+            "execute": 7.199,
+            "evict": 0.006,
+            "prep": 0.106
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 33.013,
+            "copy": 8.178,
+            "execute": 7.542,
+            "evict": 0.007,
+            "prep": 0.112
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 32.83,
+            "copy": 8.435500000000001,
+            "execute": 7.8825,
+            "evict": 0.006500000000000001,
+            "prep": 0.128
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.808,
+            "copy": 8.128,
+            "execute": 7.286,
+            "evict": 0.011,
+            "prep": 0.138
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.828,
+            "copy": 8.047,
+            "execute": 7.88,
+            "evict": 0.004,
+            "prep": 0.117
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 32.61,
+            "copy": 8.686,
+            "execute": 8.137,
+            "evict": 0.006,
+            "prep": 0.137
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 32.997,
+            "copy": 8.328,
+            "execute": 7.386,
+            "evict": 0.008,
+            "prep": 0.184
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "17": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.803,
+            "copy": 8.055,
+            "execute": 7.4830000000000005,
+            "evict": 0.006500000000000001,
+            "prep": 0.1005
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 33.542,
+            "copy": 8.517,
+            "execute": 6.892,
+            "evict": 0.01,
+            "prep": 0.156
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 33.379,
+            "copy": 8.416,
+            "execute": 7.6,
+            "evict": 0.007,
+            "prep": 0.117
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 33.166,
+            "copy": 8.445,
+            "execute": 7.562,
+            "evict": 0.009,
+            "prep": 0.121
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 33.132000000000005,
+            "copy": 8.843499999999999,
+            "execute": 7.907,
+            "evict": 0.01,
+            "prep": 0.129
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 33.074,
+            "copy": 8.228,
+            "execute": 7.38,
+            "evict": 0.005,
+            "prep": 0.141
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.58,
+            "copy": 8.133,
+            "execute": 6.804,
+            "evict": 0.007,
+            "prep": 0.16
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 34.187,
+            "copy": 8.747,
+            "execute": 8.674,
+            "evict": 0.008,
+            "prep": 0.136
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 33.955,
+            "copy": 8.726,
+            "execute": 9.333,
+            "evict": 0.009,
+            "prep": 0.126
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "18": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.6245,
+            "copy": 8.579,
+            "execute": 7.5115,
+            "evict": 0.009000000000000001,
+            "prep": 0.10300000000000001
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.442,
+            "copy": 8.184,
+            "execute": 7.534,
+            "evict": 0.01,
+            "prep": 0.114
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 31.881,
+            "copy": 8.211,
+            "execute": 7.621,
+            "evict": 0.007,
+            "prep": 0.108
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 31.935,
+            "copy": 8.743,
+            "execute": 7.825,
+            "evict": 0.008,
+            "prep": 0.103
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 31.3405,
+            "copy": 9.019,
+            "execute": 7.97,
+            "evict": 0.009,
+            "prep": 0.12
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 31.883,
+            "copy": 8.051,
+            "execute": 7.258,
+            "evict": 0.008,
+            "prep": 0.139
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 31.44,
+            "copy": 8.066,
+            "execute": 6.938,
+            "evict": 0.006,
+            "prep": 0.149
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 32.287,
+            "copy": 9.226,
+            "execute": 8.286,
+            "evict": 0.014,
+            "prep": 0.105
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 32.64,
+            "copy": 9.504,
+            "execute": 8.917,
+            "evict": 0.011,
+            "prep": 0.137
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "19": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.408,
+            "copy": 8.6705,
+            "execute": 7.5885,
+            "evict": 0.006500000000000001,
+            "prep": 0.1015
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 33.443,
+            "copy": 8.7,
+            "execute": 7.437,
+            "evict": 0.006,
+            "prep": 0.134
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 32.107,
+            "copy": 8.571,
+            "execute": 7.493,
+            "evict": 0.007,
+            "prep": 0.119
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 32.341,
+            "copy": 8.633,
+            "execute": 7.711,
+            "evict": 0.007,
+            "prep": 0.128
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 32.216,
+            "copy": 9.103,
+            "execute": 7.411,
+            "evict": 0.014499999999999999,
+            "prep": 0.133
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.263,
+            "copy": 8.312,
+            "execute": 7.43,
+            "evict": 0.006,
+            "prep": 0.114
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.339,
+            "copy": 8.232,
+            "execute": 7.815,
+            "evict": 0.006,
+            "prep": 0.102
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 33.11,
+            "copy": 9.106,
+            "execute": 8.296,
+            "evict": 0.009,
+            "prep": 0.123
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 32.909,
+            "copy": 9.475,
+            "execute": 8.499,
+            "evict": 0.012,
+            "prep": 0.119
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "20": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.9335,
+            "copy": 8.6665,
+            "execute": 7.2895,
+            "evict": 0.008,
+            "prep": 0.0975
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.562,
+            "copy": 8.279,
+            "execute": 7.531,
+            "evict": 0.006,
+            "prep": 0.121
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 32.401,
+            "copy": 8.583,
+            "execute": 7.769,
+            "evict": 0.007,
+            "prep": 0.104
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 32.447,
+            "copy": 8.646,
+            "execute": 7.829,
+            "evict": 0.007,
+            "prep": 0.121
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 32.477999999999994,
+            "copy": 8.785,
+            "execute": 7.4085,
+            "evict": 0.0085,
+            "prep": 0.1305
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.566,
+            "copy": 8.193,
+            "execute": 8.087,
+            "evict": 0.006,
+            "prep": 0.117
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.15,
+            "copy": 8.319,
+            "execute": 8.116,
+            "evict": 0.004,
+            "prep": 0.116
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 32.648,
+            "copy": 8.826,
+            "execute": 8.453,
+            "evict": 0.011,
+            "prep": 0.136
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 32.305,
+            "copy": 8.349,
+            "execute": 8.765,
+            "evict": 0.009,
+            "prep": 0.107
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "21": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.121,
+            "copy": 8.547,
+            "execute": 7.4665,
+            "evict": 0.0095,
+            "prep": 0.124
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 31.493,
+            "copy": 8.861,
+            "execute": 7.316,
+            "evict": 0.009,
+            "prep": 0.134
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 31.427,
+            "copy": 9.271,
+            "execute": 7.62,
+            "evict": 0.007,
+            "prep": 0.126
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 31.447,
+            "copy": 9.138,
+            "execute": 7.591,
+            "evict": 0.008,
+            "prep": 0.108
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 31.2175,
+            "copy": 8.9165,
+            "execute": 8.029,
+            "evict": 0.0155,
+            "prep": 0.106
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 31.455,
+            "copy": 8.671,
+            "execute": 7.901,
+            "evict": 0.005,
+            "prep": 0.1
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 31.336,
+            "copy": 8.523,
+            "execute": 7.062,
+            "evict": 0.006,
+            "prep": 0.141
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 31.354,
+            "copy": 9.398,
+            "execute": 8.587,
+            "evict": 0.008,
+            "prep": 0.12
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 31.379,
+            "copy": 9.469,
+            "execute": 8.564,
+            "evict": 0.011,
+            "prep": 0.112
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "22": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 31.98,
+            "copy": 8.6055,
+            "execute": 7.2825,
+            "evict": 0.0095,
+            "prep": 0.10300000000000001
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 31.793,
+            "copy": 8.804,
+            "execute": 6.515,
+            "evict": 0.011,
+            "prep": 0.157
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 31.592,
+            "copy": 8.573,
+            "execute": 7.545,
+            "evict": 0.007,
+            "prep": 0.098
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 31.944,
+            "copy": 8.471,
+            "execute": 7.566,
+            "evict": 0.008,
+            "prep": 0.115
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 32.0565,
+            "copy": 8.9455,
+            "execute": 7.859500000000001,
+            "evict": 0.0055,
+            "prep": 0.1135
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 31.887,
+            "copy": 8.628,
+            "execute": 7.593,
+            "evict": 0.006,
+            "prep": 0.096
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 31.517,
+            "copy": 8.305,
+            "execute": 7.937,
+            "evict": 0.007,
+            "prep": 0.102
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 31.924,
+            "copy": 9.351,
+            "execute": 8.351,
+            "evict": 0.004,
+            "prep": 0.121
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 31.937,
+            "copy": 8.919,
+            "execute": 8.473,
+            "evict": 0.012,
+            "prep": 0.118
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "23": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 33.207499999999996,
+            "copy": 8.687000000000001,
+            "execute": 7.2330000000000005,
+            "evict": 0.006500000000000001,
+            "prep": 0.106
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.887,
+            "copy": 8.412,
+            "execute": 7.453,
+            "evict": 0.007,
+            "prep": 0.142
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 32.692,
+            "copy": 8.693,
+            "execute": 7.449,
+            "evict": 0.009,
+            "prep": 0.102
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 32.772,
+            "copy": 8.722,
+            "execute": 7.534,
+            "evict": 0.007,
+            "prep": 0.099
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 32.772999999999996,
+            "copy": 8.829,
+            "execute": 7.7935,
+            "evict": 0.0075,
+            "prep": 0.1445
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.917,
+            "copy": 8.71,
+            "execute": 8.01,
+            "evict": 0.006,
+            "prep": 0.102
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 33.685,
+            "copy": 8.436,
+            "execute": 7.724,
+            "evict": 0.007,
+            "prep": 0.094
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 32.761,
+            "copy": 9.479,
+            "execute": 8.458,
+            "evict": 0.01,
+            "prep": 0.108
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 32.899,
+            "copy": 9.171,
+            "execute": 8.216,
+            "evict": 0.011,
+            "prep": 0.106
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "24": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 33.3455,
+            "copy": 8.2485,
+            "execute": 7.435,
+            "evict": 0.0075,
+            "prep": 0.10600000000000001
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 33.254,
+            "copy": 8.066,
+            "execute": 7.514,
+            "evict": 0.006,
+            "prep": 0.102
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 33.1,
+            "copy": 8.469,
+            "execute": 7.45,
+            "evict": 0.007,
+            "prep": 0.093
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 33.25,
+            "copy": 8.221,
+            "execute": 7.483,
+            "evict": 0.007,
+            "prep": 0.103
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 33.4945,
+            "copy": 8.5365,
+            "execute": 7.8694999999999995,
+            "evict": 0.009999999999999998,
+            "prep": 0.1015
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 33.092,
+            "copy": 8.566,
+            "execute": 7.994,
+            "evict": 0.007,
+            "prep": 0.098
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 33.256,
+            "copy": 8.008,
+            "execute": 7.881,
+            "evict": 0.005,
+            "prep": 0.098
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 33.397,
+            "copy": 8.923,
+            "execute": 8.369,
+            "evict": 0.006,
+            "prep": 0.12
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 33.051,
+            "copy": 8.626,
+            "execute": 8.375,
+            "evict": 0.005,
+            "prep": 0.092
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "25": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.25,
+            "copy": 8.598500000000001,
+            "execute": 7.36,
+            "evict": 0.008,
+            "prep": 0.114
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.539,
+            "copy": 8.54,
+            "execute": 7.019,
+            "evict": 0.007,
+            "prep": 0.095
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 32.18,
+            "copy": 8.636,
+            "execute": 7.683,
+            "evict": 0.007,
+            "prep": 0.103
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 32.479,
+            "copy": 8.677,
+            "execute": 7.694,
+            "evict": 0.006,
+            "prep": 0.1
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 32.379000000000005,
+            "copy": 8.695,
+            "execute": 7.5809999999999995,
+            "evict": 0.0085,
+            "prep": 0.1085
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.387,
+            "copy": 9.127,
+            "execute": 7.803,
+            "evict": 0.006,
+            "prep": 0.103
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.435,
+            "copy": 8.507,
+            "execute": 7.851,
+            "evict": 0.006,
+            "prep": 0.097
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 32.291,
+            "copy": 9.528,
+            "execute": 8.203,
+            "evict": 0.007,
+            "prep": 0.102
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 32.147,
+            "copy": 9.047,
+            "execute": 8.291,
+            "evict": 0.005,
+            "prep": 0.094
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "26": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 33.4195,
+            "copy": 8.4085,
+            "execute": 7.2145,
+            "evict": 0.006500000000000001,
+            "prep": 0.0995
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 33.703,
+            "copy": 7.947,
+            "execute": 7.57,
+            "evict": 0.011,
+            "prep": 0.105
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 33.071,
+            "copy": 8.61,
+            "execute": 7.559,
+            "evict": 0.005,
+            "prep": 0.096
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 33.327,
+            "copy": 8.582,
+            "execute": 7.459,
+            "evict": 0.006,
+            "prep": 0.095
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 33.1185,
+            "copy": 8.718,
+            "execute": 7.5555,
+            "evict": 0.0075,
+            "prep": 0.10300000000000001
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 33.711,
+            "copy": 8.471,
+            "execute": 7.94,
+            "evict": 0.005,
+            "prep": 0.1
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 33.004,
+            "copy": 8.051,
+            "execute": 7.761,
+            "evict": 0.007,
+            "prep": 0.099
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 33.614,
+            "copy": 8.962,
+            "execute": 7.778,
+            "evict": 0.01,
+            "prep": 0.144
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 33.295,
+            "copy": 8.993,
+            "execute": 8.528,
+            "evict": 0.006,
+            "prep": 0.094
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "27": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 31.761499999999998,
+            "copy": 8.355,
+            "execute": 7.292,
+            "evict": 0.009000000000000001,
+            "prep": 0.11249999999999999
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.267,
+            "copy": 8.507,
+            "execute": 7.556,
+            "evict": 0.01,
+            "prep": 0.103
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 31.653,
+            "copy": 8.735,
+            "execute": 7.555,
+            "evict": 0.007,
+            "prep": 0.102
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 31.898,
+            "copy": 8.708,
+            "execute": 7.435,
+            "evict": 0.007,
+            "prep": 0.098
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 32.0485,
+            "copy": 8.523,
+            "execute": 8.1165,
+            "evict": 0.0055,
+            "prep": 0.1095
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.075,
+            "copy": 8.957,
+            "execute": 7.854,
+            "evict": 0.005,
+            "prep": 0.103
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 31.53,
+            "copy": 8.327,
+            "execute": 7.97,
+            "evict": 0.005,
+            "prep": 0.134
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 31.606,
+            "copy": 8.391,
+            "execute": 8.111,
+            "evict": 0.01,
+            "prep": 0.106
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 31.137,
+            "copy": 9.328,
+            "execute": 8.469,
+            "evict": 0.008,
+            "prep": 0.095
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "28": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 31.9925,
+            "copy": 8.3885,
+            "execute": 7.161,
+            "evict": 0.006,
+            "prep": 0.1045
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.375,
+            "copy": 8.458,
+            "execute": 7.309,
+            "evict": 0.008,
+            "prep": 0.108
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 32.011,
+            "copy": 8.613,
+            "execute": 7.573,
+            "evict": 0.006,
+            "prep": 0.096
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 31.929,
+            "copy": 8.38,
+            "execute": 7.494,
+            "evict": 0.007,
+            "prep": 0.092
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 32.277,
+            "copy": 8.663499999999999,
+            "execute": 7.4245,
+            "evict": 0.011,
+            "prep": 0.093
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 31.968,
+            "copy": 8.512,
+            "execute": 7.779,
+            "evict": 0.004,
+            "prep": 0.092
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 31.784,
+            "copy": 8.145,
+            "execute": 7.799,
+            "evict": 0.006,
+            "prep": 0.089
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 31.972,
+            "copy": 8.663,
+            "execute": 7.655,
+            "evict": 0.008,
+            "prep": 0.104
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 31.707,
+            "copy": 9.006,
+            "execute": 8.075,
+            "evict": 0.006,
+            "prep": 0.085
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "29": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.305499999999995,
+            "copy": 8.408000000000001,
+            "execute": 7.3695,
+            "evict": 0.0075,
+            "prep": 0.1185
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.412,
+            "copy": 8.508,
+            "execute": 7.018,
+            "evict": 0.007,
+            "prep": 0.111
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 31.975,
+            "copy": 8.7,
+            "execute": 7.513,
+            "evict": 0.008,
+            "prep": 0.098
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 32.095,
+            "copy": 8.698,
+            "execute": 7.559,
+            "evict": 0.008,
+            "prep": 0.1
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 32.44,
+            "copy": 8.561499999999999,
+            "execute": 7.5,
+            "evict": 0.006,
+            "prep": 0.097
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.145,
+            "copy": 8.791,
+            "execute": 7.699,
+            "evict": 0.008,
+            "prep": 0.112
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.002,
+            "copy": 8.185,
+            "execute": 7.799,
+            "evict": 0.007,
+            "prep": 0.1
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 31.983,
+            "copy": 8.203,
+            "execute": 7.975,
+            "evict": 0.009,
+            "prep": 0.101
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 31.827,
+            "copy": 8.869,
+            "execute": 8.215,
+            "evict": 0.007,
+            "prep": 0.099
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "30": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 32.9165,
+            "copy": 8.148,
+            "execute": 7.9605,
+            "evict": 0.005,
+            "prep": 0.0965
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 32.795,
+            "copy": 7.968,
+            "execute": 7.561,
+            "evict": 0.005,
+            "prep": 0.093
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 32.752,
+            "copy": 8.53,
+            "execute": 8.081,
+            "evict": 0.006,
+            "prep": 0.097
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 33.191,
+            "copy": 8.477,
+            "execute": 7.966,
+            "evict": 0.007,
+            "prep": 0.097
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 33.1425,
+            "copy": 8.4495,
+            "execute": 8.093,
+            "evict": 0.0055,
+            "prep": 0.1005
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 32.6,
+            "copy": 8.437,
+            "execute": 8.325,
+            "evict": 0.008,
+            "prep": 0.1
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 32.866,
+            "copy": 8.19,
+            "execute": 8.432,
+            "evict": 0.004,
+            "prep": 0.094
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 32.749,
+            "copy": 8.623,
+            "execute": 8.566,
+            "evict": 0.004,
+            "prep": 0.094
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 32.079,
+            "copy": 8.667,
+            "execute": 8.813,
+            "evict": 0.005,
+            "prep": 0.088
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    },
+    "31": {
+      "4": {
+        "points": [
+          {
+            "nodes": 12,
+            "samples": 2,
+            "read": 41.297,
+            "copy": 9.193999999999999,
+            "execute": 55.13849999999999,
+            "evict": 0.0075,
+            "prep": 0.10500000000000001
+          },
+          {
+            "nodes": 13,
+            "samples": 1,
+            "read": 40.859,
+            "copy": 8.821,
+            "execute": 75.17,
+            "evict": 0.006,
+            "prep": 0.099
+          },
+          {
+            "nodes": 14,
+            "samples": 9,
+            "read": 40.355,
+            "copy": 9.396,
+            "execute": 58.448,
+            "evict": 0.009,
+            "prep": 0.102
+          },
+          {
+            "nodes": 15,
+            "samples": 7,
+            "read": 40.464,
+            "copy": 9.106,
+            "execute": 86.934,
+            "evict": 0.007,
+            "prep": 0.098
+          },
+          {
+            "nodes": 17,
+            "samples": 2,
+            "read": 40.489999999999995,
+            "copy": 9.2675,
+            "execute": 95.9515,
+            "evict": 0.008,
+            "prep": 0.1055
+          },
+          {
+            "nodes": 19,
+            "samples": 3,
+            "read": 40.726,
+            "copy": 9.146,
+            "execute": 104.411,
+            "evict": 0.006,
+            "prep": 0.098
+          },
+          {
+            "nodes": 21,
+            "samples": 1,
+            "read": 40.173,
+            "copy": 9.238,
+            "execute": 113.706,
+            "evict": 0.007,
+            "prep": 0.099
+          },
+          {
+            "nodes": 22,
+            "samples": 1,
+            "read": 40.448,
+            "copy": 9.684,
+            "execute": 115.961,
+            "evict": 0.006,
+            "prep": 0.096
+          },
+          {
+            "nodes": 23,
+            "samples": 1,
+            "read": 40.519,
+            "copy": 9.848,
+            "execute": 120.45,
+            "evict": 0.007,
+            "prep": 0.086
+          }
+        ],
+        "nodes_range": [
+          12,
+          23
+        ],
+        "samples": 27
+      }
+    }
+  },
+  "bits": [
+    4
+  ],
+  "sources": [
+    {
+      "path": "C:\\Users\\zhuxu\\.codex\\.chatgpt-projects\\g-p-6acc661b2d888191a9e79a217a2d6886\\q4g128-staged-t8-20261023\\phone-results\\llama-exp-q4g128-staged-t8-20261023\\logs\\q4g32_n128.log",
+      "sha256": "5022bebcf9f34bae0671abaae6f0090ae7ffbaf90663ff64e628fa8ade32bdd6",
+      "route": "staged",
+      "bits": 4,
+      "deployment": "q4-staged-cpu8-r7-c1",
+      "observations": 648
+    }
+  ],
+  "quant_group": 32,
+  "source_evict_policies": [
+    "after-read"
+  ],
+  "calibrated_readers": 7,
+  "calibrated_copy_workers": 1,
+  "calibrated_staging_buffers": 14,
+  "calibrated_chunk_bytes": 8388608,
+  "builder_sha256": "8637c2c3bdc42072b77239d718a7b5ad59bcb2c63668ff438190f0c4a7c7c5b6",
+  "parser_sha256": "f337233481948b906f9fe2672d823b38e16a259230a00d74ea1b6c3b75bbc72d",
+  "cost_model": "per-node medians; piecewise-linear nodes; affine fractions of pure-format endpoints for NEW mixed counts",
+  "units": "ms; true compressed bytes, includes0.5bit FP16 scales/group32",
+  "mixed_precision_validated": false,
+  "memory_cap_certified": false
+}

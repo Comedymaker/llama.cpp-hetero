@@ -364,6 +364,10 @@ extern "C" {
         uint32_t n_rs_seq;              // number of recurrent-state snapshots per seq for rollback (0 = no rollback) [EXPERIMENTAL]
         uint32_t n_outputs_max;         // max outputs in a ubatch (0 = n_batch)
         uint32_t n_outputs_max_per_seq; // max outputs per sequence (0 = n_outputs_max)
+        uint32_t n_layer_start;         // first layer to evaluate, inclusive (0 = first layer) [EXPERIMENTAL]
+        uint32_t n_layer_end;           // last layer to evaluate, exclusive (0 = all layers) [EXPERIMENTAL]
+        bool stream_ffn;                // copy host FFN weights to the layer device per decode [EXPERIMENTAL]
+        bool stream_layer;              // copy host layer weights to the layer device per decode [EXPERIMENTAL]
         int32_t  n_threads;             // number of threads to use for generation
         int32_t  n_threads_batch;       // number of threads to use for batch processing
 
